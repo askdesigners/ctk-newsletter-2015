@@ -1,4 +1,6 @@
 
-# Blog
+# CTK Newsletter for 2015
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+Created by Askdesigners.
+
+
