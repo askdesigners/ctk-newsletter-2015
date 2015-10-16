@@ -1,0 +1,35 @@
+
+extends layout
+
+block content
+    - console.log(articles)
+    .col.col-1
+        each article in articles
+            if article.metadata.indexCol == '1'
+                article.article.excerpt(class=article.metadata.indexClass)
+                    header
+                        h2
+                            a(href=article.url)= article.metadata.title
+                    section.content
+                        if article.metadata.excerpt.length > 0
+                            p= article.metadata.excerpt
+    .col.col-2
+        each article in articles
+            if article.metadata.indexCol == '2'
+                article.article.excerpt(class=article.metadata.indexClass)
+                    header
+                        h2
+                            a(href=article.url)= article.metadata.title
+                    section.content
+                        if article.metadata.excerpt.length > 0
+                            p= article.metadata.excerpt
+    .col.col-1
+        each article in articles
+            if article.metadata.indexCol == '3'
+                article.article.excerpt(class=article.metadata.indexClass)
+                    header
+                        h2
+                            a(href=article.url)= article.metadata.title
+                    section.content
+                        if article.metadata.excerpt.length > 0
+                            p= article.metadata.excerpt
