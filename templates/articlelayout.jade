@@ -1,0 +1,20 @@
+doctype html
+
+html(lang='cs') 
+    head
+
+    body
+        .articleContents
+            header.header
+                div.content-wrap
+                    block header
+                        div.logo
+                            a(href=locals.url) 
+                                img(src="img/logo.png")
+                        h1
+                            a(href=locals.url)= locals.name
+                        //- .hambac nic
+
+            div#content(class='#{bodyclass}')
+                div.content-wrap
+                    block content

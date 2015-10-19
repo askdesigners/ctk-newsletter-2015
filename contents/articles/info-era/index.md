@@ -1,5 +1,6 @@
 ---
 title: "Šéfredaktor ČTK Petr Holubec: Význam tiskové agentury v informační éře poroste"
+indexTitle: Rozhovor se šéfredaktorem ČTK Petrem Holubcem
 author: CTK
 date: 2012-10-01 15:00
 template: sefredaktor.jade

@@ -16,6 +16,7 @@ html(lang='cs')
         link(rel='stylesheet', href=contents.css['main.scss'].url)
         link(rel='stylesheet', href=contents.css['fonts.css'].url)
         script(src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js")
+        
 
     body
         <!--[if lt IE 8]>
@@ -41,3 +42,7 @@ html(lang='cs')
                 block footer
                     section.copy
                         p &copy; #{ new Date().getFullYear() } #{ locals.owner }
+        
+        script(src="js/vendor/jquery-1.11.3.min.js")
+        script(src="js/vendor/throttle-debounce.min.js")
+        script(src="js/pages.js")

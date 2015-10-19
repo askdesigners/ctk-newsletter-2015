@@ -5,41 +5,62 @@ block vars
     - var bodyclass = 'index';
 
 block content
-    //- - console.log(articles)
-    - var articles = _.chain(env.helpers.getArticles(contents)).sortBy(function(article){ console.log(article.metadata.order); return article.metadata.order; }).value();
-    .col.col-1
-        each article in articles
-            if article.metadata.indexCol == '1'
-                article.article.excerpt(class=article.metadata.indexClass)
-                    h2
-                        a(href=article.url)= article.metadata.title
-                    if article.metadata.indexImg
-                        img(src="img/"+article.metadata.indexImg)
-                    if article.metadata.excerpt
-                        p= article.metadata.excerpt
-                            a(href=article.url).moreLink &raquo;
-    .col.col-2
-        each article in articles
-            if article.metadata.indexCol == '2'
-                article.article.excerpt(class=article.metadata.indexClass)
-                    h2
-                        a(href=article.url)= article.metadata.title
-                    if article.metadata.indexImg
-                        img(src="img/"+article.metadata.indexImg)
-                    if article.metadata.excerpt
-                        p= article.metadata.excerpt
-                            a(href=article.url).moreLink &raquo;
+    #index
+        - var articles = _.chain(env.helpers.getArticles(contents)).sortBy(function(article){ console.log(article.metadata.order); return article.metadata.order; }).value();
+        .col.col-1
+            each article in articles
+                if article.metadata.indexCol == '1'
+                    article.article.excerpt(class=article.metadata.indexClass)
+                        h2
+                            if article.metadata.indexTitle
+                                a(href=article.url)= article.metadata.indexTitle
+                            else
+                                a(href=article.url)= article.metadata.title
+                        if article.metadata.indexImg
+                            img(src="img/"+article.metadata.indexImg)
+                        if article.metadata.excerpt
+                            p= article.metadata.excerpt
+                                a(href=article.url).moreLink &raquo;
+        .col.col-2
+            each article in articles
+                if article.metadata.indexCol == '2'
+                    article.article.excerpt(class=article.metadata.indexClass)
+                        h2
+                            if article.metadata.indexTitle
+                                a(href=article.url)= article.metadata.indexTitle
+                            else
+                                a(href=article.url)= article.metadata.title
+                        if article.metadata.indexImg
+                            img(src="img/"+article.metadata.indexImg)
+                        if article.metadata.excerpt
+                            p= article.metadata.excerpt
+                                a(href=article.url).moreLink &raquo;
 
-    .col.col-1
-        each article in articles
-            if article.metadata.indexCol == '3'
-                article.article.excerpt(class=article.metadata.indexClass)
-                    h2
-                        a(href=article.url)= article.metadata.title
-                    if article.metadata.indexImg
-                        img(src="img/"+article.metadata.indexImg)
-                    if article.metadata.excerpt
-                        p= article.metadata.excerpt
-                            a(href=article.url).moreLink &raquo;
+        .col.col-1
+            each article in articles
+                if article.metadata.indexCol == '3'
+                    article.article.excerpt(class=article.metadata.indexClass)
+                        h2
+                            if article.metadata.indexTitle
+                                a(href=article.url)= article.metadata.indexTitle
+                            else
+                                a(href=article.url)= article.metadata.title
+                        if article.metadata.indexImg
+                            img(src="img/"+article.metadata.indexImg)
+                        if article.metadata.excerpt
+                            p= article.metadata.excerpt
+                                a(href=article.url).moreLink &raquo;
 
-    span.clearfix
+        span.clearfix
+
+    #pages
+        - console.log(articles)
+        script.
+            var articlesArr = [];
+
+        each article in articles
+            div(id=article.metadata.indexClass)
+                h1= article.metadata.title
+                script.
+                    articlesArr.push({id: '#{article.metadata.indexClass}', link: '#{article.url}'});
+

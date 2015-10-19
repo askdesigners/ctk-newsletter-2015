@@ -3,16 +3,14 @@ title: Klienti oceňují komfort při práci s novou Infobankou ČTK
 author: CTK
 date: 2012-10-01 15:00
 template: comfort-v-prace.jade
-excerpt: Za velmi uzitecné povazují také propojení textovych zpráv s fotkami, zvuky, infografikou, ale i navzajem mezi sebou.
-introPart-1: Jednoduchost ovládání a moznost pohodlne a rychle vyhledávat zprávy v mobilních telefonech a tabletech ocenují klienti na nové verzi Infobanky CTK, která byla spustena letos v kvetnu. Za velmi uzitecné povazují také propojení textovych zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
+excerpt: Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
+introPart-1: Jednoduchost ovládání a možnost pohodlně a rychle vyhledávat zprávy v mobilních telefonech a tabletech oceňují klienti na nové verzi Infobanky ČTK, která byla spuštěna letos v květnu. Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
 introPart-2: {{video embed}}
 indexCol: 2
 indexClass: comfort-v-prace
 order: 3
 indexImg: comfort-dummy.jpg
 ---
-
-Jednoduchost ovládání a možnost pohodlně a rychle vyhledávat zprávy v mobilních telefonech a tabletech oceňují klienti na nové verzi Infobanky ČTK, která byla spuštěna letos v květnu. Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
 
 Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK 
 
