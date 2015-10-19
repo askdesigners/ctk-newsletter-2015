@@ -2,6 +2,7 @@ $txtColor: #3d3d3d;
 $ctkDkBlue: #1d539c;
 $ctkLtBlue: #2c8bc4;
 $ctkSuperLtBlue: #93D3FA;
+$borderGrey: #8A8A8A;
 $bold: 'maxima_bold';
 $regular: 'maxima_regular';
 $light: 'maxima_light';
@@ -25,12 +26,7 @@ hr {
     padding: 0;
 }
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
 
@@ -51,12 +47,24 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
 body {
-  font-family: $bold, sans-serif;
-  font-size: 18px;
-  line-height: 1.52;
-  color: $txtColor;
-  text-rendering: optimizeLegibility;
+    font-family: $regular, sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+    color: $txtColor;
+    text-rendering: optimizeLegibility;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $bold;
+    letter-spacing: 0.2px;
+    font-weight: 100;
 }
 
 a{
@@ -86,13 +94,193 @@ a{
     }
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 .content-wrap{
   padding: 0 30px;
   margin: 0 auto;
+}
+
+header{
+    .logo{
+        width: 300px;
+        display: inline-block;
+    }
+    
+    h1{
+        display: inline-block;
+        float: right;
+        position: relative;
+
+        a{
+            text-decoration: none;
+        }
+    }
+}   
+
+#content {
+    &.index{
+        .article{
+            margin-bottom: 25px;
+            position: relative;
+
+            h2 {
+                line-height: 1.2em;
+                margin: 0;
+                font-size: 1.3em;
+                a{
+                    text-decoration: none;
+                }
+            }
+            img {
+                max-width: 100%;
+            }
+            p {
+                font-size: 0.9em;
+
+                .moreLink{
+                    text-decoration: none;
+                    margin-left: 5px;
+                }
+            }
+            &.director-letter{
+                p:before{
+                    content: '\201C';
+                    position: relative;
+                    float: left;
+                    font-size: 9em;
+                    height: 40px;
+                    top: -51px;
+                    left: -12px;
+                    width: 60px;
+                }
+            }
+            &.sefredaktor{
+                img{
+                }
+                h2{
+                    position: absolute;
+                    width: 78%;
+                    padding: 10px;
+                    bottom: 0;
+                    line-height: 1.1em;
+                    font-size: 1em;
+                    a{ 
+                        color: white;
+                        &:hover {
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.comfort-v-prace{
+                img{    
+                    display: inline-block;
+                    width: 50%;
+                    float: right;
+                }
+                h2{
+                    width: 50%;
+                    float: right;
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                }
+                p{
+                    clear: both;
+                    margin-top: 10px;
+                    padding-bottom: 10px;
+                    border-bottom: solid 1px $borderGrey;
+                }
+            }
+
+            &.nova-sluzba{
+                width: 50%;
+                float: left;
+                box-sizing: border-box;
+                padding-right: 10px;
+                p{
+                    margin-top: 10px;
+                    padding-bottom: 10px;
+                    border-bottom: solid 1px $borderGrey;
+                }
+            }
+            &.dokaze-titulek{
+                width: 50%;
+                float: left;
+                box-sizing: border-box;
+                padding-left: 10px;
+                overflow: hidden;
+                height: 267px;
+
+                h2{
+                    position: absolute;
+                    bottom: 0;
+                    padding: 10px;
+                    width: 70%;
+                    a{
+                        color: white;
+                        &:hover{
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.fotobanka{
+                clear: both;
+
+                h2{
+                    width: 50%;
+                    float: right;
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                }
+                img{
+                    width: 50%;
+                }
+                p{
+                    clear: both;
+                    margin-top: 10px;
+                }
+            }
+            &.hospodareni{
+                background-image: url('../img/business.jpg');
+                background-size: contain;
+
+                h2 {
+                    padding: 10px;
+                    a {
+                        color: white;
+                        &:hover {
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.distribuce-zpravy{
+                padding-bottom: 10px;
+                border-bottom: solid 1px $borderGrey;
+            }
+            &.brno {
+                h2{
+                    position: absolute;
+                    bottom: 0;
+                    padding: 10px;
+                    a {
+                        color: white;
+                        &:hover{
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.redakci-techniku{
+                h2{
+                    position: absolute;
+                }
+                img {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
 }
 
 /* ==========================================================================
@@ -108,20 +296,20 @@ a{
 
     .content-wrap{
         width: 740px;
+        padding-top: 50px;
     }
 
     .col {
         float: left;
+        padding: 0 15px;
+    }
+
+    .col-1{
+        width: 25%;
     }
 
     .col-2{
         width: 50%;
-        padding-right: 6px;
-
-        &:last-child{
-            padding-left: 6px;
-            padding-right: 0;
-        }
     }
 }
 
@@ -130,26 +318,28 @@ a{
         width: 1026px; 
     }
 
+    .col{
+        padding: 0 15px;
+    }
+
     .col-2{
         width: 50%;
-        padding-right: 10px;
-
-        &:last-child{
-            padding-left: 10px;
-            padding-right: 0;
-        }
     }
 
     .col-1{
         width: 25%;
-        padding-right: 20px;
-
-        &:last-child{
-            padding-left: 0;
-            padding-right: 0;
+    }
+    #content{
+        &.index {
+            .article.sefredaktor{
+                h2{
+                    width: 74%;
+                    line-height: 1.2em;
+                    font-size: 1.3em;
+                }
+            }
         }
     }
-
 }
 
 /* ==========================================================================

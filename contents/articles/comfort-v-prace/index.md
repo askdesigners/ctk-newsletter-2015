@@ -1,5 +1,5 @@
 ---
-title: Klienti ocenují komfort pri práci s novou Infobankou CTK
+title: Klienti oceňují komfort při práci s novou Infobankou ČTK
 author: CTK
 date: 2012-10-01 15:00
 template: comfort-v-prace.jade
@@ -8,13 +8,20 @@ introPart-1: Jednoduchost ovládání a moznost pohodlne a rychle vyhledávat zp
 introPart-2: {{video embed}}
 indexCol: 2
 indexClass: comfort-v-prace
+order: 3
+indexImg: comfort-dummy.jpg
 ---
-Uzivatelum dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do nasí kuchyne – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajskych úseku CTK.
 
-„Povedlo se naplnit heslo Cetka do kapsy (CDK) a statistiky to potvrzují – evidujeme priblizne deset procent prístupu z mobilních zarízení. Pomer mobily/tablety vychází podobne devet ku jedné,“ dodává k tomu obchodní reditel CTK Jaroslav Richter.
+Jednoduchost ovládání a možnost pohodlně a rychle vyhledávat zprávy v mobilních telefonech a tabletech oceňují klienti na nové verzi Infobanky ČTK, která byla spuštěna letos v květnu. Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
 
-Vyvoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepsení práce se schránkou a na exportu dokumentu, pripravuje se moznost predávat uzivateli ruzná provozní sdelení a klienti dostanou prílezitost na obsah Infobanky reagovat. Pocítá se také s tím, ze on-line prístup do Infobanky si bude moci koupit kdokoli, nebude muset kvuli tomu uzavírat s CTK smlouvu.
+Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK 
 
-Infobanka CTK byla zavedena v devadesátych letech, aplikací Texpro uzivatelé pristupovali do textového zpravodajství vytácenym pripojením do CTK pomocí modemu. První webová verze byla spustena v roce 1997. Po roce 2000 se uskutecnil z ásadní upgrade webového rozhraní, které se v letech 2004 a 2015 vyrazne nemenilo.
+„Povedlo se naplnit heslo Četka do kapsy (ČDK) a statistiky to potvrzují – evidujeme přibližně deset procent přístupů z mobilních zařízení. Poměr mobily/tablety vychází podobně devět ku jedné,“ dodává k tomu obchodní ředitel ČTK Jaroslav Richter.
 
-[img here]
+Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat. Počítá se také s tím, že on-line přístup do Infobanky si bude moci koupit kdokoli, nebude muset kvůli tomu uzavírat s ČTK smlouvu.
+
+Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.
+
+Více o nové Infobance, nápověda a videa jsou zde:
+
+(http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!]

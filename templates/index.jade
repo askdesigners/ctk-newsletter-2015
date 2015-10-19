@@ -1,35 +1,45 @@
 
 extends layout
 
+block vars
+    - var bodyclass = 'index';
+
 block content
-    - console.log(articles)
+    //- - console.log(articles)
+    - var articles = _.chain(env.helpers.getArticles(contents)).sortBy(function(article){ console.log(article.metadata.order); return article.metadata.order; }).value();
     .col.col-1
         each article in articles
             if article.metadata.indexCol == '1'
                 article.article.excerpt(class=article.metadata.indexClass)
-                    header
-                        h2
-                            a(href=article.url)= article.metadata.title
-                    section.content
-                        if article.metadata.excerpt.length > 0
-                            p= article.metadata.excerpt
+                    h2
+                        a(href=article.url)= article.metadata.title
+                    if article.metadata.indexImg
+                        img(src="img/"+article.metadata.indexImg)
+                    if article.metadata.excerpt
+                        p= article.metadata.excerpt
+                            a(href=article.url).moreLink &raquo;
     .col.col-2
         each article in articles
             if article.metadata.indexCol == '2'
                 article.article.excerpt(class=article.metadata.indexClass)
-                    header
-                        h2
-                            a(href=article.url)= article.metadata.title
-                    section.content
-                        if article.metadata.excerpt.length > 0
-                            p= article.metadata.excerpt
+                    h2
+                        a(href=article.url)= article.metadata.title
+                    if article.metadata.indexImg
+                        img(src="img/"+article.metadata.indexImg)
+                    if article.metadata.excerpt
+                        p= article.metadata.excerpt
+                            a(href=article.url).moreLink &raquo;
+
     .col.col-1
         each article in articles
             if article.metadata.indexCol == '3'
                 article.article.excerpt(class=article.metadata.indexClass)
-                    header
-                        h2
-                            a(href=article.url)= article.metadata.title
-                    section.content
-                        if article.metadata.excerpt.length > 0
-                            p= article.metadata.excerpt
+                    h2
+                        a(href=article.url)= article.metadata.title
+                    if article.metadata.indexImg
+                        img(src="img/"+article.metadata.indexImg)
+                    if article.metadata.excerpt
+                        p= article.metadata.excerpt
+                            a(href=article.url).moreLink &raquo;
+
+    span.clearfix

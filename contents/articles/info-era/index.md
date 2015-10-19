@@ -1,34 +1,33 @@
 ---
-title: Význam tiskové agentury v informační éře poroste
+title: "Šéfredaktor ČTK Petr Holubec: Význam tiskové agentury v informační éře poroste"
 author: CTK
 date: 2012-10-01 15:00
-template: info-era.jade
-excerpt: rozhovor se šéfredaktorem ČTK Petrem Holubcem
-introPart-1: Petr Holubec je séfredaktorem CTK rovné ctvrtstoletí. Na podzim 1990 si ho redakce do svého cela sama vybrala. Agentura a její zpravodajství za tu dobu prosly zásadními zmenami, u jejichz vymyslení a prosazování vzdy stál. Letos se rozhodl, ze na jare 2016 z séfovského postu odejde. Má za to, ze po 40 letech práce ve firme uz je na to cas.
+template: sefredaktor.jade
+excerpt: 
+introPart-1: Petr Holubec je šéfredaktorem ČTK rovné čtvrtstoletí. Na podzim 1990 si ho redakce do svého čela sama vybrala. Agentura a její zpravodajství za tu dobu prošly zásadními změnami, u jejichž vymýšlení a prosazování vždy stál. Letos se rozhodl, že na jaře 2016 z šéfovského postu odejde. Má za to, že po 40 letech práce ve firmě už je na to čas.
 indexCol: 1
-indexClass: info-era
+indexClass: sefredaktor
+order: 2
+indexImg: petr-holubec-sm.jpg
 ---
 
+## Jaký je váš nejsilnější novinářský zážitek?
+Bezesporu to byly události po 17. listopadu 1989. Byla to doba plná emocí, adrenalinu a úplně nových zkušeností. Mnozí z četkařů se snažili očistit jméno agentury. Nadřízeným, silně spjatým s minulým režimem, jsme říkali, ať odejdou, začali jsme vydávat zprávy sami, bez dohledu skalních komunistů, a to všechno v době, kdy ještě nebylo zřejmé, jak to všechno dopadne. Stále nebylo jisté, zda tvrdé jádro ve vedení KSČ nepošle "na obranu socialismu" proti občanům armádu, policii a Lidové milice.
+Pro ilustraci té doby mohu připomenout, že 20. listopadu jsme vydali do té doby nevídaně otevřenou zprávu o tom, že na Václavském náměstí v Praze se sešlo více než 100.000 lidí, kteří protestovali „proti zákroku pořádkových sil vůči účastníkům pražského studentského průvodu v pátek 17. listopadu a požadovali zásadní politické reformy". Na to promptně reagovala agentura Reuter’s zprávou, že oficiální československá tisková agentura ČTK vydala bezprecedentní zprávu.
+V té době jsme s kolegy psali Kroniku sametové revoluce, která měla enormní čtenářský úspěch. Fronta zájemců o ni se táhla od nás z Opletalovy ulice za roh několikastupem snad 200 metrů.
+Zážitků bylo samozřejmě mnohem víc. Volba Václava Havla prezidentem, první svobodné volby, dělení státu, počátky privatizace atd. Dějinám agentura dýchá na záda. Pořád mě to fascinuje.
+    
+## V čem se ČTK za to čtvrtstoletí změnila.
+V první řadě je ekonomicky, a tudíž i redakčně nezávislá. Přestože je veřejnoprávní institucí, chová se jako normální obchodní společnost. Vydělává si na svou činnost prodejem zpravodajství. Od nikoho nedostává žádné poplatky nebo dotace. 
+Mentalita nynějších a tehdejších četkařů je nesrovnatelná. Nyní kolegyně a kolegové kladou politikům nepříjemné otázky s naprostou samozřejmostí a suverenitou. Ve zprávách nic nezamlžují, nelakují na růžovo.
+Extrémně se zvýšil výkon redaktorů a reportérů. Jejich počet se snížil ze 418 v roce 1990 na současných 175, ale počet vydaných zpráv za rok se zvýšil z 83.000 na 211.000. Tedy zatímco na jednoho člena redakce připadalo v roce 1990 necelých 200 zpráv, nyní je to přes 1200. A k tomu je třeba přidat vydávané grafy, fotky, audia a videa. Produktivita četkařů je neuvěřitelná.
+Naprosto se změnilo prostředí, v němž agentura působí. Zatímco za totality měla monopol, od začátku 90. let postupně vznikla – a často i zanikla - téměř desítka konkurenčních agentur. A pak nás obklopuje internet a nové informační technologie. Před 25 lety jsme zprávy klientům posílali dálnopisem a fotky telefotem nebo i potrubní poštou. V roce 1990 jsme zaměstnali redakčního poslíčka, aby chodil mj. pro komuniké ze zasedání vlády. Nyní všechno hned visí na webech a sociálních sítích. Jsou to nesrovnatelné doby.
 
-## Jaky je vás nejsilnejsí novinársky zázitek?
-Bezesporu to byly události po 17. listopadu 1989. Byla to doba plná emocí, adrenalinu a úplne novych zkuseností. Mnozí z cetkaru se snazili ocistit jméno agentury. Nadrízenym, silne spjatym s minulym rezimem, jsme ríkali, at odejdou, zacali jsme vydávat zprávy sami, bez dohledu skalních komunistu, a to vsechno v dobe, kdy jeste nebylo zrejmé, jak to vsechno dopadne. Stále nebylo jisté, zda tvrdé jádro ve vedení KSC neposle “na obranu socialismu” proti obcanum armádu, policii a Lidové milice.
+## Kam podle vás vývoj ještě půjde?
+Nejsem odborník na informační technologie, ale co se zpravodajství týká, myslím, že bude stále více informací veřejně dostupných. Také bude publikováno mnohem více fotografií a videoreportáží od nenovinářů, ať již z řad policistů nebo hasičů, ale také od běžných občanů. Jsem přesvědčen, že význam tiskové agentury v této přemíře informací bude sílit. Její role bude ve vyhledávání informací, jejich ověřování a uvedení do souvislostí. Její mediální klienti budou více než dosud využívat její servis, aby vlastní redakční síly mohli soustředit na své původní, zejména investigativní materiály, aby se více odlišili od svých konkurentů.
 
-Pro ilustraci té doby mohu pripomenout, ze 20. listopadu jsme vydali do té doby nevídane otevrenou zprávu o tom, ze na Václavském námestí v Praze se seslo více nez 100.000 lidí, kterí protestovali „proti zákroku porádkovych sil vuci úcastníkum prazského studentského pruvodu v pátek 17. listopadu a pozadovali zásadní politické reformy”. Na to promptne reagovala agentura Reuter’s zprávou, ze oficiální ceskoslovenská tisková agentura CTK vydala bezprecedentní zprávu.
+## Co přejete ČTK do budoucna?
+Především aby si udržela ekonomickou nezávislost a redakční svobodu. Aby si její klienti uvědomovali, že jim agentura pomáhá, protože jim šetří energii a peníze.  Aby si Četka udržela kvalitní redaktory a reportéry, jaké má nyní, a aby si zachovala svou kolegiální podnikovou kulturu.
 
-V té dobe jsme s kolegy psali Kroniku sametové revoluce, která mela enormní ctenársky úspech. Fronta zájemcu o ni se táhla od nás z Opletalovy ulice za roh nekolikastupem snad 200 metru. Zázitku bylo samozrejme mnohem víc. Volba Václava Havla prezidentem, první svobodné volby, delení státu, pocátky privatizace atd. Dejinám agentura dychá na záda. Porád me to fascinuje.
-
-## V cem se CTK za to ctvrtstoletí zmenila?
-V první rade je ekonomicky, a tudíz i redakcne nezávislá. Prestoze je verejnoprávní institucí, chová se jako normální obchodní spolecnost. Vydelává si na svou cinnost prodejem zpravodajství. Od nikoho nedostává zádné poplatky nebo dotace.
-
-Mentalita nynejsích a tehdejsích cetkaru je nesrovnatelná. Nyní kolegyne a kolegové kladou politikum nepríjemné otázky s naprostou samozrejmostí a suverenitou. Ve zprávách nic nezamlzují, nelakují na ruzovo. Extrémne se zvysil vykon redaktoru a reportéru. Jejich pocet se snízil ze 418 v roce 1990 na soucasnych 175, ale pocet vydanych zpráv za rok se zvysil z 83.000 na 211.000. Tedy zatímco na jednoho clena redakce pripadalo v roce 1990 necelych 200 zpráv, nyní je to pres 1200. A k tomu je treba pridat vydávané grafy, fotky, audia a videa. Produktivita cetkaru je neuveritelná.
-
-Naprosto se zmenilo prostredí, v nemz agentura pusobí. Zatímco za totality mela monopol, od zacátku 90. let postupne vznikla – a casto i zanikla - témer desítka konkurencních agentur. A pak nás obklopuje internet a nové informacní technologie. Pred 25 lety jsme zprávy klientum posílali dálnopisem a fotky telefotem nebo i potrubní postou. V roce 1990 jsme zamestnali redakcního poslícka, aby chodil mj. pro komuniké ze zasedání vlády. Nyní vsechno hned visí na webech a sociálních sítích. Jsou to nesrovnatelné doby.
-
-## Kam podle vás vyvoj jeste pujde?
-Nejsem odborník na informacní technologie, ale co se zpravodajství tyká, myslím, ze bude stále více informací verejne dostupnych. Také bude publikováno mnohem více fotografií a videoreportází od nenovináru, at jiz z rad policistu nebo hasicu, ale také od beznych obcanu. Jsem presvedcen, ze vyznam tiskové agentury v této premíre informací bude sílit. Její role bude ve vyhledávání informací, jejich overování a uvedení do souvislostí. Její mediální klienti budou více nez dosud vyuzívat její servis, aby vlastní redakcní síly mohli soustredit na své puvodní, zejména investigativní materiály, aby se více odlisili od svych konkurentu.
-
-## Co prejete CTK do budoucna?
-Predevsím aby si udrzela ekonomickou nezávislost a redakcní svobodu. Aby si její klienti uvedomovali, ze jim agentura pomáhá, protoze jim setrí energii a peníze. Aby si Cetka udrzela kvalitní redaktory a reportéry, jaké má nyní, a aby si zachovala svou kolegiální podnikovou kulturu.
-
-## Jaké je vase zivotní krédo?
-Mozná nez zivotní krédo bude pro tento rozhovor príhodnejsí profesní krédo, pro které jsem se rozhodl v roce 1990, kdy me kolegyne a kolegové zvolili séfredaktorem. Bylo to v dobe, kdy z dob totality neexistovaly ani novinárské, ani manazerské vzory. Drzím se ho dosud: Uz se nikdy z nikoho a z niceho nepo... a k agenture se chovej, jako bys ji vlastnil. •
+## Jaké je vaše životní krédo?
+Možná než životní krédo bude pro tento rozhovor příhodnější profesní krédo, pro které jsem se rozhodl v roce 1990, kdy mě kolegyně a kolegové zvolili šéfredaktorem. Bylo to v době, kdy z dob totality neexistovaly ani novinářské, ani manažerské vzory. Držím se ho dosud: Už se nikdy z nikoho a z ničeho nepo… a k agentuře se chovej, jako bys ji vlastnil. 

@@ -31,12 +31,21 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
 body {
-  font-family: 'maxima_bold', sans-serif;
-  font-size: 18px;
-  line-height: 1.52;
+  font-family: 'maxima_regular', sans-serif;
+  font-size: 17px;
+  line-height: 1.4;
   color: #3d3d3d;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  font-weight: 100; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'maxima_bold';
+  letter-spacing: 0.2px;
+  font-weight: 100; }
 
 a {
   color: #1d539c; }
@@ -58,43 +67,160 @@ a {
     top: 0;
     left: 0; }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 .content-wrap {
   padding: 0 30px;
   margin: 0 auto; }
+
+header .logo {
+  width: 300px;
+  display: inline-block; }
+header h1 {
+  display: inline-block;
+  float: right;
+  position: relative; }
+  header h1 a {
+    text-decoration: none; }
+
+#content.index .article {
+  margin-bottom: 25px;
+  position: relative; }
+  #content.index .article h2 {
+    line-height: 1.2em;
+    margin: 0;
+    font-size: 1.3em; }
+    #content.index .article h2 a {
+      text-decoration: none; }
+  #content.index .article img {
+    max-width: 100%; }
+  #content.index .article p {
+    font-size: 0.9em; }
+    #content.index .article p .moreLink {
+      text-decoration: none;
+      margin-left: 5px; }
+  #content.index .article.director-letter p:before {
+    content: '\201C';
+    position: relative;
+    float: left;
+    font-size: 9em;
+    height: 40px;
+    top: -51px;
+    left: -12px;
+    width: 60px; }
+  #content.index .article.sefredaktor h2 {
+    position: absolute;
+    width: 78%;
+    padding: 10px;
+    bottom: 0;
+    line-height: 1.1em;
+    font-size: 1em; }
+    #content.index .article.sefredaktor h2 a {
+      color: white; }
+      #content.index .article.sefredaktor h2 a:hover {
+        color: #2c8bc4; }
+  #content.index .article.comfort-v-prace img {
+    display: inline-block;
+    width: 50%;
+    float: right; }
+  #content.index .article.comfort-v-prace h2 {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px; }
+  #content.index .article.comfort-v-prace p {
+    clear: both;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #8A8A8A; }
+  #content.index .article.nova-sluzba {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 10px; }
+    #content.index .article.nova-sluzba p {
+      margin-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: solid 1px #8A8A8A; }
+  #content.index .article.dokaze-titulek {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    overflow: hidden;
+    height: 267px; }
+    #content.index .article.dokaze-titulek h2 {
+      position: absolute;
+      bottom: 0;
+      padding: 10px;
+      width: 70%; }
+      #content.index .article.dokaze-titulek h2 a {
+        color: white; }
+        #content.index .article.dokaze-titulek h2 a:hover {
+          color: #2c8bc4; }
+  #content.index .article.fotobanka {
+    clear: both; }
+    #content.index .article.fotobanka h2 {
+      width: 50%;
+      float: right;
+      box-sizing: border-box;
+      padding-left: 10px; }
+    #content.index .article.fotobanka img {
+      width: 50%; }
+    #content.index .article.fotobanka p {
+      clear: both;
+      margin-top: 10px; }
+  #content.index .article.hospodareni {
+    background-image: url('../img/business.jpg');
+    background-size: contain; }
+    #content.index .article.hospodareni h2 {
+      padding: 10px; }
+      #content.index .article.hospodareni h2 a {
+        color: white; }
+        #content.index .article.hospodareni h2 a:hover {
+          color: #2c8bc4; }
+  #content.index .article.distribuce-zpravy {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #8A8A8A; }
+  #content.index .article.brno h2 {
+    position: absolute;
+    bottom: 0;
+    padding: 10px; }
+    #content.index .article.brno h2 a {
+      color: white; }
+      #content.index .article.brno h2 a:hover {
+        color: #2c8bc4; }
+  #content.index .article.redakci-techniku h2 {
+    position: absolute; }
+  #content.index .article.redakci-techniku img {
+    margin-top: 20px; }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 @media only screen and (min-width: 768px) {
   .content-wrap {
-    width: 740px; }
+    width: 740px;
+    padding-top: 50px; }
   .col {
-    float: left; }
+    float: left;
+    padding: 0 15px; }
+  .col-1 {
+    width: 25%; }
   .col-2 {
-    width: 50%;
-    padding-right: 6px; }
-    .col-2:last-child {
-      padding-left: 6px;
-      padding-right: 0; } }
+    width: 50%; } }
 
 @media only screen and (min-width: 1140px) {
   .content-wrap {
     width: 1026px; }
+  .col {
+    padding: 0 15px; }
   .col-2 {
-    width: 50%;
-    padding-right: 10px; }
-    .col-2:last-child {
-      padding-left: 10px;
-      padding-right: 0; }
+    width: 50%; }
   .col-1 {
-    width: 25%;
-    padding-right: 20px; }
-    .col-1:last-child {
-      padding-left: 0;
-      padding-right: 0; } }
+    width: 25%; }
+  #content.index .article.sefredaktor h2 {
+    width: 74%;
+    line-height: 1.2em;
+    font-size: 1.3em; } }
 
 /* ==========================================================================
    Helper classes
