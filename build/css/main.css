@@ -85,9 +85,9 @@ header h1 {
   margin-bottom: 25px;
   position: relative; }
   #content.index .article h2 {
-    line-height: 1.2em;
+    line-height: 1.1em;
     margin: 0;
-    font-size: 1.3em; }
+    font-size: 1em; }
     #content.index .article h2 a {
       text-decoration: none; }
   #content.index .article img {
@@ -209,6 +209,10 @@ header h1 {
     width: 50%; } }
 
 @media only screen and (min-width: 1140px) {
+  #content.index .article h2 {
+    line-height: 1.2em;
+    margin: 0;
+    font-size: 1.3em; }
   .content-wrap {
     width: 1026px; }
   .col {

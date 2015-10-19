@@ -1,15 +1,9 @@
 doctype html
 block vars
   - var bodyclass = null;
-<!--[if lt IE 7]>        html.no-js.lt-ie9.lt-ie8.lt-ie7(lang="cs") <![endif]-->
-<!--[if IE 7]>           html.no-js.lt-ie9.lt-ie8(lang="cs") <![endif]-->
-<!--[if IE 8]>           html.no-js.lt-ie9(lang="cs") <![endif]-->
-<!--[if gt IE 8]> 
-<!--> 
-html.no-js(lang='cs') 
-<!--<![endif]-->
-head
-    block head
+
+html(lang='cs') 
+    head
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
         meta(name='viewport', content='width=device-width, initial-scale=1')
@@ -23,27 +17,27 @@ head
         link(rel='stylesheet', href=contents.css['fonts.css'].url)
         script(src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js")
 
-body
-    <!--[if lt IE 8]>
-    p.browserupgrade You are using an #[strong outdated] browser. Please #[a(href="http://browsehappy.com") upgrade your browser] to improve your experience.
-    <![endif]-->
-    header.header
-        div.content-wrap
-            block header
-                div.logo
-                    a(href=locals.url) 
-                        img(src="img/logo.png")
-                h1
-                    a(href=locals.url)= locals.name
-                .hambac nic
+    body
+        <!--[if lt IE 8]>
+        p.browserupgrade You are using an #[strong outdated] browser. Please #[a(href="http://browsehappy.com") upgrade your browser] to improve your experience.
+        <![endif]-->
+        header.header
+            div.content-wrap
+                block header
+                    div.logo
+                        a(href=locals.url) 
+                            img(src="img/logo.png")
+                    h1
+                        a(href=locals.url)= locals.name
+                    //- .hambac nic
 
-    div#content(class='#{bodyclass}')
-        div.content-wrap
-            block content
+        div#content(class='#{bodyclass}')
+            div.content-wrap
+                block content
 
 
-    footer
-        div.content-wrap
-            block footer
-                section.copy
-                    p &copy; #{ new Date().getFullYear() } #{ locals.owner }
+        footer
+            div.content-wrap
+                block footer
+                    section.copy
+                        p &copy; #{ new Date().getFullYear() } #{ locals.owner }

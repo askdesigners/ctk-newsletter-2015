@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 
 a{
   color: $ctkDkBlue;
+  transition: color 0.2s;
 
   &:hover {
     color: $ctkLtBlue;
@@ -100,18 +101,28 @@ a{
 }
 
 header{
+    padding-top: 20px;
+    margin-bottom: 20px;
+
     .logo{
-        width: 300px;
+        width: 80px;
         display: inline-block;
+        overflow: hidden;
     }
     
     h1{
         display: inline-block;
         float: right;
         position: relative;
+        font-size: 1.7em;
+        margin: 0;
+        line-height: 1.65em;
 
         a{
             text-decoration: none;
+            background: -webkit-linear-gradient(left, $ctkDkBlue, $ctkLtBlue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
 }   
@@ -119,15 +130,19 @@ header{
 #content {
     &.index{
         .article{
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             position: relative;
 
             h2 {
-                line-height: 1.2em;
+                line-height: 1.3em;
                 margin: 0;
-                font-size: 1.3em;
+                font-size: 1em;
                 a{
                     text-decoration: none;
+                    background-image: linear-gradient(to bottom, rgba(44,139,196,0) 50%, rgba(44,139,196,0.6) 50%);
+                    background-repeat: repeat-x;
+                    background-size: 2px 4px;
+                    background-position: 0 14px;
                 }
             }
             img {
@@ -135,10 +150,13 @@ header{
             }
             p {
                 font-size: 0.9em;
+                margin-bottom: 0;
 
                 .moreLink{
                     text-decoration: none;
                     margin-left: 5px;
+                    font-size: 1.2em;
+                    line-height: 0;
                 }
             }
             &.director-letter{
@@ -146,11 +164,15 @@ header{
                     content: '\201C';
                     position: relative;
                     float: left;
-                    font-size: 9em;
+                    font-size: 8.3em;
                     height: 40px;
-                    top: -51px;
-                    left: -12px;
-                    width: 60px;
+                    top: -36px;
+                    left: -11px;
+                    width: 50px;
+                    color: $ctkDkBlue;
+                }
+                h2{
+                    margin-bottom: 10px;
                 }
             }
             &.sefredaktor{
@@ -165,6 +187,7 @@ header{
                     font-size: 1em;
                     a{ 
                         color: white;
+                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
                         &:hover {
                             color: $ctkLtBlue;
                         }
@@ -175,7 +198,6 @@ header{
                 img{    
                     display: inline-block;
                     width: 50%;
-                    float: right;
                 }
                 h2{
                     width: 50%;
@@ -186,7 +208,7 @@ header{
                 p{
                     clear: both;
                     margin-top: 10px;
-                    padding-bottom: 10px;
+                    padding-bottom: 15px;
                     border-bottom: solid 1px $borderGrey;
                 }
             }
@@ -198,7 +220,7 @@ header{
                 padding-right: 10px;
                 p{
                     margin-top: 10px;
-                    padding-bottom: 10px;
+                    padding-bottom: 15px;
                     border-bottom: solid 1px $borderGrey;
                 }
             }
@@ -208,7 +230,7 @@ header{
                 box-sizing: border-box;
                 padding-left: 10px;
                 overflow: hidden;
-                height: 267px;
+                height: 272px;
 
                 h2{
                     position: absolute;
@@ -217,6 +239,7 @@ header{
                     width: 70%;
                     a{
                         color: white;
+                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
                         &:hover{
                             color: $ctkLtBlue;
                         }
@@ -227,13 +250,10 @@ header{
                 clear: both;
 
                 h2{
-                    width: 50%;
-                    float: right;
                     box-sizing: border-box;
-                    padding-left: 10px;
                 }
                 img{
-                    width: 50%;
+                    width: 100%;
                 }
                 p{
                     clear: both;
@@ -242,10 +262,11 @@ header{
             }
             &.hospodareni{
                 background-image: url('../img/business.jpg');
-                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
 
                 h2 {
-                    padding: 10px;
+                    padding: 20px 10px;
                     a {
                         color: white;
                         &:hover {
@@ -256,7 +277,6 @@ header{
             }
             &.distribuce-zpravy{
                 padding-bottom: 10px;
-                border-bottom: solid 1px $borderGrey;
             }
             &.brno {
                 h2{
@@ -265,6 +285,7 @@ header{
                     padding: 10px;
                     a {
                         color: white;
+                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
                         &:hover{
                             color: $ctkLtBlue;
                         }
@@ -294,6 +315,22 @@ header{
 
 @media only screen and (min-width: 768px) {
 
+    header{
+        margin-bottom: 0;
+
+        .logo{
+            width: 300px;
+            padding-left: 15px;
+        }
+        
+        h1{
+            font-size: 2.5em;
+            margin: 0;
+            line-height: 1em;
+            padding-right: 15px;
+        }
+    } 
+
     .content-wrap{
         width: 740px;
         padding-top: 50px;
@@ -311,9 +348,81 @@ header{
     .col-2{
         width: 50%;
     }
+    #content {
+        &.index{
+            .article{
+                &.dokaze-titulek{
+                    width: 50%;
+                    float: left;
+                    padding-left: 10px;
+                    height: 344px;
+
+                    img{
+                        max-width: 115%;
+                    }
+                }
+                &.fotobanka{
+                    clear: both;
+
+                    h2{
+                        width: 50%;
+                        float: right;
+                        box-sizing: border-box;
+                        padding-left: 10px;
+                    }
+                    img{
+                        width: 50%;
+                    }
+                    p{
+                        clear: both;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1140px) {
+
+    header{
+        .logo{
+            width: 300px;
+        }
+        
+        h1{
+            font-size: 4.6em;
+            margin: 0;
+            line-height: 0.5em;
+        }
+    } 
+
+    #content {
+        &.index{
+            .article{
+                h2 {
+                    line-height: 1.2em;
+                    margin: 0;
+                    font-size: 1.3em;
+
+                    a{
+                        background-position: 0 20px;
+                    }
+                }
+                &.sefredaktor{
+                    h2{
+                        width: 74%;
+                        line-height: 1.2em;
+                        font-size: 1.3em;
+                    }
+                }
+                &.dokaze-titulek{
+                    height: 272px;
+                }
+            }
+        }
+    }
+
     .content-wrap {
         width: 1026px; 
     }
@@ -328,17 +437,6 @@ header{
 
     .col-1{
         width: 25%;
-    }
-    #content{
-        &.index {
-            .article.sefredaktor{
-                h2{
-                    width: 74%;
-                    line-height: 1.2em;
-                    font-size: 1.3em;
-                }
-            }
-        }
     }
 }
 

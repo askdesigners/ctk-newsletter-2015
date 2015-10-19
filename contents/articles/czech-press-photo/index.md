@@ -6,9 +6,9 @@ template: czech-press-photo.jade
 excerpt: 
 introPart-1: 
 introPart-2: 
-indexCol: 2
+indexCol: 1
 indexClass: czech-press-photo
-order: 1000
+order: 10
 
 ---
 
