@@ -1,0 +1,3 @@
+<filesMatch "\.(gif|jpg|jpeg|png|ico|js|css|html)$">
+    Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
+</filesMatch>

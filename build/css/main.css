@@ -35,7 +35,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  font-family: 'maxima_regular', sans-serif;
+  font-family: 'maxima_light', sans-serif;
   font-size: 17px;
   line-height: 1.4;
   color: #3d3d3d;
@@ -48,7 +48,8 @@ h1, h2, h3, h4, h5 {
   font-weight: 100; }
 
 a {
-  color: #1d539c; }
+  color: #1d539c;
+  transition: color 0.2s; }
   a:hover {
     color: #2c8bc4; }
 
@@ -71,91 +72,234 @@ a {
   padding: 0 30px;
   margin: 0 auto; }
 
-header .logo {
-  width: 300px;
-  display: inline-block; }
-header h1 {
-  display: inline-block;
-  float: right;
-  position: relative; }
-  header h1 a {
-    text-decoration: none; }
-
-#content.index .article {
-  margin-bottom: 25px;
-  position: relative; }
-  #content.index .article h2 {
-    line-height: 1.1em;
-    margin: 0;
-    font-size: 1em; }
-    #content.index .article h2 a {
-      text-decoration: none; }
-  #content.index .article img {
-    max-width: 100%; }
-  #content.index .article p {
-    font-size: 0.9em; }
-    #content.index .article p .moreLink {
-      text-decoration: none;
-      margin-left: 5px; }
-  #content.index .article.director-letter p:before {
-    content: '\201C';
-    position: relative;
-    float: left;
-    font-size: 9em;
-    height: 40px;
-    top: -51px;
-    left: -12px;
-    width: 60px; }
-  #content.index .article.sefredaktor h2 {
-    position: absolute;
-    width: 78%;
-    padding: 10px;
-    bottom: 0;
-    line-height: 1.1em;
-    font-size: 1em; }
-    #content.index .article.sefredaktor h2 a {
-      color: white; }
-      #content.index .article.sefredaktor h2 a:hover {
-        color: #2c8bc4; }
-  #content.index .article.comfort-v-prace img {
+header.header {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  background: white;
+  z-index: 10; }
+  header.header .logo {
+    width: 80px;
     display: inline-block;
-    width: 50%;
-    float: right; }
-  #content.index .article.comfort-v-prace h2 {
-    width: 50%;
+    overflow: hidden; }
+  header.header h1 {
+    display: inline-block;
     float: right;
-    box-sizing: border-box;
-    padding-left: 10px; }
-  #content.index .article.comfort-v-prace p {
-    clear: both;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 1px #8A8A8A; }
-  #content.index .article.nova-sluzba {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    padding-right: 10px; }
-    #content.index .article.nova-sluzba p {
+    position: relative;
+    font-size: 1.7em;
+    margin: 0;
+    line-height: 1.65em;
+    font-family: 'maxima_regular'; }
+    header.header h1 a {
+      text-decoration: none;
+      background: -webkit-linear-gradient(left, #2c8bc4, #1d539c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+#bigWrap {
+  position: relative;
+  height: 2000px; }
+
+#content {
+  position: relative;
+  z-index: 10;
+  background: white;
+  padding-bottom: 40px; }
+  #content.index .article {
+    margin-bottom: 15px;
+    position: relative; }
+    #content.index .article h2 {
+      line-height: 1.3em;
+      margin: 0;
+      font-size: 1em; }
+      #content.index .article h2 a {
+        text-decoration: none;
+        background-image: linear-gradient(to bottom, #1d539c 50%, #1d539c 50%);
+        background-repeat: repeat-x;
+        background-size: 2px 2px;
+        background-position: 0 16px; }
+    #content.index .article img {
+      max-width: 100%; }
+    #content.index .article p {
+      font-size: 0.9em;
+      margin-bottom: 0; }
+      #content.index .article p .moreLink {
+        text-decoration: none;
+        margin-left: 5px;
+        font-size: 1.2em;
+        line-height: 0; }
+    #content.index .article.director-letter p:before {
+      content: '\201C';
+      position: relative;
+      float: left;
+      font-size: 9.6em;
+      height: 40px;
+      top: -45px;
+      left: -16px;
+      width: 50px;
+      color: #1d539c; }
+    #content.index .article.director-letter h2 {
+      margin-bottom: 10px; }
+    #content.index .article.sefredaktor h2 {
+      position: absolute;
+      width: 78%;
+      padding: 10px;
+      bottom: 0;
+      line-height: 1.1em;
+      font-size: 1em; }
+      #content.index .article.sefredaktor h2 a {
+        background-image: linear-gradient(to bottom, white 50%, white 50%);
+        color: white;
+        text-shadow: 0px 1px 1px #1d539c; }
+        #content.index .article.sefredaktor h2 a:hover {
+          color: #2c8bc4; }
+    #content.index .article.czech-press-photo {
+      height: 87px;
+      overflow: hidden; }
+      #content.index .article.czech-press-photo h2 {
+        position: absolute;
+        width: 78%;
+        padding: 10px;
+        bottom: 0;
+        line-height: 1.1em;
+        font-size: 1em; }
+        #content.index .article.czech-press-photo h2 a {
+          background-image: linear-gradient(to bottom, white 50%, white 50%);
+          color: white;
+          text-shadow: 0px 1px 1px #1d539c; }
+          #content.index .article.czech-press-photo h2 a:hover {
+            color: #2c8bc4; }
+    #content.index .article.comfort-v-prace img {
+      display: inline-block;
+      width: 50%; }
+    #content.index .article.comfort-v-prace h2 {
+      width: 50%;
+      float: right;
+      box-sizing: border-box;
+      padding-left: 10px; }
+    #content.index .article.comfort-v-prace p {
+      clear: both;
       margin-top: 10px;
-      padding-bottom: 10px;
+      padding-bottom: 15px;
       border-bottom: solid 1px #8A8A8A; }
+    #content.index .article.nova-sluzba {
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      padding-right: 10px; }
+      #content.index .article.nova-sluzba p {
+        margin-top: 10px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #8A8A8A; }
+    #content.index .article.dokaze-titulek {
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      padding-left: 10px;
+      overflow: hidden;
+      height: 272px; }
+      #content.index .article.dokaze-titulek h2 {
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+        width: 70%; }
+        #content.index .article.dokaze-titulek h2 a {
+          color: white;
+          background-image: linear-gradient(to bottom, white 50%, white 50%);
+          text-shadow: 0px 1px 1px #1d539c; }
+          #content.index .article.dokaze-titulek h2 a:hover {
+            color: #2c8bc4; }
+    #content.index .article.fotobanka {
+      clear: both; }
+      #content.index .article.fotobanka h2 {
+        box-sizing: border-box; }
+      #content.index .article.fotobanka img {
+        width: 100%; }
+      #content.index .article.fotobanka p {
+        clear: both;
+        margin-top: 10px; }
+    #content.index .article.hospodareni {
+      background-image: url('../img/business.jpg');
+      background-repeat: no-repeat;
+      background-position: center; }
+      #content.index .article.hospodareni h2 {
+        padding: 20px 10px; }
+        #content.index .article.hospodareni h2 a {
+          color: white;
+          background-image: linear-gradient(to bottom, white 50%, white 50%); }
+          #content.index .article.hospodareni h2 a:hover {
+            color: #2c8bc4; }
+    #content.index .article.distribuce-zpravy {
+      padding-bottom: 10px; }
+    #content.index .article.brno h2 {
+      position: absolute;
+      bottom: 0;
+      padding: 10px; }
+      #content.index .article.brno h2 a {
+        color: white;
+        text-shadow: 0px 1px 1px #1d539c;
+        background-image: linear-gradient(to bottom, white 50%, white 50%); }
+        #content.index .article.brno h2 a:hover {
+          color: #2c8bc4; }
+    #content.index .article.redakci-techniku h2 {
+      position: absolute; }
+    #content.index .article.redakci-techniku img {
+      margin-top: 20px; }
+
+#pages {
+  background: #F5F5F5;
+  position: fixed;
+  width: 100%;
+  top: 0; }
+  #pages.relative {
+    position: relative; }
+  #pages .articleWrapper {
+    min-height: 400px; }
+  #pages .greeking {
+    height: 20px;
+    background: #D9D9D9;
+    margin-bottom: 15px;
+    width: 70%; }
+  #pages .lineA {
+    width: 80%; }
+  #pages .lineB {
+    width: 72%; }
+  #pages .lineC {
+    width: 74%; }
+  #pages .lineD {
+    width: 68%; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 768px) {
+  header.header {
+    margin-bottom: 0; }
+    header.header .logo {
+      width: 330px;
+      padding-left: 15px; }
+    header.header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      line-height: 1em;
+      padding-right: 15px; }
+  .content-wrap {
+    width: 740px;
+    padding-top: 50px; }
+  .col {
+    float: left;
+    padding: 0 15px; }
+  .col-1 {
+    width: 25%; }
+  .col-2 {
+    width: 50%; }
   #content.index .article.dokaze-titulek {
     width: 50%;
     float: left;
-    box-sizing: border-box;
     padding-left: 10px;
-    overflow: hidden;
-    height: 267px; }
-    #content.index .article.dokaze-titulek h2 {
-      position: absolute;
-      bottom: 0;
-      padding: 10px;
-      width: 70%; }
-      #content.index .article.dokaze-titulek h2 a {
-        color: white; }
-        #content.index .article.dokaze-titulek h2 a:hover {
-          color: #2c8bc4; }
+    height: 344px; }
+    #content.index .article.dokaze-titulek img {
+      max-width: 115%; }
   #content.index .article.fotobanka {
     clear: both; }
     #content.index .article.fotobanka h2 {
@@ -167,52 +311,37 @@ header h1 {
       width: 50%; }
     #content.index .article.fotobanka p {
       clear: both;
-      margin-top: 10px; }
-  #content.index .article.hospodareni {
-    background-image: url('../img/business.jpg');
-    background-size: contain; }
-    #content.index .article.hospodareni h2 {
-      padding: 10px; }
-      #content.index .article.hospodareni h2 a {
-        color: white; }
-        #content.index .article.hospodareni h2 a:hover {
-          color: #2c8bc4; }
-  #content.index .article.distribuce-zpravy {
-    padding-bottom: 10px;
-    border-bottom: solid 1px #8A8A8A; }
-  #content.index .article.brno h2 {
-    position: absolute;
-    bottom: 0;
-    padding: 10px; }
-    #content.index .article.brno h2 a {
-      color: white; }
-      #content.index .article.brno h2 a:hover {
-        color: #2c8bc4; }
-  #content.index .article.redakci-techniku h2 {
-    position: absolute; }
-  #content.index .article.redakci-techniku img {
-    margin-top: 20px; }
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 768px) {
-  .content-wrap {
-    width: 740px;
-    padding-top: 50px; }
-  .col {
-    float: left;
-    padding: 0 15px; }
-  .col-1 {
-    width: 25%; }
-  .col-2 {
-    width: 50%; } }
+      margin-top: 10px; } }
 
 @media only screen and (min-width: 1140px) {
+  header.header h1 {
+    font-size: 4.6em;
+    margin: 0;
+    line-height: 0.5em; }
   #content.index .article h2 {
     line-height: 1.2em;
     margin: 0;
     font-size: 1.3em; }
+    #content.index .article h2 a {
+      background-position: 0 22px; }
+  #content.index .article.sefredaktor h2 {
+    width: 74%;
+    line-height: 1.2em;
+    font-size: 1.3em; }
+  #content.index .article.czech-press-photo {
+    height: 87px;
+    overflow: hidden; }
+    #content.index .article.czech-press-photo h2 {
+      padding: 10px;
+      width: 100%;
+      line-height: 1.2em;
+      font-size: 1.3em;
+      z-index: 100; }
+    #content.index .article.czech-press-photo img {
+      top: -50px;
+      position: relative; }
+  #content.index .article.dokaze-titulek {
+    height: 272px; }
   .content-wrap {
     width: 1026px; }
   .col {
@@ -220,11 +349,7 @@ header h1 {
   .col-2 {
     width: 50%; }
   .col-1 {
-    width: 25%; }
-  #content.index .article.sefredaktor h2 {
-    width: 74%;
-    line-height: 1.2em;
-    font-size: 1.3em; } }
+    width: 25%; } }
 
 /* ==========================================================================
    Helper classes
