@@ -53,14 +53,17 @@ block content
 
         span.clearfix
 
-    #pages
-        - console.log(articles)
-        script.
-            var articlesArr = [];
+block pages
+    - console.log(articles)
+    script.
+        var articlesArr = [];
 
-        each article in articles
-            div(id=article.metadata.indexClass)
-                h1= article.metadata.title
-                script.
-                    articlesArr.push({id: '#{article.metadata.indexClass}', link: '#{article.url}'});
+    each article in articles
+        section(id=article.metadata.indexClass).articleWrapper
+            .articleTarget
+                .content-wrap
+                    h1= article.metadata.title
+                    include placeholder
+                    script.
+                        articlesArr.push({id: '#{article.metadata.indexClass}', link: '#{article.url}'});
 

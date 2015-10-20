@@ -1,2 +1,11 @@
+extends articlelayout
 
-extends article
+block append vars
+  - bodyclass = 'article-detail ' + page.metadata.indexClass
+
+block content
+  header.articleHeader
+      h1= page.title
+
+  article.article
+    section.content!= typogr(page.html).typogrify()

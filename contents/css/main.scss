@@ -2,6 +2,7 @@ $txtColor: #3d3d3d;
 $ctkDkBlue: #1d539c;
 $ctkLtBlue: #2c8bc4;
 $ctkSuperLtBlue: #93D3FA;
+$superLightGrey: #F5F5F5;
 $borderGrey: #8A8A8A;
 $bold: 'maxima_bold';
 $regular: 'maxima_regular';
@@ -100,9 +101,12 @@ a{
   margin: 0 auto;
 }
 
-header{
+header.header{
     padding-top: 20px;
     margin-bottom: 20px;
+    position: relative;
+    background: white;
+    z-index: 10;
 
     .logo{
         width: 80px;
@@ -128,7 +132,17 @@ header{
     }
 }   
 
+#bigWrap{
+    position: relative;
+    height: 2000px;
+}
+
 #content {
+    position: relative;
+    z-index: 10;
+    background: white;
+    padding-bottom: 40px;
+
     &.index{
         .article{
             margin-bottom: 15px;
@@ -329,6 +343,40 @@ header{
     }
 }
 
+#pages{
+    background: $superLightGrey;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    &.relative{
+        position: relative;
+    }
+
+    .articleWrapper{
+        min-height: 400px;
+    }
+
+    .greeking {
+        height: 20px;
+        background: #D9D9D9;
+        margin-bottom: 15px;
+        width: 70%;
+    }
+    .lineA{
+        width: 80%;
+    }
+    .lineB{
+        width: 72%;
+    }
+    .lineC{
+        width: 74%;
+    }
+    .lineD{
+        width: 68%;
+    }
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -340,7 +388,7 @@ header{
 
 @media only screen and (min-width: 768px) {
 
-    header{
+    header.header{
         margin-bottom: 0;
 
         .logo{
@@ -410,7 +458,7 @@ header{
 
 @media only screen and (min-width: 1140px) {
 
-    header{
+    header.header{
         
         h1{
             font-size: 4.6em;
