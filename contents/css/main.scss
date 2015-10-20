@@ -394,9 +394,9 @@ header.header{
         }
         h1{
             margin: 0 0 10px 0;
-            font-size: 1.8em;
+            font-size: 2em;
             color: $ctkDkBlue;
-            line-height: 1.1em;
+            line-height: 1.2em;
         }
             
         h3{
@@ -418,6 +418,9 @@ header.header{
                 margin-right: 115px;
                 margin-top: -30px;
             } 
+            .content .altImage{
+                display: none;
+            }
 
         }
     }
@@ -511,10 +514,33 @@ header.header{
 
             &#director-letter{
                 .imageCol{
+                    display: none;
                     padding-top: 6px;
                 }
+                .textCol{
+                    width: 100%;
+                    float: none;
+                }
                 .content{
-
+                    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                    -moz-column-count: 2; /* Firefox */
+                    column-count: 2;
+                    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+                    -moz-column-gap: 20px; /* Firefox */
+                    column-gap: 20px;
+                    .altImage{
+                        display: inline;
+                        float: left;
+                        height: 170px;
+                        width: 100%;
+                        overflow: hidden;
+                        margin-top: 7px;
+                        margin-bottom: 13px;
+                        img{
+                            max-width: 100%;
+                            margin-top: -220px;
+                        }
+                    }
                 }
 
             }
@@ -522,12 +548,12 @@ header.header{
     }
 }
 
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1040px) {
 
     header.header{
         
         h1{
-            font-size: 5.2em;
+            font-size: 5em;
             margin: 0;
             line-height: 0.4em;
         }
@@ -577,6 +603,7 @@ header.header{
 
     .content-wrap {
         width: 1026px; 
+        box-sizing: border-box;
     }
 
     .col{
@@ -605,7 +632,17 @@ header.header{
 
             &#director-letter{
                 .imageCol{
+                    display: inline-block;
                     padding-top: 7px;
+                    height: 797px;
+                    img{
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+                .textCol{
+                    width: 50%;
+                    float: left;
                 }
                 .content{
                     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -614,6 +651,9 @@ header.header{
                     -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
                     -moz-column-gap: 20px; /* Firefox */
                     column-gap: 20px;
+                    .altImage{
+                        display: none;
+                    }
                 }
 
             }

@@ -4,7 +4,7 @@ author: CTK
 date: 2012-10-01 15:00
 template: director-letter.jade
 excerpt: Klíčová je pro nás péče o zákazníky, a právě proto vám ČTK v letošním roce nabídla novou Infobanku. Její hodnocení z vaší strany jsou vesměs pozitivní.
-introPart1: Vážení a milí kolegové, kolegyně, přátelé a&nbsp;partneři,
+introPart1: Vážení a milí kolegové, kolegyně, přátelé&nbsp;a&nbsp;partneři,
 introPart2: rád na tomto místě znovu konstatuji, že ČTK nadále poskytuje plný rozsah služeb klientům a funguje jako stabilní firma s hodnocením AAA. Kromě toho přinášíme i řadu novinek.
 indexCol: 1
 indexClass: director-letter
@@ -13,6 +13,8 @@ indexImg: director-sm.jpg
 
 ---
 
+
+<span class="altImage"><img src="img/director-tall.jpg"/></span>
 Klíčová je pro nás péče o zákazníky, a právě proto vám ČTK v letošním roce nabídla novou Infobanku. Její hodnocení z vaší strany jsou vesměs pozitivní.
  
 Je to nová, vpravdě revoluční agenturní platforma, s jejíž pomocí se dozvíte kdykoli a kdekoli nejen, co ČTK právě vydala, ale i to, co plánuje, kdy a v jakých mediálních typech. Dozvíte se, zda jsou ke zprávě k dispozici audia, infografika či fotografie. Vidíte, co tvoříme a plánujeme bez ohledu na to, z jakého zařízení do Infobanky přistupujete. Máte v ní k dispozici celou naši aktuální produkci.
