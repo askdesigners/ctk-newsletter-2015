@@ -130,13 +130,13 @@ header.header {
       font-size: 1.2em;
       line-height: 0; }
     #content.index .article.director-letter p:before {
-      content: '\201C';
+      content: '\201D';
       position: relative;
       float: left;
       font-size: 9.6em;
       height: 40px;
       top: -45px;
-      left: -16px;
+      left: -12px;
       width: 50px;
       color: #1d539c; }
     #content.index .article.director-letter h2 {
@@ -293,6 +293,10 @@ header.header {
       margin: 0 0 10px 0; }
     #pages .articleWrapper#director-letter {
       padding-top: 70px; }
+      #pages .articleWrapper#director-letter .signature {
+        float: right;
+        margin-right: 115px;
+        margin-top: -30px; }
 
 /* ==========================================================================
    Media Queries
@@ -338,13 +342,15 @@ header.header {
       clear: both;
       margin-top: 10px; }
   #content.index .article.sefredaktor p {
-    display: none; } }
+    display: none; }
+  #pages .articleWrapper#director-letter .imageCol {
+    padding-top: 6px; } }
 
 @media only screen and (min-width: 1140px) {
   header.header h1 {
-    font-size: 4.6em;
+    font-size: 5.2em;
     margin: 0;
-    line-height: 0.5em; }
+    line-height: 0.4em; }
   #content.index .article h2 {
     line-height: 1.2em;
     margin: 0;
@@ -382,6 +388,8 @@ header.header {
       font-size: 2.5em;
       color: #1d539c;
       line-height: 1.1em; }
+    #pages .articleWrapper#director-letter .imageCol {
+      padding-top: 7px; }
     #pages .articleWrapper#director-letter .content {
       -webkit-column-count: 2;
       /* Chrome, Safari, Opera */

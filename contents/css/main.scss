@@ -164,6 +164,7 @@ header.header{
             img {
                 max-width: 100%;
             }
+
             p {
                 font-size: 0.9em;
                 margin-bottom: 0;
@@ -178,13 +179,13 @@ header.header{
             
             &.director-letter{
                 p:before{
-                    content: '\201C';
+                    content: '\201D';
                     position: relative;
                     float: left;
                     font-size: 9.6em;
                     height: 40px;
                     top: -45px;
-                    left: -16px;
+                    left: -12px;
                     width: 50px;
                     color: $ctkDkBlue;
                 }
@@ -412,8 +413,11 @@ header.header{
 
         &#director-letter{
             padding-top: 70px;
-            .content{
-            }
+            .signature{ 
+                float: right;
+                margin-right: 115px;
+                margin-top: -30px;
+            } 
 
         }
     }
@@ -506,6 +510,9 @@ header.header{
         .articleWrapper{
 
             &#director-letter{
+                .imageCol{
+                    padding-top: 6px;
+                }
                 .content{
 
                 }
@@ -520,9 +527,9 @@ header.header{
     header.header{
         
         h1{
-            font-size: 4.6em;
+            font-size: 5.2em;
             margin: 0;
-            line-height: 0.5em;
+            line-height: 0.4em;
         }
     } 
 
@@ -597,6 +604,9 @@ header.header{
             }
 
             &#director-letter{
+                .imageCol{
+                    padding-top: 7px;
+                }
                 .content{
                     -webkit-column-count: 2; /* Chrome, Safari, Opera */
                     -moz-column-count: 2; /* Firefox */

@@ -9,10 +9,11 @@ block content
 
     .col.col-2.textCol
         header.articleHeader
-            h1= page.metadata.introPart1
+            h1!= page.metadata.introPart1
             h3= page.metadata.introPart2
 
         article.article
             section.content!= typogr(page.html).typogrify()
+            img(src="img/signature.png").signature
 
     .clearfix

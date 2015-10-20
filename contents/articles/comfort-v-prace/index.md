@@ -9,7 +9,7 @@ introPart-2: {{video embed}}
 indexCol: 2
 indexClass: comfort-v-prace
 order: 3
-indexImg: comfort-dummy.jpg
+indexImg: infobank.jpg
 ---
 
 Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK 
