@@ -13,28 +13,33 @@ block content
                     article.article.excerpt(class=article.metadata.indexClass)
                         h2
                             if article.metadata.indexTitle
-                                a(href=article.url)= article.metadata.indexTitle
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.indexTitle
+                                if article.metadata.indexSubtitle
+                                    span= article.metadata.indexSubtitle
+                                        a.scrollToArticle(href='#'+article.metadata.indexClass).moreLink &raquo;
                             else
-                                a(href=article.url)= article.metadata.title
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.title
                         if article.metadata.indexImg
-                            img(src="img/"+article.metadata.indexImg)
+                            a.scrollToArticle(href='#'+article.metadata.indexClass)
+                                img(src="img/"+article.metadata.indexImg)
                         if article.metadata.excerpt
                             p= article.metadata.excerpt
-                                a(href=article.url).moreLink &raquo;
+                                a.scrollToArticle(href='#'+article.metadata.indexClass).moreLink &raquo;
         .col.col-2
             each article in articles
                 if article.metadata.indexCol == '2'
                     article.article.excerpt(class=article.metadata.indexClass)
                         h2
                             if article.metadata.indexTitle
-                                a(href=article.url)= article.metadata.indexTitle
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.indexTitle
                             else
-                                a(href=article.url)= article.metadata.title
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.title
                         if article.metadata.indexImg
-                            img(src="img/"+article.metadata.indexImg)
+                            a.scrollToArticle(href='#'+article.metadata.indexClass)
+                                img(src="img/"+article.metadata.indexImg)
                         if article.metadata.excerpt
                             p= article.metadata.excerpt
-                                a(href=article.url).moreLink &raquo;
+                                a.scrollToArticle(href='#'+article.metadata.indexClass).moreLink &raquo;
 
         .col.col-1
             each article in articles
@@ -42,14 +47,15 @@ block content
                     article.article.excerpt(class=article.metadata.indexClass)
                         h2
                             if article.metadata.indexTitle
-                                a(href=article.url)= article.metadata.indexTitle
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.indexTitle
                             else
-                                a(href=article.url)= article.metadata.title
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.title
                         if article.metadata.indexImg
-                            img(src="img/"+article.metadata.indexImg)
+                            a.scrollToArticle(href='#'+article.metadata.indexClass)
+                                img(src="img/"+article.metadata.indexImg)
                         if article.metadata.excerpt
                             p= article.metadata.excerpt
-                                a(href=article.url).moreLink &raquo;
+                                a.scrollToArticle(href='#'+article.metadata.indexClass).moreLink &raquo;
 
         span.clearfix
 

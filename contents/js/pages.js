@@ -1,7 +1,24 @@
 jQuery(document).ready(function($) {
 
+    var loader = function(elem, cb){
+        // console.log('loading', window.location.href.replace(/\/$/, ""));
+        elem.jq.find('.articleTarget').fadeOut('slow', function() {
+            elem.jq.find('.articleTarget').load( window.location.href.split('#')[0].replace(/\/$/, "") + elem.link + " .articleContents", function(e){
+                elem.isLoaded = true;
+                // console.log('loaded!', elem);
+                elem.jq.find('.articleTarget').fadeIn('slow');
+                if(typeof cb == 'function'){
+                    cb();
+                }
+            });
+        });
+    };
+
+    var handler = onVisibilityChange(),
+        pagesFixed = true,
+        allLoaded = false;
+
     function isElementInViewport (el) {
-        //special bonus for those using jQuery
         if (typeof jQuery === "function" && el instanceof jQuery) {
             el = el[0];
         }
@@ -20,20 +37,6 @@ jQuery(document).ready(function($) {
             articlesArr[i].isLoaded = false;
         };
         return function () {
-            // console.log('visibility ' + isElementInViewport($('#redakci-techniku')));
-            // console.log('handle');
-            
-            var loader = function(elem){
-                console.log('loading', window.location.href.replace(/\/$/, ""));
-                elem.jq.find('.articleTarget').fadeOut('slow', function() {
-                    elem.jq.find('.articleTarget').load( window.location.href.replace(/\/$/, "") + elem.link + " .articleContents", function(e){
-                        elem.isLoaded = true;
-                        console.log('loaded!', elem);
-                        elem.jq.find('.articleTarget').fadeIn('slow');
-                    });
-                });
-            };
-
             for (var c = articlesArr.length - 1; c >= 0; c--) {
                 if(isElementInViewport(articlesArr[c].jq) && !articlesArr[c].isLoaded){
                     loader(articlesArr[c]);
@@ -42,19 +45,28 @@ jQuery(document).ready(function($) {
         }
     }
 
-    var handler = onVisibilityChange(),
-        pagesFixed = true;
+    function loadAll(cb){
+        var artLoaded = 0;
+        for (var c = articlesArr.length - 1; c >= 0; c--) {
+            loader(articlesArr[c], counter);
+        };
+        function counter(){
+            artLoaded = artLoaded + 1;
+            console.log('counting ', artLoaded, articlesArr.length - 1);
+            if (artLoaded == articlesArr.length - 1) {
+                console.log("all loaded!");
+                allLoaded = true;
+                cb();
+            };
+        }
+    }
 
     $(window).on('DOMContentLoaded load resize scroll', function(e){
-        console.log($(window).scrollTop());
         handler();
-        $.throttle(0, function(){
-            console.log('scrolled');
-        });
-        if($(window).scrollTop() >= 942 && pagesFixed == true){
+        if($(window).scrollTop() >= 968 && pagesFixed == true){
             pagesFixed = false;
             $('#pages').addClass('relative');
-        } else if($(window).scrollTop() < 942 && pagesFixed == false) {
+        } else if($(window).scrollTop() < 968 && pagesFixed == false) {
             pagesFixed = true;
             $('#pages').removeClass('relative');
 
@@ -62,5 +74,26 @@ jQuery(document).ready(function($) {
     });
 
     articlesArr[0].isLoaded = true;
-    articlesArr[0].jq.load( window.location.href.replace(/\/$/, "") + articlesArr[0].link + " .articleContents" );
+    articlesArr[0].jq.load( window.location.href.split('#')[0].replace(/\/$/, "") + articlesArr[0].link + " .articleContents" );
+    
+    $('.scrollToArticle').on('click', function(e){
+        e.preventDefault();
+
+        var self = this;
+        if(allLoaded == true){
+            console.log('all loaded already');
+            $('html, body').animate({
+                scrollTop: $($(self).attr('href')).offset().top + 968
+            }, 2000);
+        } else {
+            console.log('loading all');
+            loadAll(function(){
+                console.log('scrolling')
+                $('html, body').animate({
+                    scrollTop: $($(self).attr('href')).offset().top + 968
+                }, 2000);
+            });
+        }
+    });
+    
 }); 

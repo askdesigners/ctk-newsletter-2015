@@ -1,5 +1,5 @@
 ---
-title: Uvodní slovo generálního reditele
+title: Úvodní slovo generálního ředitele
 author: CTK
 date: 2012-10-01 15:00
 template: director-letter.jade

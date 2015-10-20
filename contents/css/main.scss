@@ -167,14 +167,15 @@ header.header{
             p {
                 font-size: 0.9em;
                 margin-bottom: 0;
-
-                .moreLink{
-                    text-decoration: none;
-                    margin-left: 5px;
-                    font-size: 1.2em;
-                    line-height: 0;
-                }
             }
+
+            .moreLink{
+                text-decoration: none;
+                margin-left: 5px;
+                font-size: 1.2em;
+                line-height: 0;
+            }
+            
             &.director-letter{
                 p:before{
                     content: '\201C';
@@ -199,7 +200,7 @@ header.header{
                     width: 78%;
                     padding: 10px;
                     bottom: 0;
-                    line-height: 1.1em;
+                    line-height: 1.3em;
                     font-size: 1em;
                     a{ 
                         background-image: linear-gradient(to bottom, white 50%, white 50%);
@@ -212,23 +213,22 @@ header.header{
                 }
             }
             &.czech-press-photo{
-                height: 87px;
+                // height: 146px;
                 overflow: hidden;
-                h2{
-                    position: absolute;
-                    width: 78%;
-                    padding: 10px;
-                    bottom: 0;
-                    line-height: 1.1em;
-                    font-size: 1em;
-                    a{ 
-                        background-image: linear-gradient(to bottom, white 50%, white 50%);
-                        color: white;
-                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
-                        &:hover {
-                            color: $ctkLtBlue;
-                        }
+                h2{ 
+                    line-height: 1.2em;
+                    font-size: 0.9em;
+                    padding: 0;
+                    margin-bottom: 10px;
+                    span { 
+                        font-family: $light;
+                        margin-left: 5px;
+                        margin-right: 5px;
                     }
+                }
+                img{
+                    position: absolute;
+                    bottom: 0;
                 }
             }
             &.comfort-v-prace{
@@ -345,7 +345,6 @@ header.header{
 }
 
 #pages{
-    background: $superLightGrey;
     position: fixed;
     width: 100%;
     top: 0;
@@ -378,9 +377,13 @@ header.header{
         padding-bottom: 60px;
         border-bottom: 1px solid $borderGrey;
         // margin-bottom: 30px;
+
+        &:nth-child(even){
+            background: $superLightGrey;
+        }
         h1{
             margin: 0 0 10px 0;
-            font-size: 2.5em;
+            font-size: 1.8em;
             color: $ctkDkBlue;
             line-height: 1.1em;
         }
@@ -398,13 +401,8 @@ header.header{
         }
 
         &#director-letter{
+            padding-top: 70px;
             .content{
-                -webkit-column-count: 2; /* Chrome, Safari, Opera */
-                -moz-column-count: 2; /* Firefox */
-                column-count: 2;
-                -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-                -moz-column-gap: 20px; /* Firefox */
-                column-gap: 20px;
             }
 
         }
@@ -489,6 +487,17 @@ header.header{
             }
         }
     }
+    #pages{
+        .articleWrapper{
+
+            &#director-letter{
+                .content{
+
+                }
+
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -517,22 +526,20 @@ header.header{
                 &.sefredaktor{
                     h2{
                         width: 74%;
-                        line-height: 1.2em;
+                        line-height: 1.3em;
                         font-size: 1.3em;
                     }
                 }
                 &.czech-press-photo{
-                    height: 87px;
+                    // height: 146px;
                     overflow: hidden;
                     h2{
-                        padding: 10px;
-                        width: 100%;
-                        line-height: 1.2em;
-                        font-size: 1.3em;
                         z-index: 100;
+
+
                     }
                     img{
-                        top: -50px;
+                        // top: -50px;
                         position: relative;
                     }
                 }
@@ -557,6 +564,32 @@ header.header{
 
     .col-1{
         width: 25%;
+    }
+    #pages{
+        .articleWrapper{
+            min-height: 400px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid $borderGrey;
+
+            h1{
+                margin: 0 0 10px 0;
+                font-size: 2.5em;
+                color: $ctkDkBlue;
+                line-height: 1.1em;
+            }
+
+            &#director-letter{
+                .content{
+                    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                    -moz-column-count: 2; /* Firefox */
+                    column-count: 2;
+                    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+                    -moz-column-gap: 20px; /* Firefox */
+                    column-gap: 20px;
+                }
+
+            }
+        }
     }
 }
 
