@@ -24,9 +24,9 @@ jQuery(document).ready(function($) {
             // console.log('handle');
             
             var loader = function(elem){
-                console.log('loading', elem);
+                console.log('loading', elem, window.location.pathname);
                 elem.jq.find('.articleTarget').fadeOut('slow', function() {
-                    elem.jq.find('.articleTarget').load( elem.link + " .articleContents", function(e){
+                    elem.jq.find('.articleTarget').load( window.location.pathname + elem.link + " .articleContents", function(e){
                         elem.isLoaded = true;
                         console.log('loaded!', elem);
                         elem.jq.find('.articleTarget').fadeIn('slow');
