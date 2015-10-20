@@ -211,6 +211,16 @@ header.header{
                         }
                     }
                 }
+                p{
+                    position: absolute;
+                    top: 0;
+                    color: rgb(255, 255, 255);
+                    padding: 0 10px;
+                    width: 70%;
+                    a{
+                        display: none;
+                    }
+                }
             }
             &.czech-press-photo{
                 // height: 146px;
@@ -484,6 +494,11 @@ header.header{
                         margin-top: 10px;
                     }
                 }
+                &.sefredaktor{
+                    p{  
+                        display: none;
+                    }
+                }
             }
         }
     }
@@ -528,6 +543,9 @@ header.header{
                         width: 74%;
                         line-height: 1.3em;
                         font-size: 1.3em;
+                    }
+                    p{  
+                        display: block;
                     }
                 }
                 &.czech-press-photo{

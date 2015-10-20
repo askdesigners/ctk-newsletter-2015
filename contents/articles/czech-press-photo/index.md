@@ -1,7 +1,7 @@
 ---
 title: Roman Vondrouš získal v soutěži Czech Press Photo 2015 první cenu v kategorii Každodenní život
 indexTitle: Roman Vondrouš 
-indexSubtitle: získal Czech Press Photo 2015 první cenu v kategorii Každodenní život
+indexSubtitle: vyhrál v Czech Press Photo 2015
 author: CTK
 date: 2012-10-01 15:00
 template: czech-press-photo.jade

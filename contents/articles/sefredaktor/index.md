@@ -1,10 +1,10 @@
 ---
 title: Význam tiskové agentury v informační éře poroste
-indexTitle: rozhovor se šéfredaktorem ČTK Petrem Holubcem
+indexTitle: Význam tiskové agentury v informační éře poroste
 author: CTK
 date: 2012-10-01 15:00
 template: sefredaktor.jade
-excerpt: 
+excerpt: rozhovor se šéfredaktorem ČTK Petrem Holubcem
 introPart-1: Petr Holubec je šéfredaktorem ČTK rovné čtvrtstoletí. Na podzim 1990 si ho redakce do svého čela sama vybrala. Agentura a její zpravodajství za tu dobu prošly zásadními změnami, u jejichž vymýšlení a prosazování vždy stál. Letos se rozhodl, že na jaře 2016 z šéfovského postu odejde. Má za to, že po 40 letech práce ve firmě už je na to čas.
 indexCol: 1
 indexClass: sefredaktor

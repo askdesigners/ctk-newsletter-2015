@@ -6,7 +6,7 @@ block vars
 
 block content
     #index
-        - var articles = _.chain(env.helpers.getArticles(contents)).sortBy(function(article){ console.log(article.metadata.order); return article.metadata.order; }).value();
+        - var articles = _.chain(env.helpers.getArticles(contents)).sortBy(function(article){ return article.metadata.order; }).value();
         .col.col-1
             each article in articles
                 if article.metadata.indexCol == '1'
@@ -19,6 +19,7 @@ block content
                                         a.scrollToArticle(href='#'+article.metadata.indexClass).moreLink &raquo;
                             else
                                 a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.title
+
                         if article.metadata.indexImg
                             a.scrollToArticle(href='#'+article.metadata.indexClass)
                                 img(src="img/"+article.metadata.indexImg)
@@ -60,7 +61,6 @@ block content
         span.clearfix
 
 block pages
-    - console.log(articles)
     script.
         var articlesArr = [];
 

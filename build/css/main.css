@@ -154,6 +154,14 @@ header.header {
         text-shadow: 0px 1px 1px #1d539c; }
         #content.index .article.sefredaktor h2 a:hover {
           color: #2c8bc4; }
+    #content.index .article.sefredaktor p {
+      position: absolute;
+      top: 0;
+      color: white;
+      padding: 0 10px;
+      width: 70%; }
+      #content.index .article.sefredaktor p a {
+        display: none; }
     #content.index .article.czech-press-photo {
       overflow: hidden; }
       #content.index .article.czech-press-photo h2 {
@@ -328,7 +336,9 @@ header.header {
       width: 50%; }
     #content.index .article.fotobanka p {
       clear: both;
-      margin-top: 10px; } }
+      margin-top: 10px; }
+  #content.index .article.sefredaktor p {
+    display: none; } }
 
 @media only screen and (min-width: 1140px) {
   header.header h1 {
@@ -345,6 +355,8 @@ header.header {
     width: 74%;
     line-height: 1.3em;
     font-size: 1.3em; }
+  #content.index .article.sefredaktor p {
+    display: block; }
   #content.index .article.czech-press-photo {
     overflow: hidden; }
     #content.index .article.czech-press-photo h2 {

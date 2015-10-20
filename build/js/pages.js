@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
         return (
             rect.top >= 0 &&
             rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight-50) && /*or $(window).height() */
+            rect.bottom-200 <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
             rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
         );
     }
@@ -62,15 +62,15 @@ jQuery(document).ready(function($) {
     }
 
     $(window).on('DOMContentLoaded load resize scroll', function(e){
-        handler();
+        // console.log($(window).scrollTop());
         if($(window).scrollTop() >= 968 && pagesFixed == true){
             pagesFixed = false;
             $('#pages').addClass('relative');
         } else if($(window).scrollTop() < 968 && pagesFixed == false) {
             pagesFixed = true;
             $('#pages').removeClass('relative');
-
         }
+        handler();
     });
 
     articlesArr[0].isLoaded = true;
@@ -81,12 +81,10 @@ jQuery(document).ready(function($) {
 
         var self = this;
         if(allLoaded == true){
-            console.log('all loaded already');
             $('html, body').animate({
                 scrollTop: $($(self).attr('href')).offset().top + 968
             }, 2000);
         } else {
-            console.log('loading all');
             loadAll(function(){
                 console.log('scrolling')
                 $('html, body').animate({
