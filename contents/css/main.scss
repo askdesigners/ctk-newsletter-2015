@@ -355,6 +355,9 @@ header.header{
 
     .articleWrapper{
         min-height: 400px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid $borderGrey;
+        // margin-bottom: 30px;
     }
 
     .greeking {

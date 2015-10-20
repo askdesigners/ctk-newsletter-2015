@@ -62,5 +62,5 @@ jQuery(document).ready(function($) {
     });
 
     articlesArr[0].isLoaded = true;
-    articlesArr[0].jq.load( articlesArr[0].link + " .articleContents" );
+    articlesArr[0].jq.load( window.location.href.replace(/\/$/, "") + articlesArr[0].link + " .articleContents" );
 }); 
