@@ -9,17 +9,15 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>SONS distribuuje zrakově postiženým zprávy ČTK</title>
-      <link>http://localhost:8080/articles/distribuce-zpravy/</link>
+      <title>Ve Fotobance ČTK bude mít klient cestu k fotografiím snadnější</title>
+      <link>http://localhost:8080/articles/fotobanka/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/distribuce-zpravy/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/fotobanka/</guid>
       <author></author>
-      <description>&lt;p&gt;Sjednocená organizace nevidomých a slabozrakých ČR (SONS) distribuuje zprávy ČTK zrakově postiženým odběratelům pomocí e-mailových zpráv do jejich mailových schránek. &lt;/p&gt;
-&lt;p&gt;Moderní počítačové technologie, jako jsou zvětšovací programy pro slabozraké nebo odečítací programy pro nevidomé, umožňují tyto zprávy velmi pohodlně číst. Pro klienty SONS je velmi užitečné, že zprávy jsou rozděleny do tematických kategorií - domácí, zahraniční, sport a ekonomika. Každá přichází z jiné e-mailové adresy, takže si je uživatel může nechat automaticky třídit do příslušných složek. Zpráva je v prostém textu a titulek zprávy je předmětem e-mailu. Uživatel se tedy může ihned rozhodnout, zda ho daná informace zajímá, či ne.&lt;/p&gt;
-&lt;p&gt;Tato metoda je pro zrakově postižené mnohem přehlednější a přístupnější než dnešní příliš dynamické, grafické a často se měnící webové stránky.&lt;/p&gt;
-&lt;p&gt;Počet odběratelů se průběžně mění, ale možnost odběru zpráv v současné době má na 1500 uživatelů. Ti službu hodnotí velmi pozitivně.&lt;/p&gt;
-&lt;p&gt;Sjednocená organizace nevidomých a slabozrakých ČR je spolek s celorepublikovou působností, s více než stoletou tradicí a desetitisícovou členskou základnou nevidomých a slabozrakých občanů.&lt;/p&gt;
-&lt;p&gt;(www.sons.cz)[www.sons.cz]&lt;/p&gt;
+      <description>&lt;p&gt;Fotobanka v roce 2015 pokračovala v inovacích, které začaly v září roku 2014 nasazením nového webu. Díky přepracované databázi, novému vyhledávacímu jádru a celé řadě dalších vylepšení je nyní odezva aplikace mnohonásobně rychlejší a vyhledávání fotografií komfortnější. Klient tak má k fotografiím mnohem snazší cestu. &lt;/p&gt;
+&lt;p&gt;Na přelomu roku 2015 a 2016 by měly webové stránky začít využívat technologii Visual Search společnosti Pixolution. Ta umožní nalézt fotografie nikoli jen na základě metadat jako doposud, ale rovněž na základě vizuální podobnosti snímků. &lt;/p&gt;
+&lt;p&gt;Fotobanka ČTK se v roli generálního dodavatele podílí na dvou fotografických výstavách uspořádaných v rámci projektu Plzeň Evropské město kultury 2015. První výstava, nazvaná Plzeňské rodinné fotoalbum, skončila v polovině července. Od 20. října bude k vidění druhá výstava, pojmenovaná Ráj mezi čtyřmi řekami, kterou opět Fotobanka ČTK dodává na klíč jako generální partner. Kromě výše zmíněných výstav se ČTK podílí i na fotografické publikaci, která by měla obě výstavy zmapovat a shrnout. &lt;/p&gt;
+&lt;p&gt;Začátkem prázdnin se ve fotoarchivu ČTK uskutečnila přednáška pro restaurátory fotografií. Akce se konala v rámci mezinárodního workshopu, který pořádal The Getty Conservation Institute (GCI) ve spolupráci s Ústavem dějin umění AV ČR, v.v.i.&lt;/p&gt;
 </description>
     </item>
     <item>
@@ -43,17 +41,56 @@
 </description>
     </item>
     <item>
-      <title>Klienti oceňují komfort při práci s novou Infobankou ČTK</title>
-      <link>http://localhost:8080/articles/comfort-v-prace/</link>
+      <title>Hospodaření ČTK v roce 2014</title>
+      <link>http://localhost:8080/articles/hospodareni-ctk/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/comfort-v-prace/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/hospodareni-ctk/</guid>
       <author></author>
-      <description>&lt;p&gt;Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK &lt;/p&gt;
-&lt;p&gt;„Povedlo se naplnit heslo Četka do kapsy (ČDK) a statistiky to potvrzují – evidujeme přibližně deset procent přístupů z mobilních zařízení. Poměr mobily/tablety vychází podobně devět ku jedné,“ dodává k tomu obchodní ředitel ČTK Jaroslav Richter.&lt;/p&gt;
-&lt;p&gt;Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat. Počítá se také s tím, že on-line přístup do Infobanky si bude moci koupit kdokoli, nebude muset kvůli tomu uzavírat s ČTK smlouvu.&lt;/p&gt;
-&lt;p&gt;Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.&lt;/p&gt;
-&lt;p&gt;Více o nové Infobance, nápověda a videa jsou zde:&lt;/p&gt;
-&lt;p&gt;(&lt;a href=&quot;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&quot;&gt;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&lt;/a&gt;]&lt;/p&gt;
+      <description>&lt;p&gt;ČTK v roce 2014 pokračovala v trendu roku 2013, kdy hospodařila se ziskem a kdy se do kladných poloh vrátily všechny rozhodující ukazatele. Vzhledem k tomu, že agentura už několik let neprovozuje vedlejší činnosti a ani v roce 2014 nezaznamenala jednorázové vlivy na hospodaření, jde opět o výsledek opírající se o kvalitu hlavního „produktu“, tedy zpravodajství.&lt;/p&gt;
+&lt;p&gt;Stejně jako v roce 2013 byl hospodářský výsledek mírně nad 3 mil. Kč. Stejně jako v roce 2013 nebyl pokles výnosů tak masivní jako v letech ekonomické krize, i když tlak na ceny nadále trvá, a to jak u mediálních klientů, tak u státní správy.&lt;/p&gt;
+&lt;p&gt;Klíčem k úspěšnému roku byl vývoj v hlavních činnostech,  kde se podařilo stabilizovat úroveň výnosů i nákladů. Jejich zisk dosáhl výše &lt;strong&gt;8 572 tis. Kč&lt;/strong&gt; a překonal rozpočet o 8,8 mil. Kč.&lt;/p&gt;
+&lt;p&gt;Finanční situace agentury byla a je nadále stabilní. Likvidita prvního stupně, tedy poměr krátkodobého finančního majetku a krátkodobých závazků, dosáhla hodnoty 5,52. Agentura nemá žádné bankovní půjčky.&lt;/p&gt;
+&lt;p&gt;Stabilitu agentury potvrdilo v roce 2014 v rámci hodnocení Czech Top 100 také ratingové ocenění AAA Czech Stability Award, udělené společností Bisnode.&lt;/p&gt;
+&lt;p&gt;Rozhodující čísla o hospodaření v roce 2014&lt;/p&gt;
+&lt;p&gt;– table – &lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>SONS distribuuje zrakově postiženým zprávy ČTK</title>
+      <link>http://localhost:8080/articles/distribuce-zpravy/</link>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/distribuce-zpravy/</guid>
+      <author></author>
+      <description>&lt;p&gt;Sjednocená organizace nevidomých a slabozrakých ČR (SONS) distribuuje zprávy ČTK zrakově postiženým odběratelům pomocí e-mailových zpráv do jejich mailových schránek. &lt;/p&gt;
+&lt;p&gt;Moderní počítačové technologie, jako jsou zvětšovací programy pro slabozraké nebo odečítací programy pro nevidomé, umožňují tyto zprávy velmi pohodlně číst. Pro klienty SONS je velmi užitečné, že zprávy jsou rozděleny do tematických kategorií - domácí, zahraniční, sport a ekonomika. Každá přichází z jiné e-mailové adresy, takže si je uživatel může nechat automaticky třídit do příslušných složek. Zpráva je v prostém textu a titulek zprávy je předmětem e-mailu. Uživatel se tedy může ihned rozhodnout, zda ho daná informace zajímá, či ne.&lt;/p&gt;
+&lt;p&gt;Tato metoda je pro zrakově postižené mnohem přehlednější a přístupnější než dnešní příliš dynamické, grafické a často se měnící webové stránky.&lt;/p&gt;
+&lt;p&gt;Počet odběratelů se průběžně mění, ale možnost odběru zpráv v současné době má na 1500 uživatelů. Ti službu hodnotí velmi pozitivně.&lt;/p&gt;
+&lt;p&gt;Sjednocená organizace nevidomých a slabozrakých ČR je spolek s celorepublikovou působností, s více než stoletou tradicí a desetitisícovou členskou základnou nevidomých a slabozrakých občanů.&lt;/p&gt;
+&lt;p&gt;(www.sons.cz)[www.sons.cz]&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Šéfredaktor ČTK Petr Holubec: Význam tiskové agentury v informační éře poroste</title>
+      <link>http://localhost:8080/articles/info-era/</link>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/info-era/</guid>
+      <author></author>
+      <description>&lt;h2 id=&quot;jak-je-v-nejsiln-j-novin-sk-z-itek-&quot;&gt;Jaký je váš nejsilnější novinářský zážitek?&lt;/h2&gt;
+&lt;p&gt;Bezesporu to byly události po 17. listopadu 1989. Byla to doba plná emocí, adrenalinu a úplně nových zkušeností. Mnozí z četkařů se snažili očistit jméno agentury. Nadřízeným, silně spjatým s minulým režimem, jsme říkali, ať odejdou, začali jsme vydávat zprávy sami, bez dohledu skalních komunistů, a to všechno v době, kdy ještě nebylo zřejmé, jak to všechno dopadne. Stále nebylo jisté, zda tvrdé jádro ve vedení KSČ nepošle “na obranu socialismu” proti občanům armádu, policii a Lidové milice.
+Pro ilustraci té doby mohu připomenout, že 20. listopadu jsme vydali do té doby nevídaně otevřenou zprávu o tom, že na Václavském náměstí v Praze se sešlo více než 100.000 lidí, kteří protestovali „proti zákroku pořádkových sil vůči účastníkům pražského studentského průvodu v pátek 17. listopadu a požadovali zásadní politické reformy”. Na to promptně reagovala agentura Reuter’s zprávou, že oficiální československá tisková agentura ČTK vydala bezprecedentní zprávu.
+V té době jsme s kolegy psali Kroniku sametové revoluce, která měla enormní čtenářský úspěch. Fronta zájemců o ni se táhla od nás z Opletalovy ulice za roh několikastupem snad 200 metrů.
+Zážitků bylo samozřejmě mnohem víc. Volba Václava Havla prezidentem, první svobodné volby, dělení státu, počátky privatizace atd. Dějinám agentura dýchá na záda. Pořád mě to fascinuje.&lt;/p&gt;
+&lt;h2 id=&quot;v-em-se-tk-za-to-tvrtstolet-zm-nila-&quot;&gt;V čem se ČTK za to čtvrtstoletí změnila.&lt;/h2&gt;
+&lt;p&gt;V první řadě je ekonomicky, a tudíž i redakčně nezávislá. Přestože je veřejnoprávní institucí, chová se jako normální obchodní společnost. Vydělává si na svou činnost prodejem zpravodajství. Od nikoho nedostává žádné poplatky nebo dotace. 
+Mentalita nynějších a tehdejších četkařů je nesrovnatelná. Nyní kolegyně a kolegové kladou politikům nepříjemné otázky s naprostou samozřejmostí a suverenitou. Ve zprávách nic nezamlžují, nelakují na růžovo.
+Extrémně se zvýšil výkon redaktorů a reportérů. Jejich počet se snížil ze 418 v roce 1990 na současných 175, ale počet vydaných zpráv za rok se zvýšil z 83.000 na 211.000. Tedy zatímco na jednoho člena redakce připadalo v roce 1990 necelých 200 zpráv, nyní je to přes 1200. A k tomu je třeba přidat vydávané grafy, fotky, audia a videa. Produktivita četkařů je neuvěřitelná.
+Naprosto se změnilo prostředí, v němž agentura působí. Zatímco za totality měla monopol, od začátku 90. let postupně vznikla – a často i zanikla - téměř desítka konkurenčních agentur. A pak nás obklopuje internet a nové informační technologie. Před 25 lety jsme zprávy klientům posílali dálnopisem a fotky telefotem nebo i potrubní poštou. V roce 1990 jsme zaměstnali redakčního poslíčka, aby chodil mj. pro komuniké ze zasedání vlády. Nyní všechno hned visí na webech a sociálních sítích. Jsou to nesrovnatelné doby.&lt;/p&gt;
+&lt;h2 id=&quot;kam-podle-v-s-v-voj-je-t-p-jde-&quot;&gt;Kam podle vás vývoj ještě půjde?&lt;/h2&gt;
+&lt;p&gt;Nejsem odborník na informační technologie, ale co se zpravodajství týká, myslím, že bude stále více informací veřejně dostupných. Také bude publikováno mnohem více fotografií a videoreportáží od nenovinářů, ať již z řad policistů nebo hasičů, ale také od běžných občanů. Jsem přesvědčen, že význam tiskové agentury v této přemíře informací bude sílit. Její role bude ve vyhledávání informací, jejich ověřování a uvedení do souvislostí. Její mediální klienti budou více než dosud využívat její servis, aby vlastní redakční síly mohli soustředit na své původní, zejména investigativní materiály, aby se více odlišili od svých konkurentů.&lt;/p&gt;
+&lt;h2 id=&quot;co-p-ejete-tk-do-budoucna-&quot;&gt;Co přejete ČTK do budoucna?&lt;/h2&gt;
+&lt;p&gt;Především aby si udržela ekonomickou nezávislost a redakční svobodu. Aby si její klienti uvědomovali, že jim agentura pomáhá, protože jim šetří energii a peníze.  Aby si Četka udržela kvalitní redaktory a reportéry, jaké má nyní, a aby si zachovala svou kolegiální podnikovou kulturu.&lt;/p&gt;
+&lt;h2 id=&quot;jak-je-va-e-ivotn-kr-do-&quot;&gt;Jaké je vaše životní krédo?&lt;/h2&gt;
+&lt;p&gt;Možná než životní krédo bude pro tento rozhovor příhodnější profesní krédo, pro které jsem se rozhodl v roce 1990, kdy mě kolegyně a kolegové zvolili šéfredaktorem. Bylo to v době, kdy z dob totality neexistovaly ani novinářské, ani manažerské vzory. Držím se ho dosud: Už se nikdy z nikoho a z ničeho nepo… a k agentuře se chovej, jako bys ji vlastnil. &lt;/p&gt;
 </description>
     </item>
     <item>
@@ -75,30 +112,36 @@
 </description>
     </item>
     <item>
-      <title>Hospodaření ČTK v roce 2014</title>
-      <link>http://localhost:8080/articles/hospodareni-ctk/</link>
+      <title>Klienti oceňují komfort při práci s novou Infobankou ČTK</title>
+      <link>http://localhost:8080/articles/comfort-v-prace/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/hospodareni-ctk/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/comfort-v-prace/</guid>
       <author></author>
-      <description>&lt;p&gt;ČTK v roce 2014 pokračovala v trendu roku 2013, kdy hospodařila se ziskem a kdy se do kladných poloh vrátily všechny rozhodující ukazatele. Vzhledem k tomu, že agentura už několik let neprovozuje vedlejší činnosti a ani v roce 2014 nezaznamenala jednorázové vlivy na hospodaření, jde opět o výsledek opírající se o kvalitu hlavního „produktu“, tedy zpravodajství.&lt;/p&gt;
-&lt;p&gt;Stejně jako v roce 2013 byl hospodářský výsledek mírně nad 3 mil. Kč. Stejně jako v roce 2013 nebyl pokles výnosů tak masivní jako v letech ekonomické krize, i když tlak na ceny nadále trvá, a to jak u mediálních klientů, tak u státní správy.&lt;/p&gt;
-&lt;p&gt;Klíčem k úspěšnému roku byl vývoj v hlavních činnostech,  kde se podařilo stabilizovat úroveň výnosů i nákladů. Jejich zisk dosáhl výše &lt;strong&gt;8 572 tis. Kč&lt;/strong&gt; a překonal rozpočet o 8,8 mil. Kč.&lt;/p&gt;
-&lt;p&gt;Finanční situace agentury byla a je nadále stabilní. Likvidita prvního stupně, tedy poměr krátkodobého finančního majetku a krátkodobých závazků, dosáhla hodnoty 5,52. Agentura nemá žádné bankovní půjčky.&lt;/p&gt;
-&lt;p&gt;Stabilitu agentury potvrdilo v roce 2014 v rámci hodnocení Czech Top 100 také ratingové ocenění AAA Czech Stability Award, udělené společností Bisnode.&lt;/p&gt;
-&lt;p&gt;Rozhodující čísla o hospodaření v roce 2014&lt;/p&gt;
-&lt;p&gt;– table – &lt;/p&gt;
+      <description>&lt;p&gt;Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK &lt;/p&gt;
+&lt;p&gt;„Povedlo se naplnit heslo Četka do kapsy (ČDK) a statistiky to potvrzují – evidujeme přibližně deset procent přístupů z mobilních zařízení. Poměr mobily/tablety vychází podobně devět ku jedné,“ dodává k tomu obchodní ředitel ČTK Jaroslav Richter.&lt;/p&gt;
+&lt;p&gt;Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat. Počítá se také s tím, že on-line přístup do Infobanky si bude moci koupit kdokoli, nebude muset kvůli tomu uzavírat s ČTK smlouvu.&lt;/p&gt;
+&lt;p&gt;Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.&lt;/p&gt;
+&lt;p&gt;Více o nové Infobance, nápověda a videa jsou zde:&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&quot;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&quot;&gt;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&lt;/a&gt;]&lt;/p&gt;
 </description>
     </item>
     <item>
-      <title>Ve Fotobance ČTK bude mít klient cestu k fotografiím snadnější</title>
-      <link>http://localhost:8080/articles/fotobanka/</link>
+      <title>Agentura spustila novou službu ČTK LIVE</title>
+      <link>http://localhost:8080/articles/nova-sluzba/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/fotobanka/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/nova-sluzba/</guid>
       <author></author>
-      <description>&lt;p&gt;Fotobanka v roce 2015 pokračovala v inovacích, které začaly v září roku 2014 nasazením nového webu. Díky přepracované databázi, novému vyhledávacímu jádru a celé řadě dalších vylepšení je nyní odezva aplikace mnohonásobně rychlejší a vyhledávání fotografií komfortnější. Klient tak má k fotografiím mnohem snazší cestu. &lt;/p&gt;
-&lt;p&gt;Na přelomu roku 2015 a 2016 by měly webové stránky začít využívat technologii Visual Search společnosti Pixolution. Ta umožní nalézt fotografie nikoli jen na základě metadat jako doposud, ale rovněž na základě vizuální podobnosti snímků. &lt;/p&gt;
-&lt;p&gt;Fotobanka ČTK se v roli generálního dodavatele podílí na dvou fotografických výstavách uspořádaných v rámci projektu Plzeň Evropské město kultury 2015. První výstava, nazvaná Plzeňské rodinné fotoalbum, skončila v polovině července. Od 20. října bude k vidění druhá výstava, pojmenovaná Ráj mezi čtyřmi řekami, kterou opět Fotobanka ČTK dodává na klíč jako generální partner. Kromě výše zmíněných výstav se ČTK podílí i na fotografické publikaci, která by měla obě výstavy zmapovat a shrnout. &lt;/p&gt;
-&lt;p&gt;Začátkem prázdnin se ve fotoarchivu ČTK uskutečnila přednáška pro restaurátory fotografií. Akce se konala v rámci mezinárodního workshopu, který pořádal The Getty Conservation Institute (GCI) ve spolupráci s Ústavem dějin umění AV ČR, v.v.i.&lt;/p&gt;
+      <description>&lt;p&gt;ČTK se letos naplno vrhla do on-line přenosů -  stručného, rychlého a průběžného zpravodajství z vybraných významných událostí. Odběratelé je mohou využít přímo k publikaci na internetu nebo jako podklad pro své vlastní on-line přenosy. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/loginbox.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Letos na jaře jsme si nejprve několikrát vyzkoušeli vysílání on-line přenosu takříkajíc „do zdi“. Bylo to mimo jiné při útoku střelce v Uherském Brodu nebo při průjezdu konvoje amerických vojáků Českou republikou. Když jsme s programátory „vychytali mouchy“, nabídli jsme - stále ještě v testovacím režimu a zdarma - on-line přenosy klientům. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/screenshot.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;On-line přenosem jsme kryli zahájení soudů se zdravotnicí obžalovanou z vražd pacientů v rumburské nemocnici i s Petrem Kramným souzeným pro vraždu své dcery a manželky v Egyptě, vývoj řecké finanční krize, referendum a summit EU o úsporných opatřeních v Řecku. On-line přenos jsme nasadili i na vyhlášení rozsudku nad bývalým poslancem ČSSD Davidem Rathem nebo na bilanční tiskovou konferenci prezidenta Miloše Zemana, zahájení soudu v kauze Opencard či karlovarský filmový festival. Vyzkoušeli jsme si přenosy několikadenní i ty, které skončily třeba po hodině. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/screenshot-court.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Zatím o on-line přenosy projevily největší zájem weby  Aktuálně.cz, Lidovky.cz, iHNed.cz, Blesk.cz, TN.cz, Týden.cz, web Českého rozhlasu, weby Deníku VLP, Investiční web.cz nebo Roklen.cz. Ohlasy jsou veskrze pozitivní. Také četkaři pokládají službu LIVE za užitečnou, přenosy jim například pomáhají při tvorbě klasického zpravodajství i v jeho zrychlení. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/newscloud.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;On-line a klasické zpravodajství spolu nesoutěží, jedna část využívá druhou. Například od soudů, kdy je on-line vždy rychlejší, může editor z on-linu čerpat informace do klasického servisu. Naproti tomu u zahraničních on-line přenosů se mohou prolínat navzájem, některé informace budou dřív v klasickém servisu. Díky on-linům zrychlujeme i běžné zpravodajství. Například u soudu s Rathem se v klasickém servisu objevilo větší množství headlinů a meziverzí či krátkých samostatných zpráv. Mění se také přístup k fotografiím. Ukazuje se, že pro LIVE, a tudíž i pro naše odběratele je nesmírně důležitý čas dodání první fotky.&lt;/p&gt;
+&lt;p&gt;S ohledem na dosavadní zkušenosti se v redakci budeme snažit on-line přenosy v maximální možné míře plánovat, především z personálního hlediska. Redaktor nasazený na aktuální on-line přenos se nemůže věnovat ničemu jinému. Všechny naše dosud nabízené přenosy byly plánované. Zatím jsme si nevyzkoušeli spuštění on-line přenosu z nečekané události a reakci odběratelů. To nás ještě čeká. Systém by měl v budoucnu fungovat tak, že ve chvíli, kdy on-line přenos rozjedeme, pošleme klientům upozornění  redakčním systémem. &lt;/p&gt;
+&lt;p&gt;Kromě samotného obsahu nabízíme klientům také využití naší on-lineové platformy pro jejich vlastní potřeby. Nyní se věci ujmou obchodníci a nabídnou klientům produkt, který splňuje i nejnáročnější požadavky na kvalitu.&lt;/p&gt;
 </description>
     </item>
     <item>
@@ -133,49 +176,6 @@
 &lt;p&gt;Děkuji za pozornost, za přízeň a přeji všem krásný den&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Jiří Majstr&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;–signature–&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Agentura spustila novou službu ČTK LIVE</title>
-      <link>http://localhost:8080/articles/nova-sluzba/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/nova-sluzba/</guid>
-      <author></author>
-      <description>&lt;p&gt;ČTK se letos naplno vrhla do on-line přenosů -  stručného, rychlého a průběžného zpravodajství z vybraných významných událostí. Odběratelé je mohou využít přímo k publikaci na internetu nebo jako podklad pro své vlastní on-line přenosy. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/loginbox.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Letos na jaře jsme si nejprve několikrát vyzkoušeli vysílání on-line přenosu takříkajíc „do zdi“. Bylo to mimo jiné při útoku střelce v Uherském Brodu nebo při průjezdu konvoje amerických vojáků Českou republikou. Když jsme s programátory „vychytali mouchy“, nabídli jsme - stále ještě v testovacím režimu a zdarma - on-line přenosy klientům. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/screenshot.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;p&gt;On-line přenosem jsme kryli zahájení soudů se zdravotnicí obžalovanou z vražd pacientů v rumburské nemocnici i s Petrem Kramným souzeným pro vraždu své dcery a manželky v Egyptě, vývoj řecké finanční krize, referendum a summit EU o úsporných opatřeních v Řecku. On-line přenos jsme nasadili i na vyhlášení rozsudku nad bývalým poslancem ČSSD Davidem Rathem nebo na bilanční tiskovou konferenci prezidenta Miloše Zemana, zahájení soudu v kauze Opencard či karlovarský filmový festival. Vyzkoušeli jsme si přenosy několikadenní i ty, které skončily třeba po hodině. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/screenshot-court.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Zatím o on-line přenosy projevily největší zájem weby  Aktuálně.cz, Lidovky.cz, iHNed.cz, Blesk.cz, TN.cz, Týden.cz, web Českého rozhlasu, weby Deníku VLP, Investiční web.cz nebo Roklen.cz. Ohlasy jsou veskrze pozitivní. Také četkaři pokládají službu LIVE za užitečnou, přenosy jim například pomáhají při tvorbě klasického zpravodajství i v jeho zrychlení. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:8080/articles/nova-sluzba/newscloud.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;p&gt;On-line a klasické zpravodajství spolu nesoutěží, jedna část využívá druhou. Například od soudů, kdy je on-line vždy rychlejší, může editor z on-linu čerpat informace do klasického servisu. Naproti tomu u zahraničních on-line přenosů se mohou prolínat navzájem, některé informace budou dřív v klasickém servisu. Díky on-linům zrychlujeme i běžné zpravodajství. Například u soudu s Rathem se v klasickém servisu objevilo větší množství headlinů a meziverzí či krátkých samostatných zpráv. Mění se také přístup k fotografiím. Ukazuje se, že pro LIVE, a tudíž i pro naše odběratele je nesmírně důležitý čas dodání první fotky.&lt;/p&gt;
-&lt;p&gt;S ohledem na dosavadní zkušenosti se v redakci budeme snažit on-line přenosy v maximální možné míře plánovat, především z personálního hlediska. Redaktor nasazený na aktuální on-line přenos se nemůže věnovat ničemu jinému. Všechny naše dosud nabízené přenosy byly plánované. Zatím jsme si nevyzkoušeli spuštění on-line přenosu z nečekané události a reakci odběratelů. To nás ještě čeká. Systém by měl v budoucnu fungovat tak, že ve chvíli, kdy on-line přenos rozjedeme, pošleme klientům upozornění  redakčním systémem. &lt;/p&gt;
-&lt;p&gt;Kromě samotného obsahu nabízíme klientům také využití naší on-lineové platformy pro jejich vlastní potřeby. Nyní se věci ujmou obchodníci a nabídnou klientům produkt, který splňuje i nejnáročnější požadavky na kvalitu.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Šéfredaktor ČTK Petr Holubec: Význam tiskové agentury v informační éře poroste</title>
-      <link>http://localhost:8080/articles/info-era/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/info-era/</guid>
-      <author></author>
-      <description>&lt;h2 id=&quot;jak-je-v-nejsiln-j-novin-sk-z-itek-&quot;&gt;Jaký je váš nejsilnější novinářský zážitek?&lt;/h2&gt;
-&lt;p&gt;Bezesporu to byly události po 17. listopadu 1989. Byla to doba plná emocí, adrenalinu a úplně nových zkušeností. Mnozí z četkařů se snažili očistit jméno agentury. Nadřízeným, silně spjatým s minulým režimem, jsme říkali, ať odejdou, začali jsme vydávat zprávy sami, bez dohledu skalních komunistů, a to všechno v době, kdy ještě nebylo zřejmé, jak to všechno dopadne. Stále nebylo jisté, zda tvrdé jádro ve vedení KSČ nepošle “na obranu socialismu” proti občanům armádu, policii a Lidové milice.
-Pro ilustraci té doby mohu připomenout, že 20. listopadu jsme vydali do té doby nevídaně otevřenou zprávu o tom, že na Václavském náměstí v Praze se sešlo více než 100.000 lidí, kteří protestovali „proti zákroku pořádkových sil vůči účastníkům pražského studentského průvodu v pátek 17. listopadu a požadovali zásadní politické reformy”. Na to promptně reagovala agentura Reuter’s zprávou, že oficiální československá tisková agentura ČTK vydala bezprecedentní zprávu.
-V té době jsme s kolegy psali Kroniku sametové revoluce, která měla enormní čtenářský úspěch. Fronta zájemců o ni se táhla od nás z Opletalovy ulice za roh několikastupem snad 200 metrů.
-Zážitků bylo samozřejmě mnohem víc. Volba Václava Havla prezidentem, první svobodné volby, dělení státu, počátky privatizace atd. Dějinám agentura dýchá na záda. Pořád mě to fascinuje.&lt;/p&gt;
-&lt;h2 id=&quot;v-em-se-tk-za-to-tvrtstolet-zm-nila-&quot;&gt;V čem se ČTK za to čtvrtstoletí změnila.&lt;/h2&gt;
-&lt;p&gt;V první řadě je ekonomicky, a tudíž i redakčně nezávislá. Přestože je veřejnoprávní institucí, chová se jako normální obchodní společnost. Vydělává si na svou činnost prodejem zpravodajství. Od nikoho nedostává žádné poplatky nebo dotace. 
-Mentalita nynějších a tehdejších četkařů je nesrovnatelná. Nyní kolegyně a kolegové kladou politikům nepříjemné otázky s naprostou samozřejmostí a suverenitou. Ve zprávách nic nezamlžují, nelakují na růžovo.
-Extrémně se zvýšil výkon redaktorů a reportérů. Jejich počet se snížil ze 418 v roce 1990 na současných 175, ale počet vydaných zpráv za rok se zvýšil z 83.000 na 211.000. Tedy zatímco na jednoho člena redakce připadalo v roce 1990 necelých 200 zpráv, nyní je to přes 1200. A k tomu je třeba přidat vydávané grafy, fotky, audia a videa. Produktivita četkařů je neuvěřitelná.
-Naprosto se změnilo prostředí, v němž agentura působí. Zatímco za totality měla monopol, od začátku 90. let postupně vznikla – a často i zanikla - téměř desítka konkurenčních agentur. A pak nás obklopuje internet a nové informační technologie. Před 25 lety jsme zprávy klientům posílali dálnopisem a fotky telefotem nebo i potrubní poštou. V roce 1990 jsme zaměstnali redakčního poslíčka, aby chodil mj. pro komuniké ze zasedání vlády. Nyní všechno hned visí na webech a sociálních sítích. Jsou to nesrovnatelné doby.&lt;/p&gt;
-&lt;h2 id=&quot;kam-podle-v-s-v-voj-je-t-p-jde-&quot;&gt;Kam podle vás vývoj ještě půjde?&lt;/h2&gt;
-&lt;p&gt;Nejsem odborník na informační technologie, ale co se zpravodajství týká, myslím, že bude stále více informací veřejně dostupných. Také bude publikováno mnohem více fotografií a videoreportáží od nenovinářů, ať již z řad policistů nebo hasičů, ale také od běžných občanů. Jsem přesvědčen, že význam tiskové agentury v této přemíře informací bude sílit. Její role bude ve vyhledávání informací, jejich ověřování a uvedení do souvislostí. Její mediální klienti budou více než dosud využívat její servis, aby vlastní redakční síly mohli soustředit na své původní, zejména investigativní materiály, aby se více odlišili od svých konkurentů.&lt;/p&gt;
-&lt;h2 id=&quot;co-p-ejete-tk-do-budoucna-&quot;&gt;Co přejete ČTK do budoucna?&lt;/h2&gt;
-&lt;p&gt;Především aby si udržela ekonomickou nezávislost a redakční svobodu. Aby si její klienti uvědomovali, že jim agentura pomáhá, protože jim šetří energii a peníze.  Aby si Četka udržela kvalitní redaktory a reportéry, jaké má nyní, a aby si zachovala svou kolegiální podnikovou kulturu.&lt;/p&gt;
-&lt;h2 id=&quot;jak-je-va-e-ivotn-kr-do-&quot;&gt;Jaké je vaše životní krédo?&lt;/h2&gt;
-&lt;p&gt;Možná než životní krédo bude pro tento rozhovor příhodnější profesní krédo, pro které jsem se rozhodl v roce 1990, kdy mě kolegyně a kolegové zvolili šéfredaktorem. Bylo to v době, kdy z dob totality neexistovaly ani novinářské, ani manažerské vzory. Držím se ho dosud: Už se nikdy z nikoho a z ničeho nepo… a k agentuře se chovej, jako bys ji vlastnil. &lt;/p&gt;
 </description>
     </item>
     <item>
