@@ -627,3 +627,7 @@ header.header {
         width: 100%; }
     #pages .articleWrapper#dokaze-titulek .articleSubhead {
       font-size: 0.8em; }
+    #pages .articleWrapper#dokaze-titulek .imgWrap {
+      width: 100%; }
+      #pages .articleWrapper#dokaze-titulek .imgWrap img {
+        width: 100%; }
