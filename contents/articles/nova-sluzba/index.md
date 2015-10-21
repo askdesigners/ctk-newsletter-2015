@@ -1,30 +1,21 @@
 ---
 title: Agentura spustila novou službu ČTK LIVE
+altTitle: Agentura spustila novou službu <a href="http://nib.ctk.cz/cs/Contract/Product?Prod=help">ČTK LIVE</a>
 author: CTK
 date: 2012-10-01 15:00
 template: nova-sluzba.jade
-excerpt: ČTK se letos naplno vrhla do on-line přenosů -  stručného, rychlého a průběžného zpravodajství z vybraných významných událostí. Odběratelé je mohou využít přímo k publikaci na internetu nebo jako podklad pro své vlastní on-line přenosy. 
-introPart-1: --,
+excerpt: ČTK se letos naplno vrhla do on-line přenosů - stručného, rychlého a průběžného zpravodajství z vybraných významných událostí. Odběratelé je mohou využít přímo k publikaci na internetu nebo jako podklad pro své vlastní on-line přenosy. 
+introPart1: --,
 indexCol: 2
 indexClass: nova-sluzba
 order: 4
 ---
 
-ČTK se letos naplno vrhla do on-line přenosů -  stručného, rychlého a průběžného zpravodajství z vybraných významných událostí. Odběratelé je mohou využít přímo k publikaci na internetu nebo jako podklad pro své vlastní on-line přenosy. 
-
-![image](loginbox.jpg)
-
 Letos na jaře jsme si nejprve několikrát vyzkoušeli vysílání on-line přenosu takříkajíc „do zdi“. Bylo to mimo jiné při útoku střelce v Uherském Brodu nebo při průjezdu konvoje amerických vojáků Českou republikou. Když jsme s programátory „vychytali mouchy“, nabídli jsme - stále ještě v testovacím režimu a zdarma - on-line přenosy klientům. 
-
-![image](screenshot.jpg)
 
 On-line přenosem jsme kryli zahájení soudů se zdravotnicí obžalovanou z vražd pacientů v rumburské nemocnici i s Petrem Kramným souzeným pro vraždu své dcery a manželky v Egyptě, vývoj řecké finanční krize, referendum a summit EU o úsporných opatřeních v Řecku. On-line přenos jsme nasadili i na vyhlášení rozsudku nad bývalým poslancem ČSSD Davidem Rathem nebo na bilanční tiskovou konferenci prezidenta Miloše Zemana, zahájení soudu v kauze Opencard či karlovarský filmový festival. Vyzkoušeli jsme si přenosy několikadenní i ty, které skončily třeba po hodině. 
 
-![image](screenshot-court.jpg)
-
-Zatím o on-line přenosy projevily největší zájem weby  Aktuálně.cz, Lidovky.cz, iHNed.cz, Blesk.cz, TN.cz, Týden.cz, web Českého rozhlasu, weby Deníku VLP, Investiční web.cz nebo Roklen.cz. Ohlasy jsou veskrze pozitivní. Také četkaři pokládají službu LIVE za užitečnou, přenosy jim například pomáhají při tvorbě klasického zpravodajství i v jeho zrychlení. 
-
-![image](newscloud.jpg)
+Zatím o on-line přenosy projevily největší zájem weby  **Aktuálně.cz, **Lidovky.cz, **iHNed.cz**, **Blesk.cz**, **TN.cz**, **Týden.cz**, web **Českého rozhlasu**, weby **Deníku VLP**, **Investiční web.cz** nebo **Roklen.cz**. Ohlasy jsou veskrze pozitivní. Také četkaři pokládají službu LIVE za užitečnou, přenosy jim například pomáhají při tvorbě klasického zpravodajství i v jeho zrychlení. 
 
 On-line a klasické zpravodajství spolu nesoutěží, jedna část využívá druhou. Například od soudů, kdy je on-line vždy rychlejší, může editor z on-linu čerpat informace do klasického servisu. Naproti tomu u zahraničních on-line přenosů se mohou prolínat navzájem, některé informace budou dřív v klasickém servisu. Díky on-linům zrychlujeme i běžné zpravodajství. Například u soudu s Rathem se v klasickém servisu objevilo větší množství headlinů a meziverzí či krátkých samostatných zpráv. Mění se také přístup k fotografiím. Ukazuje se, že pro LIVE, a tudíž i pro naše odběratele je nesmírně důležitý čas dodání první fotky.
 

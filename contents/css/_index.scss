@@ -33,15 +33,15 @@ a{
     img{
         width: 100%;
         height: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
+        z-index: 1;
     }
 }
 
 .content-wrap{
   padding: 0 30px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 
   @include mdScreen{
     width: 740px;
@@ -60,6 +60,8 @@ a{
     padding: 0;
     margin: 0;
     overflow: hidden;
+    width: 100%;
+    float: none;
 
     @include mdScreen{
         float: left;
@@ -68,6 +70,12 @@ a{
 
     @include bgScreen{
         // redundant
+    }
+    &:first-child{
+        padding-left: 0;
+    }
+    &:last-child{
+        padding: 0;
     }
 }
 
@@ -88,6 +96,66 @@ a{
 
     @include bgScreen{
         // redundant
+    }
+}
+
+.col-3{
+    @include mdScreen{
+        width: 33%;
+    }
+}
+
+.txtCol-2-4{
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+
+    @include mdScreen{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px; /* Firefox */
+        column-gap: 20px;
+    }
+
+    @include bgScreen{
+        -webkit-column-count: 4; /* Chrome, Safari, Opera */
+        -moz-column-count: 4; /* Firefox */
+        column-count: 4;
+        -webkit-column-gap: 15px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 15px; /* Firefox */
+        column-gap: 15px;
+    }
+}
+
+.txtCol-2-2{
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+
+    @include mdScreen{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px; /* Firefox */
+        column-gap: 20px;
+    }
+}
+
+.txtCol-1-2{
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+
+    @include bgScreen{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px; /* Firefox */
+        column-gap: 20px;
     }
 }
 

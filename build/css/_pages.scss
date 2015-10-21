@@ -43,29 +43,64 @@
             background: $superLightGrey;
         }
         h1{
-            margin: 0 0 10px 0;
+            margin: 0 0 20px 0;
             font-size: 2em;
-            color: $ctkDkBlue;
+            color: $txtColor;
             line-height: 1.2em;
 
             @include bgScreen{
-                margin: 0 0 10px 0;
                 font-size: 2.5em;
-                color: $ctkDkBlue;
                 line-height: 1.1em;
             }
         }
-            
-        h3{
-            margin: 0 0 10px 0;
-            font-size: 1em;
-            color: $ctkDkBlue;
-            font-family: $light;
-        }
 
-        p {
+        h4{
+            font-size: 0.8em;
+            font-family: $bold;
+            margin-bottom: 0;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+            
+        p, .endDot {
             font-size: 0.8em;
             margin: 0 0 10px 0;
+
+            &:last-child:after{
+                content: '';
+                height: 5px;
+                width: 5px;
+                border-radius: 10px;
+                background-color: $ctkLtBlue;
+                display: inline-block;
+                position: relative;
+                top: -2px;
+                left: 4px;
+            }
+
+            strong{
+                font-family: $bold;
+            }
+        }
+
+        .endDot:after{
+            content: '';
+            height: 5px;
+            width: 5px;
+            border-radius: 10px;
+            background-color: $ctkLtBlue;
+            display: inline-block;
+            position: relative;
+            top: -2px;
+            left: 4px;
+        }
+
+        .articleSubhead{
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+            color: $ctkDkBlue;
+            font-family: $light;
         }
 
         &#director-letter{
@@ -99,6 +134,10 @@
                 @include bgScreen{
                     width: 50%;
                     float: left;
+                }
+
+                p:last-child:after{
+                    display: none;
                 }
             }
 
@@ -145,6 +184,67 @@
                 }
             }
 
+        }
+        &#sefredaktor{
+            header.articleHeader{
+                margin-bottom: 15px;
+
+                h3{
+                    margin-top: 15px;
+                    color: $txtColor;
+                    font-family: $bold;
+                }
+                .full{
+                    min-height: 400px;
+                }
+                .titleWrap{
+                    z-index: 10;
+                    
+                    @include mdScreen{
+                        position: absolute;
+                        top: 50px;
+                        width: 30%;
+                        padding: 20px;
+                    }
+
+                    h1, h2{
+                        color: white;
+                    }
+                    h2{
+                        font-family: $light;
+                        font-size: 1em;
+                        width: 70%;
+                    }
+                    
+                }
+            }
+        }
+        &#nova-sluzba{
+            .content-wrap, .col{
+                overflow: visible;
+            }
+            .leftCol{
+                .imgWrap{
+                    position: relative;
+                    width: 100%;
+                    @include mdScreen{
+                        margin-left: -19px;
+                    }
+
+                    @include bgScreen{
+                        margin-left: -26px;
+                    }
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &#dokaze-titulek{
+            .articleSubhead{
+                font-size: 0.8em;
+            }
         }
     }
 }

@@ -8,4 +8,17 @@ block content
       h1= page.title
 
   article.article
-    section.content!= typogr(page.html).typogrify()
+    .col.col-3
+        h4.articleSubhead= page.metadata.p1Title
+        div!= page.metadata.p1
+
+    .col.col-3
+        h4.articleSubhead= page.metadata.p2Title
+        div!= page.metadata.p2
+
+    .col.col-3
+        h4.articleSubhead= page.metadata.p3Title
+        div!= page.metadata.p3
+
+    .imgWrap
+        img(src="img/akademie-kone.jpg")

@@ -4,8 +4,15 @@ block append vars
   - bodyclass = 'article-detail ' + page.metadata.indexClass
 
 block content
-  header.articleHeader
-      h1= page.title
+    header.articleHeader
+        .full
+            img(src="img/petr-holubec.jpg")
+        
+        .titleWrap
+            h2= page.metadata.excerpt
+            h1!= page.title
 
-  article.article
-    section.content!= typogr(page.html).typogrify()
+        h3.articleSubhead= page.metadata.introPart1
+
+    article.article
+        section.content.txtCol-2-4!= typogr(page.html).typogrify()

@@ -4,7 +4,7 @@ author: CTK
 date: 2012-10-01 15:00
 template: comfort-v-prace.jade
 excerpt: Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
-introPart-1: Jednoduchost ovládání a možnost pohodlně a rychle vyhledávat zprávy v mobilních telefonech a tabletech oceňují klienti na nové verzi Infobanky ČTK, která byla spuštěna letos v květnu. Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
+introPart1: Jednoduchost ovládání a možnost pohodlně a rychle vyhledávat zprávy v mobilních telefonech a tabletech oceňují klienti na nové verzi Infobanky ČTK, která byla spuštěna letos v květnu. Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
 introPart-2: {{video embed}}
 indexCol: 2
 indexClass: comfort-v-prace
@@ -22,4 +22,4 @@ Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatel
 
 Více o nové Infobance, nápověda a videa jsou zde:
 
-(http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!]
+##### (http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!]
