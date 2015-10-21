@@ -1,0 +1,150 @@
+
+#pages{
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    &.relative{
+        position: relative;
+    }
+
+    .greeking {
+        height: 20px;
+        background: #D9D9D9;
+        margin-bottom: 15px;
+        width: 70%;
+    }
+    .lineA{
+        width: 80%;
+    }
+    .lineB{
+        width: 72%;
+    }
+    .lineC{
+        width: 74%;
+    }
+    .lineD{
+        width: 68%;
+    }
+
+    .articleWrapper{
+        min-height: 400px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid $borderGrey;
+        // margin-bottom: 30px;
+
+        @include bgScreen{
+            min-height: 400px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid $borderGrey;
+        }
+
+        &:nth-child(even){
+            background: $superLightGrey;
+        }
+        h1{
+            margin: 0 0 10px 0;
+            font-size: 2em;
+            color: $ctkDkBlue;
+            line-height: 1.2em;
+
+            @include bgScreen{
+                margin: 0 0 10px 0;
+                font-size: 2.5em;
+                color: $ctkDkBlue;
+                line-height: 1.1em;
+            }
+        }
+            
+        h3{
+            margin: 0 0 10px 0;
+            font-size: 1em;
+            color: $ctkDkBlue;
+            font-family: $light;
+        }
+
+        p {
+            font-size: 0.8em;
+            margin: 0 0 10px 0;
+        }
+
+        &#director-letter{
+            padding-top: 70px;
+            
+            .imageCol{
+                @include mdScreen{
+                    display: none;
+                    padding-top: 6px;
+                }
+
+                @include bgScreen{
+                    display: inline-block;
+                    padding-top: 7px;
+                    height: 797px;
+                }
+
+                img{
+                    @include bgScreen{
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+            }
+
+            .textCol{
+                @include mdScreen{
+                    width: 100%;
+                    float: none;
+                }
+                @include bgScreen{
+                    width: 50%;
+                    float: left;
+                }
+            }
+
+            .signature{ 
+                float: right;
+                margin-right: 115px;
+                margin-top: -30px;
+            } 
+            .content {
+                @include mdScreen{
+                    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                    -moz-column-count: 2; /* Firefox */
+                    column-count: 2;
+                    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+                    -moz-column-gap: 20px; /* Firefox */
+                    column-gap: 20px;
+                }
+                @include bgScreen{
+                    // redundant
+                }
+                
+                .altImage{
+                    display: none;
+
+                    @include mdScreen{
+                        display: inline;
+                        float: left;
+                        height: 170px;
+                        width: 100%;
+                        overflow: hidden;
+                        margin-top: 7px;
+                        margin-bottom: 13px;
+                    }
+                    @include bgScreen{
+                        display: none;
+                    }
+
+                    img{
+                        @include mdScreen{
+                            max-width: 100%;
+                            margin-top: -220px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

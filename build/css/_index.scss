@@ -1,0 +1,516 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font-family: $light, sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+    color: $txtColor;
+    text-rendering: optimizeLegibility;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $bold;
+    letter-spacing: 0.2px;
+    font-weight: 100;
+}
+
+a{
+  color: $ctkDkBlue;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $ctkLtBlue;
+  }
+}
+
+.full{
+    width: 100%;
+
+    img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.content-wrap{
+  padding: 0 30px;
+  margin: 0 auto;
+
+  @include mdScreen{
+    width: 740px;
+    padding-top: 50px;
+  }
+
+  @include bgScreen{
+    width: 1026px; 
+    box-sizing: border-box;
+  }
+}
+
+.col{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    @include mdScreen{
+        float: left;
+        padding: 0 15px;
+    }
+
+    @include bgScreen{
+        // redundant
+    }
+}
+
+.col-1{
+    @include mdScreen{
+        width: 25%;
+    }
+
+    @include bgScreen{
+        // redundant
+    }
+}
+
+.col-2{
+    @include mdScreen{
+        width: 50%;
+    }
+
+    @include bgScreen{
+        // redundant
+    }
+}
+
+header.header{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background: white;
+    z-index: 10;
+    
+    @include mdScreen{
+        margin-bottom: 0;
+    }
+
+    .logo{
+        width: 80px;
+        display: inline-block;
+        overflow: hidden;
+        
+        @include mdScreen{
+            width: 330px;
+            padding-left: 15px;
+        }
+    }
+    
+    h1{
+        display: inline-block;
+        float: right;
+        position: relative;
+        font-size: 1.7em;
+        margin: 0;
+        line-height: 1.65em;
+        font-family: $regular;
+
+        @include mdScreen{
+            font-size: 2.5em;
+            line-height: 1em;
+            padding-right: 15px;
+        }
+
+        @include bgScreen{
+            font-size: 5em;
+            line-height: 0.4em;
+        }
+
+        a{
+            text-decoration: none;
+            background: -webkit-linear-gradient(left, $ctkLtBlue, $ctkDkBlue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}   
+
+#bigWrap{
+    position: relative;
+    height: 2000px;
+}
+
+#content {
+    position: relative;
+    z-index: 10;
+    background: white;
+    padding-bottom: 40px;
+
+    &.index{
+        .article{
+            margin-bottom: 15px;
+            position: relative;
+
+            h2 {
+                line-height: 1.3em;
+                margin: 0;
+                font-size: 1em;
+
+                @include bgScreen{
+                    line-height: 1.2em;
+                    font-size: 1.3em;
+                }
+
+                a{
+                    text-decoration: none;
+                    background-image: linear-gradient(to bottom, $ctkDkBlue 50%, $ctkDkBlue 50%);
+                    background-repeat: repeat-x;
+                    background-size: 2px 2px;
+                    background-position: 0 16px;
+
+                    @include bgScreen{
+                        background-position: 0 22px;
+                    }
+                }
+            }
+            img {
+                max-width: 100%;
+            }
+
+            p {
+                font-size: 0.9em;
+                margin-bottom: 0;
+            }
+
+            .moreLink{
+                text-decoration: none;
+                margin-left: 5px;
+                font-size: 1.2em;
+                line-height: 0;
+            }
+            
+            &.director-letter{
+                p:before{
+                    content: '\201D';
+                    position: relative;
+                    float: left;
+                    font-size: 9.6em;
+                    height: 40px;
+                    top: -45px;
+                    left: -12px;
+                    width: 50px;
+                    color: $ctkDkBlue;
+                }
+                h2{
+                    margin-bottom: 10px;
+                }
+            }
+            &.sefredaktor{
+                h2{
+                    position: absolute;
+                    width: 78%;
+                    padding: 10px;
+                    bottom: 0;
+                    line-height: 1.3em;
+                    font-size: 1em;
+
+                    @include bgScreen{
+                        width: 74%;
+                        line-height: 1.3em;
+                        font-size: 1.3em;
+                    }
+
+                    a{ 
+                        background-image: linear-gradient(to bottom, white 50%, white 50%);
+                        color: white;
+                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
+                        &:hover {
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+                p{
+                    position: absolute;
+                    top: 0;
+                    color: rgb(255, 255, 255);
+                    padding: 0 10px;
+                    width: 70%;
+                        
+                    @include mdScreen{
+                        display: none;
+                    }
+
+                    @include bgScreen{
+                        display: block;
+                    }
+ 
+                    a{
+                        display: none;
+                    }
+                }
+            }
+            &.czech-press-photo{
+                // height: 146px;
+                overflow: hidden;
+
+                h2{ 
+                    line-height: 1.2em;
+                    font-size: 0.9em;
+                    padding: 0;
+                    margin-bottom: 10px;
+                    z-index: 100;
+                    font-family: $light;
+
+                    strong { 
+                        font-family: $bold;
+                    }
+                }
+                img{
+                    position: absolute;
+                    bottom: 0;
+
+                    @include bgScreen{
+                        position: relative;
+                    }
+                }
+            }
+            &.comfort-v-prace{
+                img{    
+                    display: inline-block;
+                    width: 50%;
+                }
+                h2{
+                    width: 50%;
+                    float: right;
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                }
+                p{
+                    clear: both;
+                    margin-top: 10px;
+                    padding-bottom: 15px;
+                    border-bottom: solid 1px $borderGrey;
+                }
+            }
+
+            &.nova-sluzba{
+                width: 50%;
+                float: left;
+                box-sizing: border-box;
+                padding-right: 10px;
+                p{
+                    margin-top: 10px;
+                    padding-bottom: 15px;
+                    border-bottom: solid 1px $borderGrey;
+                }
+            }
+            &.dokaze-titulek{
+                width: 50%;
+                float: left;
+                box-sizing: border-box;
+                padding-left: 10px;
+                overflow: hidden;
+                height: 272px;
+
+                @include mdScreen{
+                    width: 50%;
+                    float: left;
+                    padding-left: 10px;
+                    height: 344px;
+                }
+                
+                @include bgScreen{
+                    height: 272px;
+                }
+                    
+                img{
+                    @include mdScreen{
+                        max-width: 115%;
+                    }
+                }
+
+                h2{
+                    position: absolute;
+                    bottom: 0;
+                    padding: 10px;
+                    width: 70%;
+                    a{
+                        color: white;
+                        background-image: linear-gradient(to bottom, white 50%, white 50%);
+                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
+                        &:hover{
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.fotobanka{
+                clear: both;
+
+                h2{
+                    box-sizing: border-box;
+                    
+                    @include mdScreen{
+                        width: 50%;
+                        float: right;
+                        box-sizing: border-box;
+                        padding-left: 10px;
+                    }
+                }
+                img{
+                    width: 100%;
+
+                    @include mdScreen{
+                        width: 50%;
+                    }
+                }
+                p{
+                    clear: both;
+                    margin-top: 10px;
+
+                    @include mdScreen{}
+                }
+            }
+            &.hospodareni{
+                background-image: url('../img/business.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+
+                h2 {
+                    padding: 20px 10px;
+                    a {
+                        color: white;
+                        background-image: linear-gradient(to bottom, white 50%, white 50%);
+                        &:hover {
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.distribuce-zpravy{
+                padding-bottom: 10px;
+            }
+            &.brno {
+                h2{
+                    position: absolute;
+                    bottom: 0;
+                    padding: 10px;
+                    a {
+                        color: white;
+                        text-shadow: 0px 1px 1px rgb(29, 83, 156);
+                        background-image: linear-gradient(to bottom, white 50%, white 50%);
+                        &:hover{
+                            color: $ctkLtBlue;
+                        }
+                    }
+                }
+            }
+            &.redakci-techniku{
+                h2{
+                    position: absolute;
+                }
+                img {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

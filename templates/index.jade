@@ -13,10 +13,7 @@ block content
                     article.article.excerpt(class=article.metadata.indexClass)
                         h2
                             if article.metadata.indexTitle
-                                a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.indexTitle
-                                if article.metadata.indexSubtitle
-                                    span= article.metadata.indexSubtitle
-                                        a.scrollToArticle(href='#'+article.metadata.indexClass).moreLink &raquo;
+                                a.scrollToArticle(href='#'+article.metadata.indexClass)!= article.metadata.indexTitle
                             else
                                 a.scrollToArticle(href='#'+article.metadata.indexClass)= article.metadata.title
 

@@ -53,13 +53,6 @@ a {
   a:hover {
     color: #2c8bc4; }
 
-.col {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  overflow: hidden; }
-
 .full {
   width: 100%; }
   .full img {
@@ -72,6 +65,33 @@ a {
 .content-wrap {
   padding: 0 30px;
   margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .content-wrap {
+      width: 740px;
+      padding-top: 50px; } }
+  @media only screen and (min-width: 1040px) {
+    .content-wrap {
+      width: 1026px;
+      box-sizing: border-box; } }
+
+.col {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+  @media only screen and (min-width: 768px) {
+    .col {
+      float: left;
+      padding: 0 15px; } }
+
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 25%; } }
+
+@media only screen and (min-width: 768px) {
+  .col-2 {
+    width: 50%; } }
 
 header.header {
   padding-top: 20px;
@@ -79,10 +99,17 @@ header.header {
   position: relative;
   background: white;
   z-index: 10; }
+  @media only screen and (min-width: 768px) {
+    header.header {
+      margin-bottom: 0; } }
   header.header .logo {
     width: 80px;
     display: inline-block;
     overflow: hidden; }
+    @media only screen and (min-width: 768px) {
+      header.header .logo {
+        width: 330px;
+        padding-left: 15px; } }
   header.header h1 {
     display: inline-block;
     float: right;
@@ -91,6 +118,15 @@ header.header {
     margin: 0;
     line-height: 1.65em;
     font-family: 'maxima_regular'; }
+    @media only screen and (min-width: 768px) {
+      header.header h1 {
+        font-size: 2.5em;
+        line-height: 1em;
+        padding-right: 15px; } }
+    @media only screen and (min-width: 1040px) {
+      header.header h1 {
+        font-size: 5em;
+        line-height: 0.4em; } }
     header.header h1 a {
       text-decoration: none;
       background: -webkit-linear-gradient(left, #2c8bc4, #1d539c);
@@ -113,12 +149,19 @@ header.header {
       line-height: 1.3em;
       margin: 0;
       font-size: 1em; }
+      @media only screen and (min-width: 1040px) {
+        #content.index .article h2 {
+          line-height: 1.2em;
+          font-size: 1.3em; } }
       #content.index .article h2 a {
         text-decoration: none;
         background-image: linear-gradient(to bottom, #1d539c 50%, #1d539c 50%);
         background-repeat: repeat-x;
         background-size: 2px 2px;
         background-position: 0 16px; }
+        @media only screen and (min-width: 1040px) {
+          #content.index .article h2 a {
+            background-position: 0 22px; } }
     #content.index .article img {
       max-width: 100%; }
     #content.index .article p {
@@ -148,6 +191,11 @@ header.header {
       bottom: 0;
       line-height: 1.3em;
       font-size: 1em; }
+      @media only screen and (min-width: 1040px) {
+        #content.index .article.sefredaktor h2 {
+          width: 74%;
+          line-height: 1.3em;
+          font-size: 1.3em; } }
       #content.index .article.sefredaktor h2 a {
         background-image: linear-gradient(to bottom, white 50%, white 50%);
         color: white;
@@ -160,6 +208,12 @@ header.header {
       color: white;
       padding: 0 10px;
       width: 70%; }
+      @media only screen and (min-width: 768px) {
+        #content.index .article.sefredaktor p {
+          display: none; } }
+      @media only screen and (min-width: 1040px) {
+        #content.index .article.sefredaktor p {
+          display: block; } }
       #content.index .article.sefredaktor p a {
         display: none; }
     #content.index .article.czech-press-photo {
@@ -168,14 +222,17 @@ header.header {
         line-height: 1.2em;
         font-size: 0.9em;
         padding: 0;
-        margin-bottom: 10px; }
-        #content.index .article.czech-press-photo h2 span {
-          font-family: 'maxima_light';
-          margin-left: 5px;
-          margin-right: 5px; }
+        margin-bottom: 10px;
+        z-index: 100;
+        font-family: 'maxima_light'; }
+        #content.index .article.czech-press-photo h2 strong {
+          font-family: 'maxima_bold'; }
       #content.index .article.czech-press-photo img {
         position: absolute;
         bottom: 0; }
+        @media only screen and (min-width: 1040px) {
+          #content.index .article.czech-press-photo img {
+            position: relative; } }
     #content.index .article.comfort-v-prace img {
       display: inline-block;
       width: 50%; }
@@ -205,6 +262,18 @@ header.header {
       padding-left: 10px;
       overflow: hidden;
       height: 272px; }
+      @media only screen and (min-width: 768px) {
+        #content.index .article.dokaze-titulek {
+          width: 50%;
+          float: left;
+          padding-left: 10px;
+          height: 344px; } }
+      @media only screen and (min-width: 1040px) {
+        #content.index .article.dokaze-titulek {
+          height: 272px; } }
+      @media only screen and (min-width: 768px) {
+        #content.index .article.dokaze-titulek img {
+          max-width: 115%; } }
       #content.index .article.dokaze-titulek h2 {
         position: absolute;
         bottom: 0;
@@ -220,8 +289,17 @@ header.header {
       clear: both; }
       #content.index .article.fotobanka h2 {
         box-sizing: border-box; }
+        @media only screen and (min-width: 768px) {
+          #content.index .article.fotobanka h2 {
+            width: 50%;
+            float: right;
+            box-sizing: border-box;
+            padding-left: 10px; } }
       #content.index .article.fotobanka img {
         width: 100%; }
+        @media only screen and (min-width: 768px) {
+          #content.index .article.fotobanka img {
+            width: 50%; } }
       #content.index .article.fotobanka p {
         clear: both;
         margin-top: 10px; }
@@ -252,155 +330,6 @@ header.header {
       position: absolute; }
     #content.index .article.redakci-techniku img {
       margin-top: 20px; }
-
-#pages {
-  position: fixed;
-  width: 100%;
-  top: 0; }
-  #pages.relative {
-    position: relative; }
-  #pages .greeking {
-    height: 20px;
-    background: #D9D9D9;
-    margin-bottom: 15px;
-    width: 70%; }
-  #pages .lineA {
-    width: 80%; }
-  #pages .lineB {
-    width: 72%; }
-  #pages .lineC {
-    width: 74%; }
-  #pages .lineD {
-    width: 68%; }
-  #pages .articleWrapper {
-    min-height: 400px;
-    padding-bottom: 60px;
-    border-bottom: 1px solid #8A8A8A; }
-    #pages .articleWrapper:nth-child(even) {
-      background: #F5F5F5; }
-    #pages .articleWrapper h1 {
-      margin: 0 0 10px 0;
-      font-size: 1.8em;
-      color: #1d539c;
-      line-height: 1.1em; }
-    #pages .articleWrapper h3 {
-      margin: 0 0 10px 0;
-      font-size: 1em;
-      color: #1d539c;
-      font-family: 'maxima_light'; }
-    #pages .articleWrapper p {
-      font-size: 0.8em;
-      margin: 0 0 10px 0; }
-    #pages .articleWrapper#director-letter {
-      padding-top: 70px; }
-      #pages .articleWrapper#director-letter .signature {
-        float: right;
-        margin-right: 115px;
-        margin-top: -30px; }
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 768px) {
-  header.header {
-    margin-bottom: 0; }
-    header.header .logo {
-      width: 330px;
-      padding-left: 15px; }
-    header.header h1 {
-      font-size: 2.5em;
-      margin: 0;
-      line-height: 1em;
-      padding-right: 15px; }
-  .content-wrap {
-    width: 740px;
-    padding-top: 50px; }
-  .col {
-    float: left;
-    padding: 0 15px; }
-  .col-1 {
-    width: 25%; }
-  .col-2 {
-    width: 50%; }
-  #content.index .article.dokaze-titulek {
-    width: 50%;
-    float: left;
-    padding-left: 10px;
-    height: 344px; }
-    #content.index .article.dokaze-titulek img {
-      max-width: 115%; }
-  #content.index .article.fotobanka {
-    clear: both; }
-    #content.index .article.fotobanka h2 {
-      width: 50%;
-      float: right;
-      box-sizing: border-box;
-      padding-left: 10px; }
-    #content.index .article.fotobanka img {
-      width: 50%; }
-    #content.index .article.fotobanka p {
-      clear: both;
-      margin-top: 10px; }
-  #content.index .article.sefredaktor p {
-    display: none; }
-  #pages .articleWrapper#director-letter .imageCol {
-    padding-top: 6px; } }
-
-@media only screen and (min-width: 1140px) {
-  header.header h1 {
-    font-size: 5.2em;
-    margin: 0;
-    line-height: 0.4em; }
-  #content.index .article h2 {
-    line-height: 1.2em;
-    margin: 0;
-    font-size: 1.3em; }
-    #content.index .article h2 a {
-      background-position: 0 22px; }
-  #content.index .article.sefredaktor h2 {
-    width: 74%;
-    line-height: 1.3em;
-    font-size: 1.3em; }
-  #content.index .article.sefredaktor p {
-    display: block; }
-  #content.index .article.czech-press-photo {
-    overflow: hidden; }
-    #content.index .article.czech-press-photo h2 {
-      z-index: 100; }
-    #content.index .article.czech-press-photo img {
-      position: relative; }
-  #content.index .article.dokaze-titulek {
-    height: 272px; }
-  .content-wrap {
-    width: 1026px; }
-  .col {
-    padding: 0 15px; }
-  .col-2 {
-    width: 50%; }
-  .col-1 {
-    width: 25%; }
-  #pages .articleWrapper {
-    min-height: 400px;
-    padding-bottom: 60px;
-    border-bottom: 1px solid #8A8A8A; }
-    #pages .articleWrapper h1 {
-      margin: 0 0 10px 0;
-      font-size: 2.5em;
-      color: #1d539c;
-      line-height: 1.1em; }
-    #pages .articleWrapper#director-letter .imageCol {
-      padding-top: 7px; }
-    #pages .articleWrapper#director-letter .content {
-      -webkit-column-count: 2;
-      /* Chrome, Safari, Opera */
-      -moz-column-count: 2;
-      /* Firefox */
-      column-count: 2;
-      -webkit-column-gap: 20px;
-      /* Chrome, Safari, Opera */
-      -moz-column-gap: 20px;
-      /* Firefox */
-      column-gap: 20px; } }
 
 /* ==========================================================================
    Helper classes
@@ -453,3 +382,110 @@ header.header {
     widows: 3; }
   h2, h3 {
     page-break-after: avoid; } }
+
+#pages {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+  #pages.relative {
+    position: relative; }
+  #pages .greeking {
+    height: 20px;
+    background: #D9D9D9;
+    margin-bottom: 15px;
+    width: 70%; }
+  #pages .lineA {
+    width: 80%; }
+  #pages .lineB {
+    width: 72%; }
+  #pages .lineC {
+    width: 74%; }
+  #pages .lineD {
+    width: 68%; }
+  #pages .articleWrapper {
+    min-height: 400px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #8A8A8A; }
+    @media only screen and (min-width: 1040px) {
+      #pages .articleWrapper {
+        min-height: 400px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #8A8A8A; } }
+    #pages .articleWrapper:nth-child(even) {
+      background: #F5F5F5; }
+    #pages .articleWrapper h1 {
+      margin: 0 0 10px 0;
+      font-size: 2em;
+      color: #1d539c;
+      line-height: 1.2em; }
+      @media only screen and (min-width: 1040px) {
+        #pages .articleWrapper h1 {
+          margin: 0 0 10px 0;
+          font-size: 2.5em;
+          color: #1d539c;
+          line-height: 1.1em; } }
+    #pages .articleWrapper h3 {
+      margin: 0 0 10px 0;
+      font-size: 1em;
+      color: #1d539c;
+      font-family: 'maxima_light'; }
+    #pages .articleWrapper p {
+      font-size: 0.8em;
+      margin: 0 0 10px 0; }
+    #pages .articleWrapper#director-letter {
+      padding-top: 70px; }
+      @media only screen and (min-width: 768px) {
+        #pages .articleWrapper#director-letter .imageCol {
+          display: none;
+          padding-top: 6px; } }
+      @media only screen and (min-width: 1040px) {
+        #pages .articleWrapper#director-letter .imageCol {
+          display: inline-block;
+          padding-top: 7px;
+          height: 797px; } }
+      @media only screen and (min-width: 1040px) {
+        #pages .articleWrapper#director-letter .imageCol img {
+          height: 100%;
+          width: auto; } }
+      @media only screen and (min-width: 768px) {
+        #pages .articleWrapper#director-letter .textCol {
+          width: 100%;
+          float: none; } }
+      @media only screen and (min-width: 1040px) {
+        #pages .articleWrapper#director-letter .textCol {
+          width: 50%;
+          float: left; } }
+      #pages .articleWrapper#director-letter .signature {
+        float: right;
+        margin-right: 115px;
+        margin-top: -30px; }
+      @media only screen and (min-width: 768px) {
+        #pages .articleWrapper#director-letter .content {
+          -webkit-column-count: 2;
+          /* Chrome, Safari, Opera */
+          -moz-column-count: 2;
+          /* Firefox */
+          column-count: 2;
+          -webkit-column-gap: 20px;
+          /* Chrome, Safari, Opera */
+          -moz-column-gap: 20px;
+          /* Firefox */
+          column-gap: 20px; } }
+      #pages .articleWrapper#director-letter .content .altImage {
+        display: none; }
+        @media only screen and (min-width: 768px) {
+          #pages .articleWrapper#director-letter .content .altImage {
+            display: inline;
+            float: left;
+            height: 170px;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 7px;
+            margin-bottom: 13px; } }
+        @media only screen and (min-width: 1040px) {
+          #pages .articleWrapper#director-letter .content .altImage {
+            display: none; } }
+        @media only screen and (min-width: 768px) {
+          #pages .articleWrapper#director-letter .content .altImage img {
+            max-width: 100%;
+            margin-top: -220px; } }
