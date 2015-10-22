@@ -8,4 +8,10 @@ block content
       h1= page.title
 
   article.article
-    section.content!= typogr(page.html).typogrify()
+    .col.col-2
+        h3.articleSubhead= page.metadata.introPart1
+        div.!= typogr(page.html).typogrify()
+    .col.col-2 
+        .full
+            img(src="img/sons.jpg")
+        a(href=page.metadata.pageLink).pageLink www.sons.cz

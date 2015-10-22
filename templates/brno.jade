@@ -4,8 +4,18 @@ block append vars
   - bodyclass = 'article-detail ' + page.metadata.indexClass
 
 block content
-  header.articleHeader
-      h1= page.title
+   header.articleHeader
+        .full
+            img(src="img/brno-bg.jpg")
+        
+        .floatQuote
+            h1= page.title
 
-  article.article
-    section.content!= typogr(page.html).typogrify()
+    article.article
+        h3= page.metadata.introPart1
+        section.content.txtCol-2-4!= typogr(page.html).typogrify()
+    div
+        .col.col1.full
+            img(src="img/brno-sub1.jpg")
+        .col.col2.full
+            img(src="img/brno-sub2.jpg")

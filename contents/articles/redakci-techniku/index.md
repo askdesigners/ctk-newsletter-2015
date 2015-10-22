@@ -4,7 +4,7 @@ author: CTK
 date: 2012-10-01 15:00
 template: redakci-techniku.jade
 excerpt: 
-introPart-1: Historie ČTK by se dala označit i za reálný obraz vývoje sdělovací techniky v Československu. Agentura jako klíčové informační médium v zemi využívala vždy to nejlepší, co bylo na trhu, respektive co bylo k dosažení. Během totality, kdy byl omezený přísun technologií ze západního světa, pak technici ČTK začali zařízení sloužící k psaní i příjmu agenturních zpráv částečně sami vyrábět. 
+introPart1: Historie ČTK by se dala označit i za reálný obraz vývoje sdělovací techniky v Československu. Agentura jako klíčové informační médium v zemi využívala vždy to nejlepší, co bylo na trhu, respektive co bylo k dosažení. Během totality, kdy byl omezený přísun technologií ze západního světa, pak technici ČTK začali zařízení sloužící k psaní i příjmu agenturních zpráv částečně sami vyrábět. 
 indexCol: 3
 indexClass: redakci-techniku
 indexImg: typewriter.jpg

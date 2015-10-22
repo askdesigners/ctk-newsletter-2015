@@ -12,5 +12,7 @@ block content
             h3.articleSubhead= page.metadata.introPart1 
             :verbatim <iframe width="100%" height="250px" src="https://www.youtube.com/embed/FLZBAVlxI6Q" frameborder="0" allowfullscreen></iframe>
 
-        .col.col-2.txtCol-2-2!= typogr(page.html).typogrify()
+        .col.col-2.txtCol-2-2
+            div!= typogr(page.html).typogrify()
+            a(href="http://nib.ctk.cz/cs/Contract/Product?Prod=help").pageLink MISSING SCREENSHOT
 

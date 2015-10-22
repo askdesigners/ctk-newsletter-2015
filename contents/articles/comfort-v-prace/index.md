@@ -5,7 +5,6 @@ date: 2012-10-01 15:00
 template: comfort-v-prace.jade
 excerpt: Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
 introPart1: Jednoduchost ovládání a možnost pohodlně a rychle vyhledávat zprávy v mobilních telefonech a tabletech oceňují klienti na nové verzi Infobanky ČTK, která byla spuštěna letos v květnu. Za velmi užitečné považují také propojení textových zpráv s fotkami, zvuky, infografikou, ale i navzájem mezi sebou.
-introPart-2: {{video embed}}
 indexCol: 2
 indexClass: comfort-v-prace
 order: 3
@@ -21,5 +20,3 @@ Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepš
 Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.
 
 Více o nové Infobance, nápověda a videa jsou zde:
-
-##### (http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!]

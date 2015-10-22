@@ -4,15 +4,13 @@ author: CTK
 date: 2012-10-01 15:00
 template: brno.jade
 excerpt: 
-introPart-1: 
+introPart1: Brněnská pobočka České tiskové kanceláře vstoupila do roku 2015 v nových redakčních prostorách v budově Českého rozhlasu v Beethovenově ulici. V prosinci totiž po více než 80 letech odešla z redakce v Solniční ulici. Důvodem stěhování je snaha o hospodárnost. Nově pronajaté místnosti v rozhlasové budově lépe odpovídají současným potřebám agentury.
 indexCol: 3
 indexClass: brno
 indexImg: brno-sm.jpg
 order: 9
 
 ---
-
-Brněnská pobočka České tiskové kanceláře vstoupila do roku 2015 v nových redakčních prostorách v budově Českého rozhlasu v Beethovenově ulici. V prosinci totiž po více než 80 letech odešla z redakce v Solniční ulici. Důvodem stěhování je snaha o hospodárnost. Nově pronajaté místnosti v rozhlasové budově lépe odpovídají současným potřebám agentury.
 
 Pobočka ČTK v prvním patře nájemního domu v Solniční po desetiletí představovala pevný bod na brněnské mediální mapě. Žádná ze současných brněnských zpravodajských redakcí nesídlila na jednom místě tak dlouho. ČTK se do místností s výhledem na Českou ulici přistěhovala podle dobových městských adresářů kolem roku 1931. Předtím redaktoři pracovali na náměstí Svobody v čísle 12, což byla adresa zděděná ještě z dob rakouské Telegrafní a korespondenční kanceláře (Korbyro).
 
@@ -22,7 +20,7 @@ Kromě regionálního dění má brněnská pobočka na starosti také události
 
 Ze současných regionálních poboček ČTK využívají zázemí rozhlasových budov také ostravská a zlínská. Sídlo Českého rozhlasu Brno – a nyní také brněnské „Četky“ – je významná architektonická památka. Vznikla v letech 1921 až 1925 pro filiálku banky Union podle návrhu uznávaného architekta Ernsta Wiesnera. Rozhlasovým účelům slouží od roku 1950. ČTK nyní užívá tři místnosti ve 3. patře budovy. Pracovní čas zpravodajů pomáhají měřit zvony v přilehlé věži jezuitského kostela.
 
-## Život v Solniční
+#### Život v Solniční
 
 Většinu svého profesního života strávil v Solniční ulici Bohumil Hlaváček, který působil jako zpravodaj ČTK v letech 1953 až 1999. Na redakci vzpomíná s nostalgií nejen jako na pracoviště, ale v podstatě také druhý domov. Ostatně než v Brně získal bydlení, tak v jedné z redakčních místností také přespával na skládací železné posteli, která přes den musela být odklizena. V Solniční bydlel ve služebním bytě také tehdejší vedoucí i s rodinou.
 

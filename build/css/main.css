@@ -500,6 +500,19 @@ header.header {
         left: 4px; }
       #pages .articleWrapper p strong, #pages .articleWrapper .endDot strong {
         font-family: 'maxima_bold'; }
+    #pages .articleWrapper .articleHeader {
+      position: relative;
+      margin-bottom: 15px; }
+    #pages .articleWrapper .floatQuote {
+      position: absolute;
+      bottom: 0;
+      padding: 20px;
+      width: 210px; }
+    #pages .articleWrapper .articleSubhead {
+      margin: 0 0 10px 0;
+      font-size: 1em;
+      color: #1d539c;
+      font-family: 'maxima_light'; }
     #pages .articleWrapper .endDot:after {
       content: '';
       height: 5px;
@@ -510,11 +523,32 @@ header.header {
       position: relative;
       top: -2px;
       left: 4px; }
-    #pages .articleWrapper .articleSubhead {
-      margin: 0 0 10px 0;
-      font-size: 1.1em;
-      color: #1d539c;
-      font-family: 'maxima_light'; }
+    #pages .articleWrapper .noDot:last-child:after {
+      display: none; }
+    #pages .articleWrapper .pageLink {
+      color: white;
+      background: #2c8bc4;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* FF3.6+ */
+      background: -webkit-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* IE10+ */
+      background: linear-gradient(to right, #2c8bc4 0%, #1d539c 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 );
+      /* IE6-9 */
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px 0;
+      padding: 6px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75); }
     #pages .articleWrapper#director-letter {
       padding-top: 70px; }
       @media (min-width: 768px) {
@@ -615,20 +649,12 @@ header.header {
       width: 100%; }
       #pages .articleWrapper#dokaze-titulek .imgWrap img {
         width: 100%; }
-    #pages .articleWrapper#fotobanka .articleHeader {
-      position: relative;
-      margin-bottom: 15px; }
     #pages .articleWrapper#fotobanka .articleSubhead {
       margin-top: 7px; }
-    #pages .articleWrapper#fotobanka .floatQuote {
-      position: absolute;
-      bottom: 0;
-      padding: 20px;
-      width: 210px; }
-      #pages .articleWrapper#fotobanka .floatQuote h2 {
-        font-size: 1em;
-        line-height: 1.2em;
-        color: black; }
+    #pages .articleWrapper#fotobanka .floatQuote h2 {
+      font-size: 1em;
+      line-height: 1.2em;
+      color: black; }
     #pages .articleWrapper#hospodareni {
       background: #2c8bc4;
       /* Old browsers */
@@ -674,14 +700,8 @@ header.header {
         #pages .articleWrapper#hospodareni table td:first-child {
           width: 28%;
           text-align: left; }
-    #pages .articleWrapper#czech-press-photo .articleHeader {
-      position: relative;
-      margin-bottom: 15px; }
     #pages .articleWrapper#czech-press-photo .floatQuote {
-      position: absolute;
-      bottom: 0;
-      padding: 10px 20px;
-      width: 210px; }
+      padding: 10px 20px; }
       #pages .articleWrapper#czech-press-photo .floatQuote h1, #pages .articleWrapper#czech-press-photo .floatQuote h2 {
         color: white;
         margin: 0; }
@@ -697,3 +717,21 @@ header.header {
     @media (min-width: 1040px) {
       #pages .articleWrapper#czech-press-photo .article {
         height: 172px; } }
+    #pages .articleWrapper#distribuce-zpravy .col {
+      overflow: visible; }
+    #pages .articleWrapper#brno .floatQuote {
+      width: 80%; }
+      #pages .articleWrapper#brno .floatQuote h1 {
+        color: white; }
+    #pages .articleWrapper#brno .article {
+      margin-bottom: 15px; }
+    #pages .articleWrapper#brno .col1, #pages .articleWrapper#brno .col2 {
+      width: 50%; }
+    #pages .articleWrapper#brno .col1 {
+      padding: 0 6px 0 0; }
+    #pages .articleWrapper#brno .col2 {
+      padding: 0 0 0 6px; }
+    #pages .articleWrapper#redakci-techniku .article {
+      margin-bottom: 15px; }
+    #pages .articleWrapper#redakci-techniku .col3 {
+      width: 32%; }

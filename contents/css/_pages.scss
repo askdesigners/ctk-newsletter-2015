@@ -84,6 +84,25 @@
             }
         }
 
+        .articleHeader{
+            position: relative; 
+            margin-bottom: 15px;
+        }
+
+        .floatQuote{
+            position: absolute;
+            bottom: 0;
+            padding: 20px;
+            width: 210px;
+        }
+
+        .articleSubhead{
+            margin: 0 0 10px 0;
+            font-size: 1em;
+            color: $ctkDkBlue;
+            font-family: $light;
+        }
+
         .endDot:after{
             content: '';
             height: 5px;
@@ -96,11 +115,22 @@
             left: 4px;
         }
 
-        .articleSubhead{
-            margin: 0 0 10px 0;
-            font-size: 1.1em;
-            color: $ctkDkBlue;
-            font-family: $light;
+        .noDot:last-child:after{
+            display: none;
+        }
+
+        .pageLink{
+            color: white;
+            // background-color: $ctkGradient;
+            @include ctkGradient(left, right);
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+            padding: 6px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
         }
 
         &#director-letter{
@@ -253,19 +283,10 @@
             }
         }
         &#fotobanka{
-            .articleHeader{
-                position: relative; 
-                margin-bottom: 15px;
-            }
             .articleSubhead{
                 margin-top: 7px;
             }
             .floatQuote{
-                position: absolute;
-                bottom: 0;
-                padding: 20px;
-                width: 210px;
-
                 h2{
                     font-size: 1em;
                     line-height: 1.2em;
@@ -323,14 +344,9 @@
         }
         &#czech-press-photo {
             .articleHeader{
-                position: relative; 
-                margin-bottom: 15px;
             }
             .floatQuote{
-                position: absolute;
-                bottom: 0;
                 padding: 10px 20px;
-                width: 210px;
                 h1, h2{
                     color: white;
                     margin: 0;
@@ -352,6 +368,41 @@
                 @include bgScreen{
                     height: 172px;
                 }
+            }
+        }
+        &#distribuce-zpravy{
+            .col{
+                overflow: visible;
+            }
+        }
+        &#brno{
+            .floatQuote{
+                width: 80%;
+
+                h1{
+                    color: white;
+                }
+            }
+            .article{
+                margin-bottom: 15px;
+            }
+
+            .col1, .col2{
+                width: 50%;
+            }
+            .col1{
+                padding: 0 6px 0 0;
+            }
+            .col2{
+                padding: 0 0 0 6px;
+            }
+        }
+        &#redakci-techniku{
+            .article{
+                margin-bottom: 15px;
+            }
+            .col3{
+                width: 32%;
             }
         }
     }
