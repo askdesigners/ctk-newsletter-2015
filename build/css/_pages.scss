@@ -252,5 +252,26 @@
                 }
             }
         }
+        &#fotobanka{
+            .articleHeader{
+                position: relative; 
+                margin-bottom: 15px;
+            }
+            .articleSubhead{
+                margin-top: 7px;
+            }
+            .floatQuote{
+                position: absolute;
+                bottom: 0;
+                padding: 20px;
+                width: 210px;
+
+                h2{
+                    font-size: 1em;
+                    line-height: 1.2em;
+                    color: rgb(0, 0, 0);
+                }
+            }
+        }
     }
 }

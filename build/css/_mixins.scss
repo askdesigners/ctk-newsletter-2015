@@ -1,17 +1,17 @@
 @mixin smScreen {
-  @media only screen and (min-width: 480px) {
+  @media  (min-width: 480px) {
     @content;
   }
 }
 
 @mixin mdScreen {
-  @media only screen and (min-width: 768px) {
+  @media  (min-width: 768px) {
     @content;
   }
 }
 
 @mixin bgScreen {
-  @media only screen and (min-width: 1040px) {
+  @media  (min-width: 1040px) {
     @content;
   }
 }

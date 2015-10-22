@@ -4,8 +4,17 @@ block append vars
   - bodyclass = 'article-detail ' + page.metadata.indexClass
 
 block content
-  header.articleHeader
-      h1= page.title
+    header.articleHeader
+        .full
+            img(src="img/fotobanka-exhibit.jpg")
+        
+        .floatQuote
+            h2= page.metadata.pullQuote
 
-  article.article
-    section.content!= typogr(page.html).typogrify()
+    h1!= page.title
+
+    article.article.txtCol-2-2
+        h3.articleSubhead= page.metadata.introPart1
+        section.content!= typogr(page.html).typogrify()
+
+
