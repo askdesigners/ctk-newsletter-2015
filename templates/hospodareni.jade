@@ -7,44 +7,44 @@ block content
     header.articleHeader
         h1= page.title
 
-    article.article
-        section.content!= typogr(page.html).typogrify()
+    article.article.txtCol-2-2!= typogr(page.html).typogrify()
 
-        table
-            tr
-                td tis. Kč
-                td skut. 2014
-                td skut. 2013
-                td rozp. 2014
-                td rozdíl k min. roku
-                td rozdíl k k rozpočtu
-            tr
-                td Hospodářský výsledek za účetní období   
-                td 3 149   
-                td 3 017   
-                td 89  
-                td 132 
-                td 3 060
-            tr
-                td Hospodářský výsledek před zdaněním  
-                td 3 741   
-                td 3 507   
-                td 89  
-                td 234 
-                td 3 652
-            tr 
-                td Provozní hospodářský výsledek   
-                td 3 819   
-                td 3 301   
-                td -2 557  
-                td 518 
-                td 6 376
-            tr 
-                td Hosp. výsledek hlavních činností
-                td 8 572   
-                td 8 908   
-                td -268    
-                td -336    
-                td 8 840
+    h3!= page.metadata.tableHeader
+    table
+        tr
+            td   
+            td skut. 2014
+            td skut. 2013
+            td rozp. 2014
+            td rozdíl k min. roku
+            td rozdíl k k rozpočtu
+        tr
+            td Hospodářský výsledek za účetní období   
+            td 3 149   
+            td 3 017   
+            td 89  
+            td 132 
+            td 3 060
+        tr
+            td Hospodářský výsledek před zdaněním  
+            td 3 741   
+            td 3 507   
+            td 89  
+            td 234 
+            td 3 652
+        tr 
+            td Provozní hospodářský výsledek   
+            td 3 819   
+            td 3 301   
+            td -2 557  
+            td 518 
+            td 6 376
+        tr 
+            td Hosp. výsledek hlavních činností
+            td 8 572   
+            td 8 908   
+            td -268    
+            td -336    
+            td 8 840
 
     

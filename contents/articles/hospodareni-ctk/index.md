@@ -7,6 +7,7 @@ excerpt:
 introPart-1: --
 indexCol: 3
 indexClass: hospodareni
+tableHeader: Rozhodující čísla o&nbsp;hospodaření v roce 2014
 order: 7
 
 ---
@@ -20,7 +21,3 @@ Klíčem k úspěšnému roku byl vývoj v hlavních činnostech,  kde se podař
 Finanční situace agentury byla a je nadále stabilní. Likvidita prvního stupně, tedy poměr krátkodobého finančního majetku a krátkodobých závazků, dosáhla hodnoty 5,52. Agentura nemá žádné bankovní půjčky.
 
 Stabilitu agentury potvrdilo v roce 2014 v rámci hodnocení Czech Top 100 také ratingové ocenění AAA Czech Stability Award, udělené společností Bisnode.
-
-Rozhodující čísla o hospodaření v roce 2014
-
--- table -- 

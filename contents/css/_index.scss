@@ -203,7 +203,7 @@ header.header{
 
         a{
             text-decoration: none;
-            background: -webkit-linear-gradient(left, $ctkLtBlue, $ctkDkBlue);
+            @include ctkGradient(left, right);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }

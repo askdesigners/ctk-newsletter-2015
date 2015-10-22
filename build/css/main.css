@@ -202,7 +202,20 @@ header.header {
         line-height: 0.4em; } }
     header.header h1 a {
       text-decoration: none;
-      background: -webkit-linear-gradient(left, #2c8bc4, #1d539c);
+      background: #2c8bc4;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* FF3.6+ */
+      background: -webkit-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
+      /* IE10+ */
+      background: linear-gradient(to right, #2c8bc4 0%, #1d539c 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 );
+      /* IE6-9 */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
@@ -464,7 +477,7 @@ header.header {
       line-height: 1.2em; }
       @media (min-width: 1040px) {
         #pages .articleWrapper h1 {
-          font-size: 2.5em;
+          font-size: 2.8em;
           line-height: 1.1em; } }
     #pages .articleWrapper h4 {
       font-size: 0.8em;
@@ -597,7 +610,7 @@ header.header {
       #pages .articleWrapper#nova-sluzba .leftCol .imgWrap img {
         width: 100%; }
     #pages .articleWrapper#dokaze-titulek .articleSubhead {
-      font-size: 0.8em; }
+      font-size: 1em; }
     #pages .articleWrapper#dokaze-titulek .imgWrap {
       width: 100%; }
       #pages .articleWrapper#dokaze-titulek .imgWrap img {
@@ -616,3 +629,71 @@ header.header {
         font-size: 1em;
         line-height: 1.2em;
         color: black; }
+    #pages .articleWrapper#hospodareni {
+      background: #2c8bc4;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #2c8bc4 0%, #1d539c 100%);
+      /* FF3.6+ */
+      background: -webkit-linear-gradient(top, #2c8bc4 0%, #1d539c 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #2c8bc4 0%, #1d539c 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #2c8bc4 0%, #1d539c 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #2c8bc4 0%, #1d539c 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 );
+      /* IE6-9 */
+      color: white; }
+      #pages .articleWrapper#hospodareni h1 {
+        color: white; }
+        @media (min-width: 1040px) {
+          #pages .articleWrapper#hospodareni h1 {
+            font-size: 3.9em; } }
+      #pages .articleWrapper#hospodareni h3 {
+        margin-top: 30px; }
+        @media (min-width: 768px) {
+          #pages .articleWrapper#hospodareni h3 {
+            width: 26%;
+            margin-bottom: -49px; } }
+        @media (min-width: 1040px) {
+          #pages .articleWrapper#hospodareni h3 {
+            width: 30%;
+            margin-bottom: -31px; } }
+      #pages .articleWrapper#hospodareni table {
+        width: 100%;
+        font-size: 0.8em; }
+        #pages .articleWrapper#hospodareni table tr {
+          border-bottom: 1px solid white; }
+        #pages .articleWrapper#hospodareni table tr:first-child {
+          vertical-align: bottom; }
+        #pages .articleWrapper#hospodareni table td {
+          padding: 8px 0;
+          text-align: right;
+          width: 13%; }
+        #pages .articleWrapper#hospodareni table td:first-child {
+          width: 28%;
+          text-align: left; }
+    #pages .articleWrapper#czech-press-photo .articleHeader {
+      position: relative;
+      margin-bottom: 15px; }
+    #pages .articleWrapper#czech-press-photo .floatQuote {
+      position: absolute;
+      bottom: 0;
+      padding: 10px 20px;
+      width: 210px; }
+      #pages .articleWrapper#czech-press-photo .floatQuote h1, #pages .articleWrapper#czech-press-photo .floatQuote h2 {
+        color: white;
+        margin: 0; }
+      #pages .articleWrapper#czech-press-photo .floatQuote h1 {
+        font-size: 2.5em; }
+      #pages .articleWrapper#czech-press-photo .floatQuote h2 {
+        font-size: 2em;
+        line-height: 1.1em;
+        font-family: 'maxima_light'; }
+    @media (min-width: 768px) {
+      #pages .articleWrapper#czech-press-photo .article {
+        height: 205px; } }
+    @media (min-width: 1040px) {
+      #pages .articleWrapper#czech-press-photo .article {
+        height: 172px; } }

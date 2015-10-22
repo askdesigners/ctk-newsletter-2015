@@ -1,5 +1,6 @@
 ---
-title: To byste nevěřili, co dokáže takový titulek
+title: To byste nevěřili, co dokáže takový&nbsp;titulek
+indexTitle: To byste nevěřili, co dokáže takový titulek
 author: CTK
 date: 2012-10-01 15:00
 template: dokaze-titulek.jade

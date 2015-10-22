@@ -1,6 +1,6 @@
 ---
 title: Agentura spustila novou službu ČTK LIVE
-altTitle: Agentura spustila novou službu <a href="http://nib.ctk.cz/cs/Contract/Product?Prod=help">ČTK LIVE</a>
+altTitle: Agentura spustila novou službu <a href="http://nib.ctk.cz/cs/Contract/Product?Prod=help">ČTK&nbsp;LIVE</a>
 author: CTK
 date: 2012-10-01 15:00
 template: nova-sluzba.jade
