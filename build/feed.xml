@@ -9,12 +9,15 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>To byste nevěřili, co dokáže takový titulek</title>
-      <link>http://localhost:8080/articles/dokaze-titulek/</link>
+      <title>Roman Vondrouš získal v soutěži Czech Press Photo 2015 první cenu v kategorii Každodenní život</title>
+      <link>http://localhost:8080/articles/czech-press-photo/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/dokaze-titulek/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/czech-press-photo/</guid>
       <author></author>
-      <description>&lt;p&gt;text in metadata :(&lt;/p&gt;
+      <description>&lt;p&gt;První místo v kategorii Každodenní život získal v soutěži Czech Press Photo 2015 za snímky Havana Cars fotoreportér ČTK &lt;strong&gt;Roman Vondrouš.&lt;/strong&gt; Ve vítězné sérii zachytil letité americké automobily v ulicích kubánského hlavního města.&lt;/p&gt;
+&lt;p&gt;„První ceny za tuto sérii si vážím především proto, že barevný subjektivní dokument patří vedle sportovní fotografie mezi mé nejoblíbenější fotografické žánry. A automobiloví veteráni na mě v Havaně dýchli silnou nostalgickou atmosférou,“ komentoval ocenění Vondrouš.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roman Vondrouš&lt;/strong&gt; patří mezi naše přední fotoreportéry, v soutěži Czech Press Photo pravidelně získává významná ocenění již od roku 2004. Jeho zatím největším úspěchem je první místo v mezinárodní soutěži &lt;strong&gt;World Press Photo 2013&lt;/strong&gt; v kategorii Sport za sérii fotek z Velké pardubické. Od října tohoto roku vede Vondrouš v Akademii ČTK &lt;a href=&quot;http://localhost:8080/articles/czech-press-photo/kurz%20Kreativní%20fotografie&quot;&gt;http://www.ctk.cz/akademie-ctk/kurzy/kreativni-fotografie/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cenu Nikon Sport Awards za výjimečnou fotografii vypjaté sportovní akce si odnáší fotoreportér ČTK &lt;strong&gt;David Taneček&lt;/strong&gt; za snímek ze série Evropské hry Baku 2015. &lt;/p&gt;
 </description>
     </item>
     <item>
@@ -38,6 +41,46 @@
 </description>
     </item>
     <item>
+      <title>To byste nevěřili, co dokáže takový titulek</title>
+      <link>http://localhost:8080/articles/dokaze-titulek/</link>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/dokaze-titulek/</guid>
+      <author></author>
+      <description>&lt;p&gt;text in metadata :(&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Četka si za totality nakonec musela redakční techniku vyrábět sama</title>
+      <link>http://localhost:8080/articles/redakci-techniku/</link>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/redakci-techniku/</guid>
+      <author></author>
+      <description>&lt;p&gt;Historie ČTK by se dala označit i za reálný obraz vývoje sdělovací techniky v Československu. Agentura jako klíčové informační médium v zemi využívala vždy to nejlepší, co bylo na trhu, respektive co bylo k dosažení. Během totality, kdy byl omezený přísun technologií ze západního světa, pak technici ČTK začali zařízení sloužící k psaní i příjmu agenturních zpráv částečně sami vyrábět. &lt;/p&gt;
+&lt;p&gt;V 70. letech tak stáli u zrodu elektronického redakčního systému, jehož koncové stanice, původně plně hardwarové a později postavené na osmibitových mikroprocesorech Intel 8080, se vyráběly v dílnách ČTK. A to včetně „ergonomické“ plechové klávesnice, jejíž rozložení bylo přesně okopírované z psacích strojů. Jako jejich displej sloužil upravený přenosný televizní přijímač Minitesla, podle jehož tvaru a převládající barvy byly přezdívány „Meruňky“. Stanice byla vybavena vlastní pamětí, zprvu o velikosti jeden kilobyte, což odpovídalo jedné stránce textu se šestnácti řádky po 64 znacích. Paměť byla rozšiřována na tři a nakonec až na osm kilobyte. Parametry stanice jsou dnes úsměvné, na tehdejší dobu byly ovšem velmi slušné a svou koncepcí klient/server systém daleko předběhl tehdejší dobu zahleděnou do sálových počítačů se sítěmi pasivních terminálů, a to i na západ od našich hranic. &lt;/p&gt;
+&lt;p&gt;“V ČTK vznikal od 50. let velmi silný technický tým, čítající několik desítek techniků a vývojářů. Ti tvořili v Československu skutečnou špičku. Vyvíjeli věci, které od nás potom přebíraly další firmy,” říká dlouholetý technik ČTK Pavel Osuský.&lt;/p&gt;
+&lt;p&gt;Ještě dlouho po válce a následném komunistickém převratu se zprávy vytvářely a potom odesílaly na předválečných mechanických strojích Siemens T-37 a jejich upravených verzích. Později – v 50. letech – na jejich  kopiích z NDR pod označením RFT 51. Výstupem byla děrná páska, která se odesílala dálnopisem, dálnopisným vysílačem nebo prostřednictvím rádiového vysílání. Část distribuce byla do redakcí stále odesílána historickou potrubní poštou. Posledním mechanickým strojem pro psaní zpráv byl T-100 z brněnské Zbrojovky.&lt;/p&gt;
+&lt;p&gt;V 70. letech vymyslel inženýr Sušický z oddělení technického vývoje ČTK koncept, jehož jádro pro každou redakci tvořil vývojový systém Intel MDS80 s procesory Intel 8080, operační pamětí 48kB a pamětí programu 16kB, do které se musel vejít software, do posledního bitu kompletně vytvářený v tzv. assembleru ve vývojovém oddělení ČTK. Jako trvalé paměti sloužily zprvu pružné disky o velikosti 8“. Později je nahradily mnohem spolehlivější paměti, založené na dnes již pozapomenuté, tehdy však velmi slibné technologii magnetických „bublin“ (domén), vynalezené v Bellových laboratořích. &lt;/p&gt;
+&lt;p&gt;Jeden centrální počítač dokázal obsluhovat až 16 stanic připojených sériovými linkami o rychlosti 1200 nebo 2400 bitů za sekundu a současně vysílat zpravodajství až na 48 sériových linek rychlostí až 300 bit/s.&lt;/p&gt;
+&lt;p&gt;Koncové stanice se vyráběly v dílnách ČTK v Bubenči. Není bez zajímavosti, že i kód pro ukládání českých znaků si museli technici v ČTK navrhnout sami. Meruňky později v exportní redakci, kde nebyla diakritika zapotřebí, doplnily maďarské průmyslově vyráběné terminály Videoton. Pro češtinu však zůstaly Meruňky nenahraditelné až do příchodu počítačů kompatibilních s IBM PC a jejich úprav. První takový počítač od firmy Schneider s disketovou jednotkou 5¼“ se v ČTK pro vývojové účely objevil v roce 1987 a zakoupen byl v bazaru, kde byly tehdy občas k mání stroje pokoutně dovážené ze zahraničí. Jejich cena v ČSSR mnohonásobně převyšovala cenu, za jakou bylo možné takový počítač koupit např. v SRN, těžko dostupnou (a ještě dražší) alternativou jim však zde byly jen počítače montované v tehdejším Agrokombinátu Slušovice.&lt;/p&gt;
+&lt;p&gt;Meruňky sloužily v redakčním provozu až do roku 1992, kdy byl v ČTK spuštěn redakční systém firmy Typlan. Jeho koncovými stanicemi, již kompatibilními s IBM PC, byly osobní počítače firmy Nokia, které operační systém i program zaváděly z „miniaturní“ diskety o velikosti 3½“, protože ještě neměly vlastní disk. Stanice se k serverům VAX firmy Digital Equipment (DEC) připojovaly po sériové lince přes terminálové servery a síť typu Ethernet na koaxiálních kabelech. Teprve později s příchodem Windows 3.0 a jejich první síťové verze 3.11 se i na osobních počítačích začínají objevovat sítě typu LAN, v ČTK plně využité až v systému Wintyp, opět kompletně vyvinutém v ČTK v roce 1996. A to už je vlastně téměř současnost.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Hospodaření ČTK v roce 2014</title>
+      <link>http://localhost:8080/articles/hospodareni-ctk/</link>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/hospodareni-ctk/</guid>
+      <author></author>
+      <description>&lt;p&gt;ČTK v roce 2014 pokračovala v trendu roku 2013, kdy hospodařila se ziskem a kdy se do kladných poloh vrátily všechny rozhodující ukazatele. Vzhledem k tomu, že agentura už několik let neprovozuje vedlejší činnosti a ani v roce 2014 nezaznamenala jednorázové vlivy na hospodaření, jde opět o výsledek opírající se o kvalitu hlavního „produktu“, tedy zpravodajství.&lt;/p&gt;
+&lt;p&gt;Stejně jako v roce 2013 byl hospodářský výsledek mírně nad 3 mil. Kč. Stejně jako v roce 2013 nebyl pokles výnosů tak masivní jako v letech ekonomické krize, i když tlak na ceny nadále trvá, a to jak u mediálních klientů, tak u státní správy.&lt;/p&gt;
+&lt;p&gt;Klíčem k úspěšnému roku byl vývoj v hlavních činnostech,  kde se podařilo stabilizovat úroveň výnosů i nákladů. Jejich zisk dosáhl výše &lt;strong&gt;8 572 tis. Kč&lt;/strong&gt; a překonal rozpočet o 8,8 mil. Kč.&lt;/p&gt;
+&lt;p&gt;Finanční situace agentury byla a je nadále stabilní. Likvidita prvního stupně, tedy poměr krátkodobého finančního majetku a krátkodobých závazků, dosáhla hodnoty 5,52. Agentura nemá žádné bankovní půjčky.&lt;/p&gt;
+&lt;p&gt;Stabilitu agentury potvrdilo v roce 2014 v rámci hodnocení Czech Top 100 také ratingové ocenění AAA Czech Stability Award, udělené společností Bisnode.&lt;/p&gt;
+&lt;p&gt;Rozhodující čísla o hospodaření v roce 2014&lt;/p&gt;
+&lt;p&gt;– table – &lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>SONS distribuuje zrakově postiženým zprávy ČTK</title>
       <link>http://localhost:8080/articles/distribuce-zpravy/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
@@ -52,17 +95,14 @@
 </description>
     </item>
     <item>
-      <title>Klienti oceňují komfort při práci s novou Infobankou ČTK</title>
-      <link>http://localhost:8080/articles/comfort-v-prace/</link>
+      <title>Ve Fotobance ČTK bude mít klient cestu k fotografiím snadnější</title>
+      <link>http://localhost:8080/articles/fotobanka/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/comfort-v-prace/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/fotobanka/</guid>
       <author></author>
-      <description>&lt;p&gt;Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK &lt;/p&gt;
-&lt;p&gt;„Povedlo se naplnit heslo Četka do kapsy (ČDK) a statistiky to potvrzují – evidujeme přibližně deset procent přístupů z mobilních zařízení. Poměr mobily/tablety vychází podobně devět ku jedné,“ dodává k tomu obchodní ředitel ČTK Jaroslav Richter.&lt;/p&gt;
-&lt;p&gt;Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat. Počítá se také s tím, že on-line přístup do Infobanky si bude moci koupit kdokoli, nebude muset kvůli tomu uzavírat s ČTK smlouvu.&lt;/p&gt;
-&lt;p&gt;Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.&lt;/p&gt;
-&lt;p&gt;Více o nové Infobance, nápověda a videa jsou zde:&lt;/p&gt;
-&lt;h5 id=&quot;-http-nib-ctk-cz-cs-contract-product-prod-help-link-&quot;&gt;(&lt;a href=&quot;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&quot;&gt;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&lt;/a&gt;]&lt;/h5&gt;
+      <description>&lt;p&gt;Na přelomu roku 2015 a 2016 by měly webové stránky začít využívat technologii Visual Search společnosti Pixolution. Ta umožní nalézt fotografie nikoli jen na základě metadat jako doposud, ale rovněž na základě vizuální podobnosti snímků. &lt;/p&gt;
+&lt;p&gt;Fotobanka ČTK se v roli generálního dodavatele podílí na dvou fotografických výstavách uspořádaných v rámci projektu Plzeň Evropské město kultury 2015. První výstava, nazvaná Plzeňské rodinné fotoalbum, skončila v polovině července. Od 20. října bude k vidění druhá výstava, pojmenovaná Ráj mezi čtyřmi řekami, kterou opět Fotobanka ČTK dodává na klíč jako generální partner. Kromě výše zmíněných výstav se ČTK podílí i na fotografické publikaci, která by měla obě výstavy zmapovat a shrnout. &lt;/p&gt;
+&lt;p&gt;Začátkem prázdnin se ve fotoarchivu ČTK uskutečnila přednáška pro restaurátory fotografií. Akce se konala v rámci mezinárodního workshopu, který pořádal The Getty Conservation Institute (GCI) ve spolupráci s Ústavem dějin umění AV ČR, v.v.i.&lt;/p&gt;
 </description>
     </item>
     <item>
@@ -80,15 +120,17 @@
 </description>
     </item>
     <item>
-      <title>Roman Vondrouš získal v soutěži Czech Press Photo 2015 první cenu v kategorii Každodenní život</title>
-      <link>http://localhost:8080/articles/czech-press-photo/</link>
+      <title>Klienti oceňují komfort při práci s novou Infobankou ČTK</title>
+      <link>http://localhost:8080/articles/comfort-v-prace/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/czech-press-photo/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/comfort-v-prace/</guid>
       <author></author>
-      <description>&lt;p&gt;První místo v kategorii Každodenní život získal v soutěži Czech Press Photo 2015 za snímky Havana Cars fotoreportér ČTK &lt;strong&gt;Roman Vondrouš.&lt;/strong&gt; Ve vítězné sérii zachytil letité americké automobily v ulicích kubánského hlavního města.&lt;/p&gt;
-&lt;p&gt;„První ceny za tuto sérii si vážím především proto, že barevný subjektivní dokument patří vedle sportovní fotografie mezi mé nejoblíbenější fotografické žánry. A automobiloví veteráni na mě v Havaně dýchli silnou nostalgickou atmosférou,“ komentoval ocenění Vondrouš.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roman Vondrouš&lt;/strong&gt; patří mezi naše přední fotoreportéry, v soutěži Czech Press Photo pravidelně získává významná ocenění již od roku 2004. Jeho zatím největším úspěchem je první místo v mezinárodní soutěži &lt;strong&gt;World Press Photo 2013&lt;/strong&gt; v kategorii Sport za sérii fotek z Velké pardubické. Od října tohoto roku vede Vondrouš v Akademii ČTK &lt;a href=&quot;http://localhost:8080/articles/czech-press-photo/kurz%20Kreativní%20fotografie&quot;&gt;http://www.ctk.cz/akademie-ctk/kurzy/kreativni-fotografie/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Cenu Nikon Sport Awards za výjimečnou fotografii vypjaté sportovní akce si odnáší fotoreportér ČTK &lt;strong&gt;David Taneček&lt;/strong&gt; za snímek ze série Evropské hry Baku 2015. &lt;/p&gt;
+      <description>&lt;p&gt;Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce, vyhledávání v archivu a nejen to. Mohou nahlédnout i do naší kuchyně – kompletní databáze událostí, komentují obsah Infobanky vedoucí zpravodajských úseků ČTK &lt;/p&gt;
+&lt;p&gt;„Povedlo se naplnit heslo Četka do kapsy (ČDK) a statistiky to potvrzují – evidujeme přibližně deset procent přístupů z mobilních zařízení. Poměr mobily/tablety vychází podobně devět ku jedné,“ dodává k tomu obchodní ředitel ČTK Jaroslav Richter.&lt;/p&gt;
+&lt;p&gt;Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat. Počítá se také s tím, že on-line přístup do Infobanky si bude moci koupit kdokoli, nebude muset kvůli tomu uzavírat s ČTK smlouvu.&lt;/p&gt;
+&lt;p&gt;Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.&lt;/p&gt;
+&lt;p&gt;Více o nové Infobance, nápověda a videa jsou zde:&lt;/p&gt;
+&lt;h5 id=&quot;-http-nib-ctk-cz-cs-contract-product-prod-help-link-&quot;&gt;(&lt;a href=&quot;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&quot;&gt;http://nib.ctk.cz/cs/Contract/Product?Prod=help)[link!&lt;/a&gt;]&lt;/h5&gt;
 </description>
     </item>
     <item>
@@ -131,48 +173,6 @@ Klíčová je pro nás péče o zákazníky, a právě proto vám ČTK v letošn
 &lt;p&gt;A protože svou roli ve společnosti chápeme šířeji než „jen“ objektivním zpravodajstvím, připomínáme i některé dobročinné projekty, které podporujeme.&lt;/p&gt;
 &lt;p&gt;Děkuji za pozornost, za přízeň a přeji všem krásný den&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Jiří Majstr&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Ve Fotobance ČTK bude mít klient cestu k fotografiím snadnější</title>
-      <link>http://localhost:8080/articles/fotobanka/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/fotobanka/</guid>
-      <author></author>
-      <description>&lt;p&gt;Na přelomu roku 2015 a 2016 by měly webové stránky začít využívat technologii Visual Search společnosti Pixolution. Ta umožní nalézt fotografie nikoli jen na základě metadat jako doposud, ale rovněž na základě vizuální podobnosti snímků. &lt;/p&gt;
-&lt;p&gt;Fotobanka ČTK se v roli generálního dodavatele podílí na dvou fotografických výstavách uspořádaných v rámci projektu Plzeň Evropské město kultury 2015. První výstava, nazvaná Plzeňské rodinné fotoalbum, skončila v polovině července. Od 20. října bude k vidění druhá výstava, pojmenovaná Ráj mezi čtyřmi řekami, kterou opět Fotobanka ČTK dodává na klíč jako generální partner. Kromě výše zmíněných výstav se ČTK podílí i na fotografické publikaci, která by měla obě výstavy zmapovat a shrnout. &lt;/p&gt;
-&lt;p&gt;Začátkem prázdnin se ve fotoarchivu ČTK uskutečnila přednáška pro restaurátory fotografií. Akce se konala v rámci mezinárodního workshopu, který pořádal The Getty Conservation Institute (GCI) ve spolupráci s Ústavem dějin umění AV ČR, v.v.i.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Hospodaření ČTK v roce 2014</title>
-      <link>http://localhost:8080/articles/hospodareni-ctk/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/hospodareni-ctk/</guid>
-      <author></author>
-      <description>&lt;p&gt;ČTK v roce 2014 pokračovala v trendu roku 2013, kdy hospodařila se ziskem a kdy se do kladných poloh vrátily všechny rozhodující ukazatele. Vzhledem k tomu, že agentura už několik let neprovozuje vedlejší činnosti a ani v roce 2014 nezaznamenala jednorázové vlivy na hospodaření, jde opět o výsledek opírající se o kvalitu hlavního „produktu“, tedy zpravodajství.&lt;/p&gt;
-&lt;p&gt;Stejně jako v roce 2013 byl hospodářský výsledek mírně nad 3 mil. Kč. Stejně jako v roce 2013 nebyl pokles výnosů tak masivní jako v letech ekonomické krize, i když tlak na ceny nadále trvá, a to jak u mediálních klientů, tak u státní správy.&lt;/p&gt;
-&lt;p&gt;Klíčem k úspěšnému roku byl vývoj v hlavních činnostech,  kde se podařilo stabilizovat úroveň výnosů i nákladů. Jejich zisk dosáhl výše &lt;strong&gt;8 572 tis. Kč&lt;/strong&gt; a překonal rozpočet o 8,8 mil. Kč.&lt;/p&gt;
-&lt;p&gt;Finanční situace agentury byla a je nadále stabilní. Likvidita prvního stupně, tedy poměr krátkodobého finančního majetku a krátkodobých závazků, dosáhla hodnoty 5,52. Agentura nemá žádné bankovní půjčky.&lt;/p&gt;
-&lt;p&gt;Stabilitu agentury potvrdilo v roce 2014 v rámci hodnocení Czech Top 100 také ratingové ocenění AAA Czech Stability Award, udělené společností Bisnode.&lt;/p&gt;
-&lt;p&gt;Rozhodující čísla o hospodaření v roce 2014&lt;/p&gt;
-&lt;p&gt;– table – &lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Četka si za totality nakonec musela redakční techniku vyrábět sama</title>
-      <link>http://localhost:8080/articles/redakci-techniku/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/redakci-techniku/</guid>
-      <author></author>
-      <description>&lt;p&gt;Historie ČTK by se dala označit i za reálný obraz vývoje sdělovací techniky v Československu. Agentura jako klíčové informační médium v zemi využívala vždy to nejlepší, co bylo na trhu, respektive co bylo k dosažení. Během totality, kdy byl omezený přísun technologií ze západního světa, pak technici ČTK začali zařízení sloužící k psaní i příjmu agenturních zpráv částečně sami vyrábět. &lt;/p&gt;
-&lt;p&gt;V 70. letech tak stáli u zrodu elektronického redakčního systému, jehož koncové stanice, původně plně hardwarové a později postavené na osmibitových mikroprocesorech Intel 8080, se vyráběly v dílnách ČTK. A to včetně „ergonomické“ plechové klávesnice, jejíž rozložení bylo přesně okopírované z psacích strojů. Jako jejich displej sloužil upravený přenosný televizní přijímač Minitesla, podle jehož tvaru a převládající barvy byly přezdívány „Meruňky“. Stanice byla vybavena vlastní pamětí, zprvu o velikosti jeden kilobyte, což odpovídalo jedné stránce textu se šestnácti řádky po 64 znacích. Paměť byla rozšiřována na tři a nakonec až na osm kilobyte. Parametry stanice jsou dnes úsměvné, na tehdejší dobu byly ovšem velmi slušné a svou koncepcí klient/server systém daleko předběhl tehdejší dobu zahleděnou do sálových počítačů se sítěmi pasivních terminálů, a to i na západ od našich hranic. &lt;/p&gt;
-&lt;p&gt;“V ČTK vznikal od 50. let velmi silný technický tým, čítající několik desítek techniků a vývojářů. Ti tvořili v Československu skutečnou špičku. Vyvíjeli věci, které od nás potom přebíraly další firmy,” říká dlouholetý technik ČTK Pavel Osuský.&lt;/p&gt;
-&lt;p&gt;Ještě dlouho po válce a následném komunistickém převratu se zprávy vytvářely a potom odesílaly na předválečných mechanických strojích Siemens T-37 a jejich upravených verzích. Později – v 50. letech – na jejich  kopiích z NDR pod označením RFT 51. Výstupem byla děrná páska, která se odesílala dálnopisem, dálnopisným vysílačem nebo prostřednictvím rádiového vysílání. Část distribuce byla do redakcí stále odesílána historickou potrubní poštou. Posledním mechanickým strojem pro psaní zpráv byl T-100 z brněnské Zbrojovky.&lt;/p&gt;
-&lt;p&gt;V 70. letech vymyslel inženýr Sušický z oddělení technického vývoje ČTK koncept, jehož jádro pro každou redakci tvořil vývojový systém Intel MDS80 s procesory Intel 8080, operační pamětí 48kB a pamětí programu 16kB, do které se musel vejít software, do posledního bitu kompletně vytvářený v tzv. assembleru ve vývojovém oddělení ČTK. Jako trvalé paměti sloužily zprvu pružné disky o velikosti 8“. Později je nahradily mnohem spolehlivější paměti, založené na dnes již pozapomenuté, tehdy však velmi slibné technologii magnetických „bublin“ (domén), vynalezené v Bellových laboratořích. &lt;/p&gt;
-&lt;p&gt;Jeden centrální počítač dokázal obsluhovat až 16 stanic připojených sériovými linkami o rychlosti 1200 nebo 2400 bitů za sekundu a současně vysílat zpravodajství až na 48 sériových linek rychlostí až 300 bit/s.&lt;/p&gt;
-&lt;p&gt;Koncové stanice se vyráběly v dílnách ČTK v Bubenči. Není bez zajímavosti, že i kód pro ukládání českých znaků si museli technici v ČTK navrhnout sami. Meruňky později v exportní redakci, kde nebyla diakritika zapotřebí, doplnily maďarské průmyslově vyráběné terminály Videoton. Pro češtinu však zůstaly Meruňky nenahraditelné až do příchodu počítačů kompatibilních s IBM PC a jejich úprav. První takový počítač od firmy Schneider s disketovou jednotkou 5¼“ se v ČTK pro vývojové účely objevil v roce 1987 a zakoupen byl v bazaru, kde byly tehdy občas k mání stroje pokoutně dovážené ze zahraničí. Jejich cena v ČSSR mnohonásobně převyšovala cenu, za jakou bylo možné takový počítač koupit např. v SRN, těžko dostupnou (a ještě dražší) alternativou jim však zde byly jen počítače montované v tehdejším Agrokombinátu Slušovice.&lt;/p&gt;
-&lt;p&gt;Meruňky sloužily v redakčním provozu až do roku 1992, kdy byl v ČTK spuštěn redakční systém firmy Typlan. Jeho koncovými stanicemi, již kompatibilními s IBM PC, byly osobní počítače firmy Nokia, které operační systém i program zaváděly z „miniaturní“ diskety o velikosti 3½“, protože ještě neměly vlastní disk. Stanice se k serverům VAX firmy Digital Equipment (DEC) připojovaly po sériové lince přes terminálové servery a síť typu Ethernet na koaxiálních kabelech. Teprve později s příchodem Windows 3.0 a jejich první síťové verze 3.11 se i na osobních počítačích začínají objevovat sítě typu LAN, v ČTK plně využité až v systému Wintyp, opět kompletně vyvinutém v ČTK v roce 1996. A to už je vlastně téměř současnost.&lt;/p&gt;
 </description>
     </item>
   </channel>
