@@ -13,7 +13,9 @@ jQuery(document).ready(function($) {
     };
 
     var isMobile = function(){
-        
+        console.log($(window).outerWidth()+15);
+
+        return $(window).outerWidth()+15 < 768;
     };
 
     var pagesFixed = true,
@@ -57,9 +59,20 @@ jQuery(document).ready(function($) {
             e.preventDefault();
             var self = this;
 
+            var adjustment = isMobile() ? 0 : 968 - $(window).scrollTop()
+            
+            console.log(isMobile(), adjustment);
+
             $('html, body').animate({
-                scrollTop: $($(self).attr('href')).offset().top + 968 - $(window).scrollTop()
-            }, 2000);
+                scrollTop: $($(self).attr('href')).offset().top + adjustment
+            }, 1500);
         });
     });
+    $('body').delegate('.backToTop', 'click', function(){
+        console.info('click');
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+
 }); 
