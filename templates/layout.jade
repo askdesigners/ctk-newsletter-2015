@@ -23,13 +23,12 @@ html(lang='cs')
         <![endif]-->
         header.header
             div.content-wrap
-                block header
-                    div.logo
-                        a(href=locals.url) 
-                            img(src="img/logo.png")
-                    h1
-                        a(href=locals.url)= locals.name
-                    //- .hambac nic
+                div.logo
+                    a(href=locals.url) 
+                        img(src="img/logo.png")
+                h1
+                    a(href=locals.url)= locals.name
+
         div#bigWrap
 
             div#content(class='#{bodyclass}')
@@ -39,12 +38,6 @@ html(lang='cs')
             div#pages
                 block pages
 
-
-            footer
-                div.content-wrap
-                    block footer
-                        section.copy
-                            p &copy; #{ new Date().getFullYear() } #{ locals.owner }
         
         script(src="js/vendor/jquery-1.11.3.min.js")
         script(src="js/vendor/throttle-debounce.min.js") 

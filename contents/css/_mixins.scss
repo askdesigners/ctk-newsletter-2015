@@ -17,11 +17,17 @@
 }
 
 @mixin ctkGradient($start, $end){
-    background: $ctkLtBlue; /* Old browsers */
-    background: -moz-linear-gradient($start, $ctkLtBlue 0%, $ctkDkBlue 100%); /* FF3.6+ */
-    background: -webkit-linear-gradient($start, $ctkLtBlue 0%,$ctkDkBlue 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient($start, $ctkLtBlue 0%,$ctkDkBlue 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient($start, $ctkLtBlue 0%,$ctkDkBlue 100%); /* IE10+ */
-    background: linear-gradient(to $end, $ctkLtBlue 0%,$ctkDkBlue 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 ); /* IE6-9 */
+  background: $ctkLtBlue; /* Old browsers */
+  background: -moz-linear-gradient($start, $ctkLtBlue 0%, $ctkDkBlue 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient($start, $ctkLtBlue 0%,$ctkDkBlue 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient($start, $ctkLtBlue 0%,$ctkDkBlue 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient($start, $ctkLtBlue 0%,$ctkDkBlue 100%); /* IE10+ */
+  background: linear-gradient(to $end, $ctkLtBlue 0%,$ctkDkBlue 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin bgShadow{
+  -webkit-box-shadow: 1px 6px 9px 1px rgba(0,0,0,0.49);
+  -moz-box-shadow: 1px 6px 9px 1px rgba(0,0,0,0.49);
+  box-shadow: 1px 6px 9px 1px rgba(0,0,0,0.49);
 }

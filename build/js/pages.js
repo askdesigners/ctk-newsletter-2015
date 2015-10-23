@@ -13,7 +13,6 @@ jQuery(document).ready(function($) {
     };
 
     var isMobile = function(){
-        console.log($(window).outerWidth()+15);
 
         return $(window).outerWidth()+15 < 768;
     };
@@ -29,7 +28,6 @@ jQuery(document).ready(function($) {
         function counter(){
             artLoaded = artLoaded + 1;
             if (artLoaded == articlesArr.length - 1) {
-                console.timeEnd('loading');
                 allLoaded = true;
                 cb();
             };
@@ -37,7 +35,6 @@ jQuery(document).ready(function($) {
     }
 
     $(window).on('DOMContentLoaded load resize scroll', function(e){
-        // console.log($(window).scrollTop());
         if($(window).scrollTop() >= 968 && pagesFixed == true){
             pagesFixed = false;
             $('#pages').addClass('relative');
@@ -52,7 +49,6 @@ jQuery(document).ready(function($) {
         articlesArr[i].isLoaded = false;
     };
     
-    console.time('loading');
 
     loadAll(function(){
         $('.scrollToArticle').on('click', function(e){
@@ -61,15 +57,12 @@ jQuery(document).ready(function($) {
 
             var adjustment = isMobile() ? 0 : 968 - $(window).scrollTop()
             
-            console.log(isMobile(), adjustment);
-
             $('html, body').animate({
                 scrollTop: $($(self).attr('href')).offset().top + adjustment
             }, 1500);
         });
     });
     $('body').delegate('.backToTop', 'click', function(){
-        console.info('click');
         $('html, body').animate({
             scrollTop: 0
         }, 1000);

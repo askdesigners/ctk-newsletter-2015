@@ -166,14 +166,26 @@ header.header{
     margin-bottom: 20px;
     position: relative;
     background: white;
-    z-index: 10;
+    z-index: 1000;
     
     @include mdScreen{
         margin-bottom: 0;
     }
 
+    &.stickyHeader{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 2000;
+        @include bgShadow;
+
+        @include mdScreen{
+            z-index: 500;
+        }
+    }
+
     .content-wrap{
-        padding-top: 60px;
+        padding-top: 20px;
     }
 
     .logo{
@@ -183,7 +195,6 @@ header.header{
         
         @include mdScreen{
             width: 330px;
-            padding-left: 15px;
         }
     }
     
@@ -223,9 +234,10 @@ header.header{
 
 #content {
     position: relative;
-    z-index: 10;
+    z-index: 100;
     background: white;
     padding: 40px 0;
+    @include bgShadow;
 
     &.index{
         .article{
