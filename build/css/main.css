@@ -54,23 +54,24 @@ a {
     color: #2c8bc4; }
 
 .full {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
   .full img {
-    width: 100%;
+    min-width: 100%;
     height: auto;
+    min-height: 100%;
     z-index: 1; }
 
 .content-wrap {
-  padding: 0 30px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   min-width: 400px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0 20px; }
   @media (min-width: 768px) {
     .content-wrap {
-      width: 760px;
-      padding-top: 50px; } }
+      width: 760px; } }
   @media (min-width: 1040px) {
     .content-wrap {
       width: 1026px; } }
@@ -176,6 +177,8 @@ header.header {
   @media (min-width: 768px) {
     header.header {
       margin-bottom: 0; } }
+  header.header .content-wrap {
+    padding-top: 60px; }
   header.header .logo {
     width: 80px;
     display: inline-block;
@@ -228,7 +231,7 @@ header.header {
   position: relative;
   z-index: 10;
   background: white;
-  padding-bottom: 40px; }
+  padding: 40px 0; }
   #content.index .article {
     padding-bottom: 15px;
     margin-bottom: 15px;
@@ -555,7 +558,7 @@ header.header {
     width: 68%; }
   #pages .articleWrapper {
     min-height: 400px;
-    padding-bottom: 60px;
+    padding: 60px 0;
     border-bottom: 1px solid #8A8A8A; }
     @media (min-width: 1040px) {
       #pages .articleWrapper {
@@ -601,7 +604,7 @@ header.header {
       position: absolute;
       bottom: 0;
       padding: 20px;
-      width: 210px; }
+      width: 330px; }
     #pages .articleWrapper .articleSubhead {
       margin: 0 0 10px 0;
       font-size: 1em;
@@ -643,8 +646,16 @@ header.header {
       -webkit-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
       box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75); }
-    #pages .articleWrapper#director-letter {
-      padding-top: 70px; }
+    @media (min-width: 768px) {
+      #pages .articleWrapper#director-letter {
+        padding-top: 100px; } }
+    #pages .articleWrapper#director-letter .col {
+      padding: 0; }
+      @media (min-width: 1040px) {
+        #pages .articleWrapper#director-letter .col {
+          padding: 0 15px; } }
+    #pages .articleWrapper#director-letter .imageCol {
+      height: 300px; }
       @media (min-width: 768px) {
         #pages .articleWrapper#director-letter .imageCol {
           display: none;
@@ -654,76 +665,96 @@ header.header {
           display: inline-block;
           padding-top: 7px;
           height: 797px; } }
-      @media (min-width: 1040px) {
-        #pages .articleWrapper#director-letter .imageCol img {
-          height: 100%;
-          width: auto; } }
-      @media (min-width: 768px) {
-        #pages .articleWrapper#director-letter .textCol {
-          width: 100%;
-          float: none; } }
-      @media (min-width: 1040px) {
-        #pages .articleWrapper#director-letter .textCol {
-          width: 50%;
-          float: left; } }
-      #pages .articleWrapper#director-letter .textCol p:last-child:after {
-        display: none; }
+      #pages .articleWrapper#director-letter .imageCol img {
+        margin-top: -300px;
+        width: 100%; }
+        @media (min-width: 1040px) {
+          #pages .articleWrapper#director-letter .imageCol img {
+            margin-top: 0px;
+            height: 100%;
+            width: auto; } }
+    @media (min-width: 768px) {
+      #pages .articleWrapper#director-letter .textCol {
+        width: 100%;
+        float: none; } }
+    @media (min-width: 1040px) {
+      #pages .articleWrapper#director-letter .textCol {
+        width: 50%;
+        float: left; } }
+    #pages .articleWrapper#director-letter .textCol p:last-child:after {
+      display: none; }
+    @media (min-width: 768px) {
       #pages .articleWrapper#director-letter .signature {
         float: right;
-        margin-right: 115px;
-        margin-top: -30px; }
+        margin-right: 225px; } }
+    @media (min-width: 1040px) {
+      #pages .articleWrapper#director-letter .signature {
+        margin-right: 95px; } }
+    @media (min-width: 768px) {
+      #pages .articleWrapper#director-letter .content {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+        -webkit-column-gap: 20px;
+        /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px;
+        /* Firefox */
+        column-gap: 20px; } }
+    #pages .articleWrapper#director-letter .content .altImage {
+      display: none; }
       @media (min-width: 768px) {
-        #pages .articleWrapper#director-letter .content {
-          -webkit-column-count: 2;
-          /* Chrome, Safari, Opera */
-          -moz-column-count: 2;
-          /* Firefox */
-          column-count: 2;
-          -webkit-column-gap: 20px;
-          /* Chrome, Safari, Opera */
-          -moz-column-gap: 20px;
-          /* Firefox */
-          column-gap: 20px; } }
-      #pages .articleWrapper#director-letter .content .altImage {
-        display: none; }
-        @media (min-width: 768px) {
-          #pages .articleWrapper#director-letter .content .altImage {
-            display: inline;
-            float: left;
-            height: 170px;
-            width: 100%;
-            overflow: hidden;
-            margin-top: 7px;
-            margin-bottom: 13px; } }
-        @media (min-width: 1040px) {
-          #pages .articleWrapper#director-letter .content .altImage {
-            display: none; } }
-        @media (min-width: 768px) {
-          #pages .articleWrapper#director-letter .content .altImage img {
-            max-width: 100%;
-            margin-top: -220px; } }
+        #pages .articleWrapper#director-letter .content .altImage {
+          display: inline;
+          float: left;
+          height: 170px;
+          width: 100%;
+          overflow: hidden;
+          margin-top: 7px;
+          margin-bottom: 13px; } }
+      @media (min-width: 1040px) {
+        #pages .articleWrapper#director-letter .content .altImage {
+          display: none; } }
+      @media (min-width: 768px) {
+        #pages .articleWrapper#director-letter .content .altImage img {
+          max-width: 100%;
+          margin-top: -220px; } }
     #pages .articleWrapper#sefredaktor header.articleHeader {
       margin-bottom: 15px; }
       #pages .articleWrapper#sefredaktor header.articleHeader h3 {
         margin-top: 15px;
         color: #3d3d3d;
         font-family: 'maxima_bold'; }
-      #pages .articleWrapper#sefredaktor header.articleHeader .full {
-        min-height: 400px; }
+      @media (min-width: 768px) {
+        #pages .articleWrapper#sefredaktor header.articleHeader .full {
+          min-height: 360px; } }
+      @media (min-width: 1040px) {
+        #pages .articleWrapper#sefredaktor header.articleHeader .full {
+          min-height: 420px; } }
+      #pages .articleWrapper#sefredaktor header.articleHeader .full img {
+        width: 100%;
+        min-height: auto; }
       #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap {
         z-index: 10; }
         @media (min-width: 768px) {
           #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap {
             position: absolute;
-            top: 50px;
             width: 30%;
+            top: 30px;
             padding: 20px; } }
-        #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h1, #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h2 {
-          color: white; }
+        @media (min-width: 1040px) {
+          #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap {
+            top: 50px; } }
+        @media (min-width: 768px) {
+          #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h1, #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h2 {
+            color: white; } }
         #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h2 {
           font-family: 'maxima_light';
-          font-size: 1em;
-          width: 70%; }
+          font-size: 1em; }
+          @media (min-width: 768px) {
+            #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h2 {
+              width: 70%; } }
     #pages .articleWrapper#nova-sluzba .content-wrap, #pages .articleWrapper#nova-sluzba .col {
       overflow: visible; }
     #pages .articleWrapper#nova-sluzba .leftCol .imgWrap {
@@ -743,6 +774,8 @@ header.header {
       width: 100%; }
       #pages .articleWrapper#dokaze-titulek .imgWrap img {
         width: 100%; }
+    #pages .articleWrapper#fotobanka img {
+      width: 100%; }
     #pages .articleWrapper#fotobanka .articleSubhead {
       margin-top: 7px; }
     #pages .articleWrapper#fotobanka .floatQuote h2 {
@@ -794,8 +827,14 @@ header.header {
         #pages .articleWrapper#hospodareni table td:first-child {
           width: 28%;
           text-align: left; }
+    #pages .articleWrapper#czech-press-photo .articleHeader img {
+      width: 120%; }
     #pages .articleWrapper#czech-press-photo .floatQuote {
-      padding: 10px 20px; }
+      padding: 10px 20px;
+      width: 80%; }
+      @media (min-width: 768px) {
+        #pages .articleWrapper#czech-press-photo .floatQuote {
+          width: 330px; } }
       #pages .articleWrapper#czech-press-photo .floatQuote h1, #pages .articleWrapper#czech-press-photo .floatQuote h2 {
         color: white;
         margin: 0; }
@@ -813,12 +852,20 @@ header.header {
         height: 172px; } }
     #pages .articleWrapper#distribuce-zpravy .col {
       overflow: visible; }
+    #pages .articleWrapper#distribuce-zpravy img {
+      width: 100%; }
     #pages .articleWrapper#brno .floatQuote {
       width: 80%; }
       #pages .articleWrapper#brno .floatQuote h1 {
         color: white; }
+    #pages .articleWrapper#brno img {
+      width: 100%; }
     #pages .articleWrapper#brno .article {
       margin-bottom: 15px; }
+    #pages .articleWrapper#brno .col {
+      float: left; }
+      #pages .articleWrapper#brno .col img {
+        width: 100%; }
     #pages .articleWrapper#brno .col1, #pages .articleWrapper#brno .col2 {
       width: 50%; }
     #pages .articleWrapper#brno .col1 {
@@ -829,3 +876,5 @@ header.header {
       margin-bottom: 15px; }
     #pages .articleWrapper#redakci-techniku .col3 {
       width: 32%; }
+      #pages .articleWrapper#redakci-techniku .col3 img {
+        width: 100%; }

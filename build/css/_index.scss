@@ -29,25 +29,26 @@ a{
 
 .full{
     width: 100%;
+    overflow: hidden;
 
     img{
-        width: 100%;
+        min-width: 100%;
         height: auto;
+        min-height: 100%;
         z-index: 1;
     }
 }
 
 .content-wrap{
-    padding: 0 30px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     min-width: 400px;
     box-sizing: border-box;
+    padding: 0 20px;
 
     @include mdScreen{
         width: 760px;
-        padding-top: 50px;
     }
 
     @include bgScreen{
@@ -171,6 +172,10 @@ header.header{
         margin-bottom: 0;
     }
 
+    .content-wrap{
+        padding-top: 60px;
+    }
+
     .logo{
         width: 80px;
         display: inline-block;
@@ -220,7 +225,7 @@ header.header{
     position: relative;
     z-index: 10;
     background: white;
-    padding-bottom: 40px;
+    padding: 40px 0;
 
     &.index{
         .article{

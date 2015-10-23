@@ -31,7 +31,7 @@
 
     .articleWrapper{
         min-height: 400px;
-        padding-bottom: 60px;
+        padding: 60px 0;
         border-bottom: 1px solid $borderGrey;
         // margin-bottom: 30px;
 
@@ -95,7 +95,7 @@
             position: absolute;
             bottom: 0;
             padding: 20px;
-            width: 210px;
+            width: 330px;
         }
 
         .articleSubhead{
@@ -136,9 +136,22 @@
         }
 
         &#director-letter{
-            padding-top: 70px;
+            
+            @include mdScreen{
+                padding-top: 100px;
+            }
+
+            .col{
+                padding: 0;
+
+                @include bgScreen{
+                    padding: 0 15px;
+                }
+            }
             
             .imageCol{
+                height: 300px;
+                
                 @include mdScreen{
                     display: none;
                     padding-top: 6px;
@@ -151,7 +164,11 @@
                 }
 
                 img{
+                    margin-top: -300px;
+                    width: 100%;
+                    
                     @include bgScreen{
+                        margin-top: 0px;
                         height: 100%;
                         width: auto;
                     }
@@ -174,9 +191,14 @@
             }
 
             .signature{ 
-                float: right;
-                margin-right: 115px;
-                margin-top: -30px;
+
+                @include mdScreen{
+                    float: right;
+                    margin-right: 225px;
+                }
+                @include bgScreen{
+                    margin-right: 95px;
+                }
             } 
             .content {
                 @include mdScreen{
@@ -227,25 +249,45 @@
                     font-family: $bold;
                 }
                 .full{
-                    min-height: 400px;
+
+                    @include mdScreen{
+                        min-height: 360px;
+                    }
+
+                    @include bgScreen{
+                        min-height: 420px;
+                    }
+
+                    img{
+                        width: 100%;
+                        min-height: auto;
+                    }
                 }
                 .titleWrap{
                     z-index: 10;
                     
                     @include mdScreen{
                         position: absolute;
-                        top: 50px;
                         width: 30%;
+                        top: 30px;
                         padding: 20px;
+                    }
+                    @include bgScreen{
+                        top: 50px;
                     }
 
                     h1, h2{
-                        color: white;
+                        @include mdScreen{
+                            color: white;
+                        }
                     }
                     h2{
                         font-family: $light;
                         font-size: 1em;
-                        width: 70%;
+
+                        @include mdScreen{
+                            width: 70%;
+                        }
                     }
                     
                 }
@@ -285,6 +327,9 @@
             }
         }
         &#fotobanka{
+            img{
+                width: 100%;
+            }
             .articleSubhead{
                 margin-top: 7px;
             }
@@ -346,9 +391,18 @@
         }
         &#czech-press-photo {
             .articleHeader{
+                img{
+                    width: 120%;
+                }
             }
             .floatQuote{
                 padding: 10px 20px;
+                width: 80%;
+    
+                @include mdScreen{
+                    width: 330px;
+                }
+
                 h1, h2{
                     color: white;
                     margin: 0;
@@ -376,6 +430,9 @@
             .col{
                 overflow: visible;
             }
+            img{
+                width: 100%;
+            }
         }
         &#brno{
             .floatQuote{
@@ -385,8 +442,18 @@
                     color: white;
                 }
             }
+            img{
+                width: 100%;
+            }
             .article{
                 margin-bottom: 15px;
+            }
+
+            .col{
+                float: left;
+                img{
+                    width: 100%;
+                }
             }
 
             .col1, .col2{
@@ -405,6 +472,9 @@
             }
             .col3{
                 width: 32%;
+                img{
+                    width: 100%;
+                }
             }
         }
     }
