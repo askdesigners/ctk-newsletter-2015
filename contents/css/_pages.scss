@@ -1,8 +1,10 @@
 
 #pages{
-    position: fixed;
     width: 100%;
     top: 0;
+    @include mdScreen{
+        position: fixed;
+    }
 
     &.relative{
         position: relative;

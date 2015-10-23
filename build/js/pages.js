@@ -12,6 +12,10 @@ jQuery(document).ready(function($) {
         });
     };
 
+    var isMobile = function(){
+        
+    };
+
     var pagesFixed = true,
         allLoaded = false;
 
