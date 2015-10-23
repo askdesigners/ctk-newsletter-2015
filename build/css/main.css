@@ -556,10 +556,31 @@ header.header {
     width: 74%; }
   #pages .lineD {
     width: 68%; }
+  #pages .articleContents {
+    position: relative; }
+    #pages .articleContents .backToTop {
+      background: url('../img/returnArrow.png') 0 0 no-repeat;
+      display: block;
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 0;
+      left: 20px;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 0.3s;
+      margin-top: -43px; }
+      #pages .articleContents .backToTop:hover {
+        opacity: 1; }
+      @media (min-width: 768px) {
+        #pages .articleContents .backToTop {
+          left: 10px;
+          margin-top: 0; } }
   #pages .articleWrapper {
     min-height: 400px;
     padding: 60px 0;
-    border-bottom: 1px solid #8A8A8A; }
+    border-bottom: 1px solid #8A8A8A;
+    position: relative; }
     @media (min-width: 1040px) {
       #pages .articleWrapper {
         min-height: 400px;
@@ -646,6 +667,8 @@ header.header {
       -webkit-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
       box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75); }
+    #pages .articleWrapper#director-letter .backToTop {
+      top: 6px; }
     @media (min-width: 768px) {
       #pages .articleWrapper#director-letter {
         padding-top: 100px; } }
@@ -664,9 +687,9 @@ header.header {
         #pages .articleWrapper#director-letter .imageCol {
           display: inline-block;
           padding-top: 7px;
-          height: 797px; } }
+          height: 882px; } }
       #pages .articleWrapper#director-letter .imageCol img {
-        margin-top: -300px;
+        margin-top: -50%;
         width: 100%; }
         @media (min-width: 1040px) {
           #pages .articleWrapper#director-letter .imageCol img {
@@ -755,6 +778,10 @@ header.header {
           @media (min-width: 768px) {
             #pages .articleWrapper#sefredaktor header.articleHeader .titleWrap h2 {
               width: 70%; } }
+    #pages .articleWrapper#comfort-v-prace .backToTop {
+      top: 8px; }
+    #pages .articleWrapper#nova-sluzba .backToTop {
+      top: 8px; }
     #pages .articleWrapper#nova-sluzba .content-wrap, #pages .articleWrapper#nova-sluzba .col {
       overflow: visible; }
     #pages .articleWrapper#nova-sluzba .leftCol .imgWrap {
@@ -768,6 +795,8 @@ header.header {
           margin-left: -26px; } }
       #pages .articleWrapper#nova-sluzba .leftCol .imgWrap img {
         width: 100%; }
+    #pages .articleWrapper#dokaze-titulek .backToTop {
+      top: 8px; }
     #pages .articleWrapper#dokaze-titulek .articleSubhead {
       font-size: 1em; }
     #pages .articleWrapper#dokaze-titulek .imgWrap {
@@ -798,6 +827,8 @@ header.header {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 );
       /* IE6-9 */
       color: white; }
+      #pages .articleWrapper#hospodareni .backToTop {
+        top: 8px; }
       #pages .articleWrapper#hospodareni h1 {
         color: white; }
         @media (min-width: 1040px) {
@@ -850,6 +881,8 @@ header.header {
     @media (min-width: 1040px) {
       #pages .articleWrapper#czech-press-photo .article {
         height: 172px; } }
+    #pages .articleWrapper#distribuce-zpravy .backToTop {
+      top: 8px; }
     #pages .articleWrapper#distribuce-zpravy .col {
       overflow: visible; }
     #pages .articleWrapper#distribuce-zpravy img {
@@ -872,6 +905,8 @@ header.header {
       padding: 0 6px 0 0; }
     #pages .articleWrapper#brno .col2 {
       padding: 0 0 0 6px; }
+    #pages .articleWrapper#redakci-techniku .backToTop {
+      top: 8px; }
     #pages .articleWrapper#redakci-techniku .article {
       margin-bottom: 15px; }
     #pages .articleWrapper#redakci-techniku .col3 {
