@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
             var adjustment = isMobile() ? 0 : 968 - $(window).scrollTop()
             
             $('html, body').animate({
-                scrollTop: $($(self).attr('href')).offset().top + adjustment
+                scrollTop: $($(self).attr('href')).offset().top + adjustment - 155
             }, 1500);
         });
     });

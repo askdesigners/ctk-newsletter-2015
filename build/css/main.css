@@ -170,7 +170,6 @@ a {
 
 header.header {
   padding-top: 20px;
-  margin-bottom: 20px;
   position: relative;
   background: white;
   z-index: 1000; }
@@ -182,9 +181,9 @@ header.header {
     top: 0px;
     width: 100%;
     z-index: 2000;
-    -webkit-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.49);
-    -moz-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.49);
-    box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.49); }
+    -webkit-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2); }
     @media (min-width: 768px) {
       header.header.stickyHeader {
         z-index: 500; } }
@@ -242,9 +241,9 @@ header.header {
   z-index: 100;
   background: white;
   padding: 40px 0;
-  -webkit-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.49);
-  -moz-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.49);
-  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.49); }
+  -webkit-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2); }
   #content.index .article {
     padding-bottom: 15px;
     margin-bottom: 15px;
@@ -257,9 +256,8 @@ header.header {
     #content.index .article h2 {
       line-height: 1.2em;
       margin: 0;
-      font-size: 1.1em;
-      float: right;
-      width: 60%;
+      font-size: 1.3em;
+      width: 100%;
       z-index: 100; }
       @media (min-width: 768px) {
         #content.index .article h2 {
@@ -278,7 +276,7 @@ header.header {
         background-image: linear-gradient(to bottom, #1d539c 50%, #1d539c 50%);
         background-repeat: repeat-x;
         background-size: 2px 2px;
-        background-position: 0 19px; }
+        background-position: 0 21px; }
         @media (min-width: 768px) {
           #content.index .article h2 a {
             background-position: 0 16px; } }
@@ -286,7 +284,7 @@ header.header {
           #content.index .article h2 a {
             background-position: 0 22px; } }
     #content.index .article > a {
-      display: inline-block;
+      display: none;
       float: left;
       width: 36%;
       max-height: 70px;
@@ -305,13 +303,15 @@ header.header {
         #content.index .article img {
           width: 100%; } }
     #content.index .article p {
+      display: none;
       font-size: 0.9em;
       margin-bottom: 0;
+      margin-top: 0;
       clear: both;
-      padding-top: 10px; }
+      padding-top: 0px; }
       @media (min-width: 768px) {
         #content.index .article p {
-          padding-top: 0px; } }
+          display: block; } }
     #content.index .article .moreLink {
       text-decoration: none;
       margin-left: 5px;
@@ -360,14 +360,12 @@ header.header {
         #content.index .article.sefredaktor img {
           margin-top: 0; } }
     #content.index .article.sefredaktor p {
-      display: block; }
-      @media (min-width: 768px) {
-        #content.index .article.sefredaktor p {
-          display: none; } }
+      display: none; }
       @media (min-width: 1040px) {
         #content.index .article.sefredaktor p {
+          display: block;
           position: absolute;
-          top: 0;
+          top: 10px;
           color: white;
           padding: 0 10px;
           width: 70%;
@@ -376,15 +374,16 @@ header.header {
         display: none; }
     #content.index .article.czech-press-photo {
       overflow: hidden; }
-      #content.index .article.czech-press-photo h2 {
-        line-height: 1.2em;
-        font-size: 0.9em;
-        padding: 0;
-        margin-bottom: 10px;
-        z-index: 100;
-        font-family: 'maxima_light'; }
-        #content.index .article.czech-press-photo h2 strong {
-          font-family: 'maxima_bold'; }
+      @media (min-width: 768px) {
+        #content.index .article.czech-press-photo h2 {
+          line-height: 1.2em;
+          font-size: 0.9em;
+          padding: 0;
+          margin-bottom: 10px;
+          z-index: 100;
+          font-family: 'maxima_light'; } }
+      #content.index .article.czech-press-photo h2 strong {
+        font-family: 'maxima_bold'; }
       #content.index .article.czech-press-photo img {
         bottom: 0; }
         @media (min-width: 1040px) {
@@ -819,11 +818,16 @@ header.header {
     #pages .articleWrapper#fotobanka img {
       width: 100%; }
     #pages .articleWrapper#fotobanka .articleSubhead {
-      margin-top: 7px; }
+      margin-top: -3px; }
     #pages .articleWrapper#fotobanka .floatQuote h2 {
       font-size: 1em;
       line-height: 1.2em;
-      color: black; }
+      color: black;
+      background-image: linear-gradient(to bottom, black 50%, black 50%);
+      background-repeat: no-repeat;
+      background-size: 40px 2px;
+      background-position: bottom left;
+      padding-bottom: 12px; }
     #pages .articleWrapper#hospodareni {
       background: #2c8bc4;
       /* Old browsers */
