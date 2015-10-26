@@ -69,3 +69,98 @@ jQuery(document).ready(function($) {
     });
 
 }); 
+
+Element.prototype.backgroundClipPolyfill = function () {
+  var a = arguments[0],
+      d = document,
+      b = d.body,
+      el = this;
+
+  function hasBackgroundClip() {
+    return b.style.webkitBackgroundClip != undefined;
+  };
+  
+  function addAttributes(el, attributes) {
+    for (var key in attributes) {
+      el.setAttribute(key, attributes[key]);
+    }
+  }
+  
+  function createSvgElement(tagname) {
+    return d.createElementNS('http://www.w3.org/2000/svg', tagname);
+  }
+  
+  function createSVG() {
+    var a = arguments[0],
+        svg = createSvgElement('svg'),
+        grad = createSvgElement('linearGradient'),
+        text = createSvgElement('text');
+    
+    addAttributes(grad, {
+      'id' : a.id,
+      'width' : a.width,
+      'height' : a.height
+    });
+
+    for (var i=0; i < a.stops.length; i++){
+        var attrs = a.stops[i];
+        var stop = document.createElementNS('http://www.w3.org/2000/svg','stop');
+        for (var attr in attrs){
+            if (attrs.hasOwnProperty(attr)) stop.setAttribute(attr,attrs[attr]);
+        }
+    grad.appendChild(stop);
+    }
+    
+    addAttributes(text, {
+      'x' : 0,
+      'y' : 80,
+      'class' : a['class'],
+      'style' : 'fill:url(#' + a.id + ');'
+    });
+    
+    // Set text
+    text.textContent = a.text;
+      
+    svg.appendChild(grad);
+    svg.appendChild(text);
+    
+    return svg;
+  };
+  
+  /*
+   * Replace the element if background-clip
+   * is not available.
+   */
+  if (!hasBackgroundClip()) {
+      var svg = createSVG({
+        'id' : a.patternID,
+        'class' : a['class'],
+        'width' : this.offsetWidth,
+        'height' : this.offsetHeight,
+        'text' : el.textContent,
+        'stops' : a.stops
+      });
+      el.parentNode.replaceChild(svg, el);
+  }
+};
+
+var bigTitle = document.querySelector('.bigTitle'); 
+var smallTitle = document.querySelector('.smallTitle'); 
+
+bigTitle.backgroundClipPolyfill({
+    'patternID' : 'gradient',
+    'class' : 'headline',
+    'stops' : [
+        {offset:'100%', 'stop-color':'#1d539c'},
+        {offset:'0%','stop-color':'#2c8bc4'}
+    ]
+});
+
+smallTitle.backgroundClipPolyfill({
+    'patternID' : 'gradient2',
+    'class' : 'headline',
+    'stops' : [
+        {offset:'100%', 'stop-color':'#1d539c'},
+        {offset:'0%','stop-color':'#2c8bc4'}
+    ]
+});

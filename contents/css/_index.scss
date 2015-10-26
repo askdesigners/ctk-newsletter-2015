@@ -180,7 +180,17 @@ header.header{
         @include bgShadow;
 
         @include mdScreen{
-            z-index: 500;
+            z-index: 100;
+        }
+        svg{
+            
+            @include mdScreen{
+                width: 141px;
+            }
+
+            @include bgScreen{
+                width: 282px;
+            }
         }
     }
 
@@ -197,8 +207,24 @@ header.header{
             width: 330px;
         }
     }
-    
-    h1{
+    svg{
+        width: 96px;
+        height: 84px;
+        top: -47px;
+
+        @include mdScreen{
+            width: 300px;
+            height: 84px;
+            top: -47px;
+        }
+
+        @include bgScreen{
+            width: 600px;
+            height: 84px;
+            top: -37px;
+        }
+    }
+    h1, svg{
         display: inline-block;
         float: right;
         position: relative;
@@ -221,6 +247,8 @@ header.header{
         a{
             text-decoration: none;
             @include ctkGradient(left, right);
+            background-clip: text;
+            text-fill-color: transparent;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -234,7 +262,7 @@ header.header{
 
 #content {
     position: relative;
-    z-index: 100;
+    z-index: 300;
     background: white;
     padding: 40px 0;
     @include bgShadow;

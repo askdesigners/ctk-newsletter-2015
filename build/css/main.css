@@ -186,7 +186,13 @@ header.header {
     box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2); }
     @media (min-width: 768px) {
       header.header.stickyHeader {
-        z-index: 500; } }
+        z-index: 100; } }
+    @media (min-width: 768px) {
+      header.header.stickyHeader svg {
+        width: 141px; } }
+    @media (min-width: 1040px) {
+      header.header.stickyHeader svg {
+        width: 282px; } }
   header.header .content-wrap {
     padding-top: 20px; }
   header.header .logo {
@@ -196,7 +202,21 @@ header.header {
     @media (min-width: 768px) {
       header.header .logo {
         width: 330px; } }
-  header.header h1 {
+  header.header svg {
+    width: 96px;
+    height: 84px;
+    top: -47px; }
+    @media (min-width: 768px) {
+      header.header svg {
+        width: 300px;
+        height: 84px;
+        top: -47px; } }
+    @media (min-width: 1040px) {
+      header.header svg {
+        width: 600px;
+        height: 84px;
+        top: -37px; } }
+  header.header h1, header.header svg {
     display: inline-block;
     float: right;
     position: relative;
@@ -205,15 +225,15 @@ header.header {
     line-height: 1.65em;
     font-family: 'maxima_regular'; }
     @media (min-width: 768px) {
-      header.header h1 {
+      header.header h1, header.header svg {
         font-size: 2.5em;
         line-height: 1em;
         padding-right: 15px; } }
     @media (min-width: 1040px) {
-      header.header h1 {
+      header.header h1, header.header svg {
         font-size: 5em;
         line-height: 0.4em; } }
-    header.header h1 a {
+    header.header h1 a, header.header svg a {
       text-decoration: none;
       background: #2c8bc4;
       /* Old browsers */
@@ -229,6 +249,8 @@ header.header {
       /* W3C */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 );
       /* IE6-9 */
+      background-clip: text;
+      text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
@@ -238,7 +260,7 @@ header.header {
 
 #content {
   position: relative;
-  z-index: 100;
+  z-index: 300;
   background: white;
   padding: 40px 0;
   -webkit-box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.2);
