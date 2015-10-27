@@ -570,6 +570,9 @@ section.copy {
   font-size: 0.7em;
   text-align: center; }
 
+.askLogo {
+  margin-left: 5px; }
+
 #pages {
   width: 100%;
   top: 0; }

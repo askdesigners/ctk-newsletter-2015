@@ -72,7 +72,14 @@ jQuery(document).ready(function($) {
                 scrollTop: newPos
             }, 1200);
         });
+        
+        $('a').each(function(){
+            if(!$(this).hasClass('scrollToArticle')){
+                $(this).attr('target', '_blank');
+            }
+        });
     });
+
     $('body').delegate('.backToTop', 'click', function(){
         $('html, body').animate({
             scrollTop: 0
