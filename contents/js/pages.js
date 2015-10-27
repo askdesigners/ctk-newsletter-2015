@@ -35,10 +35,11 @@ jQuery(document).ready(function($) {
     }
 
     $(window).on('DOMContentLoaded load resize scroll', function(e){
-        if($(window).scrollTop() >= 968 && pagesFixed == true){
+      // console.info($(window).scrollTop());
+        if($(window).scrollTop() >= 918 && pagesFixed == true){
             pagesFixed = false;
             $('#pages').addClass('relative');
-        } else if($(window).scrollTop() < 968 && pagesFixed == false) {
+        } else if($(window).scrollTop() < 918 && pagesFixed == false) {
             pagesFixed = true;
             $('#pages').removeClass('relative');
         }
@@ -53,13 +54,23 @@ jQuery(document).ready(function($) {
     loadAll(function(){
         $('.scrollToArticle').on('click', function(e){
             e.preventDefault();
-            var self = this;
-
+            var self = this,
+                newPos;
+                        
             var adjustment = isMobile() ? 0 : 968 - $(window).scrollTop()
             
+            if($(self).attr('href') == "#director-letter") {
+              if (isMobile()){
+                newPos = 810;
+              } else {
+                newPos = 930;
+              }
+            } else  {
+              newPos = $($(self).attr('href')).offset().top + adjustment - 155;
+            }
             $('html, body').animate({
-                scrollTop: $($(self).attr('href')).offset().top + adjustment - 155
-            }, 1500);
+                scrollTop: newPos
+            }, 1200);
         });
     });
     $('body').delegate('.backToTop', 'click', function(){

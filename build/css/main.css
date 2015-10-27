@@ -575,7 +575,8 @@ section.copy {
   top: 0; }
   @media (min-width: 768px) {
     #pages {
-      position: fixed; } }
+      position: fixed;
+      padding-top: 60px; } }
   #pages.relative {
     position: relative; }
   #pages .greeking {
