@@ -1,6 +1,6 @@
 ---
-title: Agentura spustila novou službu ČTK LIVE
-altTitle: Agentura spustila novou službu <a href="http://www.ctk.cz/sluzby/zpravodajstvi/ctk-live/">ČTK&nbsp;LIVE</a>
+title: Agentura spustila novou službu ČTK Live
+altTitle: Agentura spustila novou službu <a href="http://www.ctk.cz/sluzby/zpravodajstvi/ctk-live/">ČTK&nbsp;Live</a>
 author: CTK
 date: 2012-10-01 15:00
 template: nova-sluzba.jade
@@ -15,9 +15,9 @@ Letos na jaře jsme si nejprve několikrát vyzkoušeli vysílání on-line pře
 
 On-line přenosem jsme kryli zahájení soudů se zdravotnicí obžalovanou z vražd pacientů v rumburské nemocnici i s Petrem Kramným souzeným pro vraždu své dcery a manželky v Egyptě, vývoj řecké finanční krize, referendum a summit EU o úsporných opatřeních v Řecku. On-line přenos jsme nasadili i na vyhlášení rozsudku nad bývalým poslancem ČSSD Davidem Rathem nebo na bilanční tiskovou konferenci prezidenta Miloše Zemana, zahájení soudu v kauze Opencard či karlovarský filmový festival. Vyzkoušeli jsme si přenosy několikadenní i ty, které skončily třeba po hodině. 
 
-Zatím o on-line přenosy projevily největší zájem weby  **Aktuálně.cz**, **Lidovky.cz**, **iHNed.cz**, **Blesk.cz**, **TN.cz**, **Týden.cz**, web **Českého rozhlasu**, weby **Deníku VLP**, **Investiční web.cz** nebo **Roklen.cz**. Ohlasy jsou veskrze pozitivní. Také četkaři pokládají službu LIVE za užitečnou, přenosy jim například pomáhají při tvorbě klasického zpravodajství i v jeho zrychlení. 
+Zatím o on-line přenosy projevily největší zájem weby  **Aktuálně.cz**, **Lidovky.cz**, **iHNed.cz**, **Blesk.cz**, **TN.cz**, **Týden.cz**, web **Českého rozhlasu**, weby **Deníku VLP**, **Investiční web.cz** nebo **Roklen.cz**. Ohlasy jsou veskrze pozitivní. Také četkaři pokládají službu Live za užitečnou, přenosy jim například pomáhají při tvorbě klasického zpravodajství i v jeho zrychlení. 
 
-On-line a klasické zpravodajství spolu nesoutěží, jedna část využívá druhou. Například od soudů, kdy je on-line vždy rychlejší, může editor z on-linu čerpat informace do klasického servisu. Naproti tomu u zahraničních on-line přenosů se mohou prolínat navzájem, některé informace budou dřív v klasickém servisu. Díky on-linům zrychlujeme i běžné zpravodajství. Například u soudu s Rathem se v klasickém servisu objevilo větší množství headlinů a meziverzí či krátkých samostatných zpráv. Mění se také přístup k fotografiím. Ukazuje se, že pro LIVE, a tudíž i pro naše odběratele je nesmírně důležitý čas dodání první fotky.
+On-line a klasické zpravodajství spolu nesoutěží, jedna část využívá druhou. Například od soudů, kdy je on-line vždy rychlejší, může editor z on-linu čerpat informace do klasického servisu. Naproti tomu u zahraničních on-line přenosů se mohou prolínat navzájem, některé informace budou dřív v klasickém servisu. Díky on-linům zrychlujeme i běžné zpravodajství. Například u soudu s Rathem se v klasickém servisu objevilo větší množství headlinů a meziverzí či krátkých samostatných zpráv. Mění se také přístup k fotografiím. Ukazuje se, že pro Live, a tudíž i pro naše odběratele je nesmírně důležitý čas dodání první fotky.
 
 S ohledem na dosavadní zkušenosti se v redakci budeme snažit on-line přenosy v maximální možné míře plánovat, především z personálního hlediska. Redaktor nasazený na aktuální on-line přenos se nemůže věnovat ničemu jinému. Všechny naše dosud nabízené přenosy byly plánované. Zatím jsme si nevyzkoušeli spuštění on-line přenosu z nečekané události a reakci odběratelů. To nás ještě čeká. Systém by měl v budoucnu fungovat tak, že ve chvíli, kdy on-line přenos rozjedeme, pošleme klientům upozornění  redakčním systémem. 
 
