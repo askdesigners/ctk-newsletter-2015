@@ -949,6 +949,8 @@ section.copy {
       padding: 0 6px 0 0; }
     #pages .articleWrapper#brno .col2 {
       padding: 0 0 0 6px; }
+    #pages .articleWrapper#brno p.noDot {
+      margin-top: 10px; }
     #pages .articleWrapper#redakci-techniku .backToTop {
       top: 8px; }
     #pages .articleWrapper#redakci-techniku .article {

@@ -14,6 +14,6 @@ order: 6
 
 Na přelomu roku 2015 a 2016 by měly webové stránky začít využívat technologii Visual Search společnosti Pixolution. Ta umožní nalézt fotografie nikoli jen na základě metadat jako doposud, ale rovněž na základě vizuální podobnosti snímků. 
 
-Fotobanka ČTK se v roli generálního dodavatele podílí na dvou fotografických výstavách uspořádaných v rámci projektu Plzeň Evropské město kultury 2015. První výstava, nazvaná Plzeňské rodinné fotoalbum, skončila v polovině července. Od 20. října bude k vidění druhá výstava, pojmenovaná Ráj mezi čtyřmi řekami, kterou opět Fotobanka ČTK dodává na klíč jako generální partner. Kromě výše zmíněných výstav se ČTK podílí i na fotografické publikaci, která by měla obě výstavy zmapovat a shrnout. 
+Fotobanka ČTK se v roli generálního dodavatele podílí na dvou fotografických výstavách uspořádaných v rámci projektu Plzeň Evropské město kultury 2015. První výstava, nazvaná Plzeňské rodinné fotoalbum, skončila v polovině července. Od 20. října je k vidění druhá výstava, pojmenovaná Ráj mezi čtyřmi řekami, kterou opět Fotobanka ČTK dodává na klíč jako generální partner. Kromě výše zmíněných výstav se ČTK podílí i na fotografické publikaci, která by měla obě výstavy zmapovat a shrnout. 
 
 Začátkem prázdnin se ve fotoarchivu ČTK uskutečnila přednáška pro restaurátory fotografií. Akce se konala v rámci mezinárodního workshopu, který pořádal The Getty Conservation Institute (GCI) ve spolupráci s Ústavem dějin umění AV ČR, v.v.i.

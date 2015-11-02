@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
         }, 1000);
     });
 
-}); 
+});
 
 Element.prototype.backgroundClipPolyfill = function () {
   var a = arguments[0],
