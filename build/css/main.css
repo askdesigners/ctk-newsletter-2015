@@ -168,6 +168,9 @@ a {
       /* Firefox */
       column-gap: 20px; } }
 
+.titleBackToTop {
+  cursor: pointer; }
+
 header.header {
   padding-top: 20px;
   position: relative;

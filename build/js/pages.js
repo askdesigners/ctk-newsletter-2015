@@ -86,6 +86,12 @@ jQuery(document).ready(function($) {
         }, 1000);
     });
 
+    $('body').delegate('.titleBackToTop', 'click', function(){
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+
 });
 
 Element.prototype.backgroundClipPolyfill = function () {
