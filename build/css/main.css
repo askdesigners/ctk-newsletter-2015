@@ -105,6 +105,11 @@ a {
   .col-3 {
     width: 33%; } }
 
+.normalPadding {
+  box-sizing: border-box; }
+  .normalPadding:first-child, .normalPadding:last-child {
+    padding: 0 15px; }
+
 .txtCol-2-4 {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -959,6 +964,9 @@ section.copy {
     #pages .articleWrapper#redakci-techniku .article {
       margin-bottom: 15px; }
     #pages .articleWrapper#redakci-techniku .col3 {
-      width: 32%; }
+      width: 33.333%;
+      text-align: center; }
       #pages .articleWrapper#redakci-techniku .col3 img {
         width: 100%; }
+      #pages .articleWrapper#redakci-techniku .col3 p {
+        margin-top: 10px; }

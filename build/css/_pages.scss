@@ -534,9 +534,14 @@
                 margin-bottom: 15px;
             }
             .col3{
-                width: 32%;
+                width: 33.333%;
+                text-align: center;
+                
                 img{
                     width: 100%;
+                }
+                p {
+                    margin-top: 10px;
                 }
             }
         }

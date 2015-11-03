@@ -107,6 +107,13 @@ a{
     }
 }
 
+.normalPadding{
+    box-sizing: border-box;
+    &:first-child, &:last-child{
+        padding: 0 15px;
+    }
+}
+
 .txtCol-2-4{
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;

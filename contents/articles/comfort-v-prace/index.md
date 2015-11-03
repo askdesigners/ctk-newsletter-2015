@@ -15,6 +15,6 @@ Uživatelům dáváme nástroj pro sledování kompletní zpravodajské produkce
 
 „Povedlo se naplnit heslo Četka do kapsy (ČDK) a statistiky to potvrzují – evidujeme přibližně deset procent přístupů z mobilních zařízení. Poměr mobily/tablety vychází podobně devět ku jedné,“ dodává k tomu obchodní ředitel ČTK Jaroslav Richter.
 
-Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat. Počítá se také s tím, že on-line přístup do Infobanky si bude moci koupit kdokoli, nebude muset kvůli tomu uzavírat s ČTK smlouvu.
+Vývoj Infobanky se po uvedení nové verze nezastavil – pracuje se na vylepšení práce se schránkou a na exportu dokumentů, připravuje se možnost předávat uživateli různá provozní sdělení a klienti dostanou příležitost na obsah Infobanky reagovat.
 
 Infobanka ČTK byla zavedena v devadesátých letech, aplikací Texpro uživatelé přistupovali do textového zpravodajství vytáčeným připojením do ČTK pomocí modemů. První webová verze byla spuštěna v roce 1997. Po roce 2000 se uskutečnil zásadní upgrade webového rozhraní, které se v letech 2004 a 2015 výrazně neměnilo.
