@@ -16,6 +16,12 @@ Please double check that all the links and images are working correctly, as we a
 
 ___
 
+## Newletter Email HTML
+
+The html for the newsletter mailer is in the file `build/2015_newsletter.html`. This can be sent as an HTML email. The link `/2015_newsletter.html' will allow viewing the mail in the browser.
+
+___
+
 ## Making updates
 
 All source files for the site are in the `/contents` directory, and can be built using the static site generator [Wintersmith](http://wintersmith.io/). 
