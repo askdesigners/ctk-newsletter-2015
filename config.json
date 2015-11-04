@@ -1,7 +1,7 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
-    "demoUrl":"http://askdesigners.eu/ctk-nl-2015",
+    "url": "http://www.ctk.cz/novinky/newsletter-2015",
+    "demoUrl":"http://www.ctk.cz/novinky/newsletter-2015",
     "name": "newsletter 17/15",
     "owner": "CTK",
     "description": "News from 2015"
