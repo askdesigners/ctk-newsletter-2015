@@ -12,6 +12,8 @@ ___
 The directory `/build` contains all the built files which are ready to be deployed in their final location. This directory is the root directory of the site. Do not deploy anything but that directory.
 Please double check that all the links and images are working correctly, as we are not able to fully test them without access to the production server. 
 
+*Please note that there is a `.htaccess` file in that directory that has caching disabled. This is for development and most likely should not be deployed to production. Use your own judgement.
+
 ___
 
 ## Making updates
