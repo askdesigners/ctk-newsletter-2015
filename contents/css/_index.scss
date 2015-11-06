@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5 {
     font-family: $bold;
     letter-spacing: 0.2px;
     font-weight: 100;
+    box-sizing: border-box;
 }
 
 a{
@@ -43,7 +44,6 @@ a{
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    min-width: 400px;
     box-sizing: border-box;
     padding: 0 20px;
 
