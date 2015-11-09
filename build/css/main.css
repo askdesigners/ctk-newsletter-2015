@@ -243,7 +243,6 @@ header.header {
     header.header h1 a, header.header svg a {
       text-decoration: none;
       color: #1d539c;
-      -webkit-text-fill-color: transparent;
       background: -webkit-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
       /* Chrome10+,Safari5.1+ */
       background: -o-linear-gradient(transparent, transparent);
