@@ -256,11 +256,16 @@ header.header{
 
         a{
             text-decoration: none;
-            @include ctkGradient(left, right);
-            background-clip: text;
-            text-fill-color: transparent;
-            -webkit-background-clip: text;
+            // @include ctkGradient(left, right);
+            // background-clip: text;
+            // text-fill-color: transparent;
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
+            color: $ctkDkBlue;
             -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(left, $ctkLtBlue 0%,$ctkDkBlue 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(transparent, transparent);
+            -webkit-background-clip: text;
         }
     }
 }   

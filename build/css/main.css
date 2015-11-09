@@ -242,24 +242,12 @@ header.header {
         line-height: 0.4em; } }
     header.header h1 a, header.header svg a {
       text-decoration: none;
-      background: #2c8bc4;
-      /* Old browsers */
-      background: -moz-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
-      /* FF3.6+ */
+      color: #1d539c;
+      -webkit-text-fill-color: transparent;
       background: -webkit-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
-      /* Opera 11.10+ */
-      background: -ms-linear-gradient(left, #2c8bc4 0%, #1d539c 100%);
-      /* IE10+ */
-      background: linear-gradient(to right, #2c8bc4 0%, #1d539c 100%);
-      /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$ctkLtBlue', endColorstr='$ctkDkBlue',GradientType=0 );
-      /* IE6-9 */
-      background-clip: text;
-      text-fill-color: transparent;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+      background: -o-linear-gradient(transparent, transparent);
+      -webkit-background-clip: text; }
 
 #bigWrap {
   position: relative;
