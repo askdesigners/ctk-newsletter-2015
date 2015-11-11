@@ -122,10 +122,15 @@
         }
 
         .floatQuote{
-            position: absolute;
+            position: relative;
             bottom: 0;
-            padding: 20px;
             width: 330px;
+
+            @include mdScreen{
+                padding: 20px;
+                position: absolute;
+                color: $txtColor;
+            }
         }
 
         .articleSubhead{
@@ -389,6 +394,10 @@
                     background-size: 40px 2px;
                     background-position: bottom left;
                     padding-bottom: 12px;
+                    font-family: $light;
+                    @include mdScreen{
+                        font-family: $bold;
+                    }
                 }
             }
         }
@@ -450,15 +459,19 @@
                 }
             }
             .floatQuote{
-                padding: 10px 20px;
-                width: 80%;
-    
+                width: 100%;
+
                 @include mdScreen{
+                    padding: 10px 20px;
+                    width: 80%;
                     width: 330px;
                 }
 
                 h1, h2{
-                    color: white;
+                    color: $txtColor;
+                    @include mdScreen{
+                        color: white;
+                    }
                     margin: 0;
                 }
                 h1{
@@ -496,7 +509,13 @@
                 width: 80%;
 
                 h1{
-                    color: white;
+                    color: $txtColor;
+                    margin-top: 15px;
+                    
+                    @include mdScreen{
+                        margin-top: 0px;
+                        color: white;
+                    }
                 }
             }
             img{

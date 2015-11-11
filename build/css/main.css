@@ -655,10 +655,14 @@ section.copy {
       position: relative;
       margin-bottom: 15px; }
     #pages .articleWrapper .floatQuote {
-      position: absolute;
+      position: relative;
       bottom: 0;
-      padding: 20px;
       width: 330px; }
+      @media (min-width: 768px) {
+        #pages .articleWrapper .floatQuote {
+          padding: 20px;
+          position: absolute;
+          color: #3d3d3d; } }
     #pages .articleWrapper .articleSubhead {
       margin: 0 0 10px 0;
       font-size: 1em;
@@ -848,7 +852,11 @@ section.copy {
       background-repeat: no-repeat;
       background-size: 40px 2px;
       background-position: bottom left;
-      padding-bottom: 12px; }
+      padding-bottom: 12px;
+      font-family: 'maxima_light'; }
+      @media (min-width: 768px) {
+        #pages .articleWrapper#fotobanka .floatQuote h2 {
+          font-family: 'maxima_bold'; } }
     #pages .articleWrapper#hospodareni {
       background: #2c8bc4;
       /* Old browsers */
@@ -899,14 +907,18 @@ section.copy {
     #pages .articleWrapper#czech-press-photo .articleHeader img {
       width: 120%; }
     #pages .articleWrapper#czech-press-photo .floatQuote {
-      padding: 10px 20px;
-      width: 80%; }
+      width: 100%; }
       @media (min-width: 768px) {
         #pages .articleWrapper#czech-press-photo .floatQuote {
+          padding: 10px 20px;
+          width: 80%;
           width: 330px; } }
       #pages .articleWrapper#czech-press-photo .floatQuote h1, #pages .articleWrapper#czech-press-photo .floatQuote h2 {
-        color: white;
+        color: #3d3d3d;
         margin: 0; }
+        @media (min-width: 768px) {
+          #pages .articleWrapper#czech-press-photo .floatQuote h1, #pages .articleWrapper#czech-press-photo .floatQuote h2 {
+            color: white; } }
       #pages .articleWrapper#czech-press-photo .floatQuote h1 {
         font-size: 2.5em; }
       #pages .articleWrapper#czech-press-photo .floatQuote h2 {
@@ -928,7 +940,12 @@ section.copy {
     #pages .articleWrapper#brno .floatQuote {
       width: 80%; }
       #pages .articleWrapper#brno .floatQuote h1 {
-        color: white; }
+        color: #3d3d3d;
+        margin-top: 15px; }
+        @media (min-width: 768px) {
+          #pages .articleWrapper#brno .floatQuote h1 {
+            margin-top: 0px;
+            color: white; } }
     #pages .articleWrapper#brno img {
       width: 100%; }
     #pages .articleWrapper#brno .article {
